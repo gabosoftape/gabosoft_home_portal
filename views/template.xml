@@ -90,8 +90,8 @@
                         <div class="container align-self-center">
                             <div class="row align-items-center">
                                 <div class="col-sm-7">
-                                    <h3 class="ts-font-color__black ts-opacity__50">Get Organized!</h3>
-                                    <h1>All Your Activities In One Place</h1>
+                                    <h3 class="ts-font-color__black ts-opacity__50">Bienvenido</h3>
+                                    <h1>Todo lo que buscas en un solo lugar </h1>
                                     <a href="#how-it-works" class="btn btn-primary btn-lg ts-scroll" data-bg-color="#1b1464">Learn More</a>
                                 </div>
                                 <!--end col-sm-7 col-md-7-->
@@ -162,21 +162,21 @@
                                         </div>
                                         <!--end col-md-4-->
                                         <div class="col-md-8">
-                                            <h3>Contact Form</h3>
+                                            <h3>Formulario de Contacto</h3>
                                             <form id="form-contact" method="post" class="clearfix ts-form ts-form-email ts-inputs__transparent" data-php-path="/gabosoft_home_portal/static/src/php/email.php">
                                                 <div class="row">
                                                     <div class="col-md-6 col-sm-6">
                                                         <div class="form-group">
                                                             <label for="form-contact-name">Su nombre *</label>
-                                                            <input type="text" class="form-control" id="form-contact-name" name="name" placeholder="Your Name" required=""/>
+                                                            <input type="text" class="form-control" id="form-contact-name" name="name" placeholder="Nombres" required=""/>
                                                         </div>
                                                         <!--end form-group -->
                                                     </div>
                                                     <!--end col-md-6 col-sm-6 -->
                                                     <div class="col-md-6 col-sm-6">
                                                         <div class="form-group">
-                                                            <label for="form-contact-email">Correo electrionic *</label>
-                                                            <input type="email" class="form-control" id="form-contact-email" name="email" placeholder="Your Email" required=""/>
+                                                            <label for="form-contact-email">Correo electrionico *</label>
+                                                            <input type="email" class="form-control" id="form-contact-email" name="email" placeholder="usuario@servidor.es" required=""/>
                                                         </div>
                                                         <!--end form-group -->
                                                     </div>
@@ -186,8 +186,8 @@
                                                 <div class="row">
                                                     <div class="col-md-12">
                                                         <div class="form-group">
-                                                            <label for="form-contact-message">Su mensje*</label>
-                                                            <textarea class="form-control" id="form-contact-message" rows="5" name="message" placeholder="Your Message" required=""/>
+                                                            <label for="form-contact-message">Su mensaje*</label>
+                                                            <textarea class="form-control" id="form-contact-message" rows="5" name="message" placeholder="Mensaje" required=""/>
                                                         </div>
                                                         <!--end form-group -->
                                                     </div>
@@ -228,26 +228,6 @@
             <t t-set="is_portal" t-value="True"/>
             <div id="wrap" class='o_portal_wrap'>
                 <div class="container mb64">
-                    <t t-if="my_details">
-                        <div class="row justify-content-between mt-4">
-                            <div t-attf-class="col-12 col-md col-lg-6">
-                                <t t-raw="0"/>
-                            </div>
-                            <div id="o_my_sidebar" class="col-12 col-md col-lg-4 col-xl-3 o_my_sidebar">
-                                <div class="o_my_contact" t-if="sales_user">
-                                    <t t-call="portal.portal_contact"/>
-                                </div>
-                                <div class="o_portal_my_details">
-                                    <h4>Details <a role="button" href="/my/account" class="btn btn-sm btn-link"><i class="fa fa-pencil"/> Edit</a></h4>
-                                    <hr class="mt-1 mb-0"/>
-                                    <div t-field="user_id.partner_id" t-options='{"widget": "contact", "fields": ["email", "phone", "address", "name"]}'/>
-                                </div>
-                                <div class="o_my_archives" t-if="archive_groups">
-                                    <t t-call="portal.portal_archive_groups"/>
-                                </div>
-                            </div>
-                        </div>
-                    </t>
                     <t t-else="">
                         <t t-raw="0"/>
                     </t>
@@ -283,7 +263,7 @@
             <section id="how-it-works" class="ts-block text-center">
                 <div class="container">
                     <div class="ts-title">
-                        <h2>How It Works</h2>
+                        <h2>Productos</h2>
                     </div>
                     <!--end ts-title-->
                     <div class="row">
@@ -293,9 +273,9 @@
                                     <img src="/gabosoft_home_portal/static/src/img/icon-watch-heart.png" alt=""/>
                                     <div class="ts-svg ts-svg__organic-shape-01" data-animate="ts-zoomInShort"></div>
                                 </figure>
-                                <h4>Monitor Your Activity</h4>
+                                <h4>Plataforma para el seguimiento GPS y IoT</h4>
                                 <p>
-                                    Morbi et nisl a sapien malesuada scelerisque. Suspendisse tempor turpis mattis
+                                    Controle vehículos, maquinaria especializada, unidades estacionarias, personas – para cada proyecto habrá un dispositivo apropiado. Los sensores adicionales, a su vez, le mostrarán tales datos como la temperatura, el peso, la inclinación, la ubicación de mecanismos y muchos otros parámetros de seguimiento.
                                 </p>
                             </figure>
                         </div>
@@ -306,9 +286,9 @@
                                     <img src="/gabosoft_home_portal/static/src/img/icon-lcd-chart.png" alt=""/>
                                     <div class="ts-svg ts-svg__organic-shape-02" data-animate="ts-zoomInShort"></div>
                                 </figure>
-                                <h4>Analyze Your Results</h4>
+                                <h4>Plataforma backend para conectar dispositivos a sistemas telematicos</h4>
                                 <p>
-                                    Curabitur tellus enim, aliquet et porttitor id, accumsan at nulla. Praesent vestibulum
+                                    Diseñamos cualquier proyecto basado en GPS o IoT que tenga en mente, desde la conectividad de hardware GPS hasta la agregación de datos de telemetría y el análisis en tiempo real. Lo que hay en ti es envolver la lógica del negocio.
                                 </p>
                             </figure>
                         </div>
@@ -319,9 +299,9 @@
                                     <img src="/gabosoft_home_portal/static/src/img/icon-cup-winner.png" alt=""/>
                                     <div class="ts-svg ts-svg__organic-shape-03" data-animate="ts-zoomInShort"></div>
                                 </figure>
-                                <h4>Get Better!</h4>
+                                <h4>App iOS & Android</h4>
                                 <p>
-                                    In non turpis convallis nunc fermentum porttitor sed quis sapien. Etiam et neque
+                                    Manténgase móvil y utilice la funcionalidad básica y avanzada de la versión web del sistema desde cualquier parte del mundo.
                                 </p>
                             </figure>
                         </div>
