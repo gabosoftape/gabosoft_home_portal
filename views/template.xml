@@ -72,10 +72,10 @@
                                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                                     <div class="navbar-nav ml-auto">
                                         <a class="nav-item nav-link active ts-scroll" href="/inicio">Inicio</a>
-                                        <a class="nav-item nav-link ts-scroll" href="#how-it-looks">Productos</a>
-                                        <a class="nav-item nav-link ts-scroll" href="#what-is-appstorm">Soluciones </a>
-                                        <a class="nav-item nav-link ts-scroll" href="#pricing">Equipos</a>
-                                        <a class="nav-item nav-link ts-scroll" href="#our-clients">Nuestra compañia</a>
+                                        <a class="nav-item nav-link ts-scroll" href="#">Productos</a>
+                                        <a class="nav-item nav-link ts-scroll" href="#">Soluciones </a>
+                                        <a class="nav-item nav-link ts-scroll" href="#">Equipos</a>
+                                        <a class="nav-item nav-link ts-scroll" href="#">Nuestra compañia</a>
                                         <a class="nav-item nav-link ts-scroll btn btn-primary btn-sm text-white ml-3 px-3 ts-width__auto" href="#download">Ingresar</a>
                                     </div>
                                     <!--end navbar-nav-->
@@ -112,7 +112,7 @@
                                 <defs></defs>
                                 <path class="ts-dynamic-wave" id="wave-2" d="" data-wave-color="#fff" data-wave-height=".3" data-wave-bones="6" data-wave-speed=".26"/>
                             </svg>
-                            <div class="ts-background-image ts-parallax-element" data-bg-image="/gabosoft_home_portal/static/src/img/bg-blurred-run.jpg"></div>
+                            <div class="ts-background-image ts-parallax-element" ></div>
                         </div>
 
                     </header>
