@@ -228,9 +228,7 @@
             <t t-set="is_portal" t-value="True"/>
             <div id="wrap" class='o_portal_wrap'>
                 <div class="container mb64">
-                    <t t-else="">
-                        <t t-raw="0"/>
-                    </t>
+                    <t t-raw="0"/>
                 </div>
             </div>
         </t>
@@ -299,7 +297,7 @@
                                     <img src="/gabosoft_home_portal/static/src/img/icon-cup-winner.png" alt=""/>
                                     <div class="ts-svg ts-svg__organic-shape-03" data-animate="ts-zoomInShort"></div>
                                 </figure>
-                                <h4>App iOS & Android</h4>
+                                <h4>App iOS &amp; Android</h4>
                                 <p>
                                     Manténgase móvil y utilice la funcionalidad básica y avanzada de la versión web del sistema desde cualquier parte del mundo.
                                 </p>
