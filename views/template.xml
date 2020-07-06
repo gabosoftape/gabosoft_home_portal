@@ -72,13 +72,10 @@
                                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                                     <div class="navbar-nav ml-auto">
                                         <a class="nav-item nav-link active ts-scroll" href="/inicio">Inicio</a>
-                                        <a class="nav-item nav-link ts-scroll" href="#how-it-looks">Como luce</a>
-                                        <a class="nav-item nav-link ts-scroll" href="#what-is-appstorm">Acerca de </a>
-                                        <a class="nav-item nav-link ts-scroll" href="#pricing">Precios</a>
-                                        <a class="nav-item nav-link ts-scroll" href="#our-clients">Nuestros Clientes</a>
-                                        <a class="nav-item nav-link ts-scroll" href="#gallery">Galeria</a>
-                                        <a class="nav-item nav-link ts-scroll" href="/contactus">Contacto</a>
-                                        <a class="nav-item nav-link ts-scroll" href="/politica-de-privacidad">Politica de privacidad</a>
+                                        <a class="nav-item nav-link ts-scroll" href="#how-it-looks">Productos</a>
+                                        <a class="nav-item nav-link ts-scroll" href="#what-is-appstorm">Soluciones </a>
+                                        <a class="nav-item nav-link ts-scroll" href="#pricing">Equipos</a>
+                                        <a class="nav-item nav-link ts-scroll" href="#our-clients">Nuestra compañia</a>
                                         <a class="nav-item nav-link ts-scroll btn btn-primary btn-sm text-white ml-3 px-3 ts-width__auto" href="#download">Ingresar</a>
                                     </div>
                                     <!--end navbar-nav-->
