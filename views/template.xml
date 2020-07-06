@@ -311,34 +311,6 @@
             </section>
             <!--END HOW IT WORKS ************************************************************************************-->
 
-            <!--PARTNERS ********************************************************************************************-->
-            <section id="partners" class="py-5 ts-block" data-bg-color="#f6f6f6">
-                <!--container-->
-                <div class="container">
-                    <!--block of logos-->
-                    <div class="d-block d-md-flex justify-content-between align-items-center text-center ts-partners ">
-                        <a href="#">
-                            <img src="/gabosoft_home_portal/static/src/img/logo-01.png" alt=""/>
-                        </a>
-                        <a href="#">
-                            <img src="/gabosoft_home_portal/static/src/img/logo-02.png" alt=""/>
-                        </a>
-                        <a href="#">
-                            <img src="/gabosoft_home_portal/static/src/img/logo-03.png" alt=""/>
-                        </a>
-                        <a href="#">
-                            <img src="/gabosoft_home_portal/static/src/img/logo-04.png" alt=""/>
-                        </a>
-                        <a href="#">
-                            <img src="/gabosoft_home_portal/static/src/img/logo-05.png" alt=""/>
-                        </a>
-                    </div>
-                    <!--end logos-->
-                </div>
-                <!--end container-->
-            </section>
-            <!--END PARTNERS ****************************************************************************************-->
-
             <!--HOW IT LOOKS ****************************************************************************************-->
             <section id="how-it-looks" class="pb-0 ts-block text-center ts-overflow__hidden ts-shape-mask__down" data-bg-color="#ededed" data-bg-image="/gabosoft_home_portal/static/src/img/bg-blurred-shape.jpg" data-bg-repeat="no-repeat" data-bg-position="bottom" data-bg-size="inherit">
                 <div class="container">
