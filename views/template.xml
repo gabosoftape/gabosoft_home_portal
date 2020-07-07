@@ -106,7 +106,7 @@
                                     <path class="ts-dynamic-wave" id="wave-2" d="" data-wave-color="#fff" data-wave-height=".3" data-wave-bones="6" data-wave-speed=".26"/>
                                 </svg>
                                 <div class="ts-background-image ts-parallax-element" id="home_video" >
-                                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/lekdUXv82xQ?loop=1" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" ></iframe>
+                                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/lekdUXv82xQ?loop=1&amp;autoplay=1&amp;mute=1" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" ></iframe>
                                 </div>
                             </div>
                         </t>
@@ -434,6 +434,680 @@
                   </div>
                 </div>
               </section>
+        </t>
+    </template>
+
+    <template id="home_gurtam" name="Test Home gurtam">
+        <t t-call="gabosoft_home_portal.portal_layout">
+            <div class="c-main">
+                <div class="c-main__content -pb-0">
+                    <div class="g-card -mb-0  -transparent-bg" id="main_card">
+                        <div class="c-main__info">
+                            <h1 class="-mt-40">
+                                Desarrollamos soluciones para el seguimiento satelital y IoT
+                            </h1>
+                            <div class="-w-70 -w-sm-100 ">
+                                Sistemas multifuncionales para negocios y plataformas innovadoras para desarrolladores
+                            </div>
+                            <button id="to_product_card" class="-w-sm-100 -mb-40">Seleccionar producto</button>
+                        </div>
+                        <div class="c-main__image-container col-12 col-lg-7">
+                            <img class="c-main__image -lazy -load" src="/resource/new-design/main-image-products.png"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="g-content -pt-0">
+                <div class="g-card" id="product_card">
+                    <div class="row -mb-40">
+
+                        <a href="https://gurtam.com/es/wialon" class="c-solution">
+                            <div class="c-solution__title">
+                                <img data-src="" class="c-solution__icon -lazy-load -load" src="/resource/new-design/wialon-icon.svg"/>
+                                <h4>Wialon</h4>
+                            </div>
+                            <div class="c-solution__text">
+                                Sistema de rastreo satelital de transporte y unidades estacionarias – en la nube y para servidores locales, universal, compatible con cualquier tipo de dispositivos
+                            </div>
+                            <div class="c-solution__more">
+                                <div class="g-more">
+                                    <span>CONOCER MÁS</span>
+                                    <span class="g-more__icon"><i class="icon-arrow-right"></i></span>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="/es/flespi" class="c-solution" target="_blank">
+                            <div class="c-solution__title">
+                                <img data-src="" class="c-solution__icon -lazy-load -load" src="/images_redesign/flespi_icon.svg"/>
+                                <h4>flespi</h4>
+                            </div>
+                            <div class="c-solution__text">
+                                Plataforma back-end desarrollada para conectar cualquier tipo de rastreadores a cualesquiera productos de software. El ecosistema de flespi incluye hub telemático, base de datos, módulo de gestión de dispositivos y MQTT bróker
+                            </div>
+                            <div class="c-solution__more">
+                                <div class="g-more">
+                                    <span>CONOCER MÁS</span>
+                                    <span class="g-more__icon"><i class="icon-arrow-right"></i></span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="c-circle__line">
+                        <div class="c-circle -base -stop">
+                            <div class="pie spinner"></div>
+                            <div class="pie filler"></div>
+                            <div class="mask"></div>
+                            <div class="c-circle__shadow"></div>
+                            <div class="c-circle__inner">
+                                <div class="c-circle__title">
+                                    130+
+                                </div>
+                                <div class="c-circle__text">
+                                    países
+                                </div>
+                            </div>
+                        </div>
+                        <div class="c-circle -partners -stop">
+                            <div class="pie spinner"></div>
+                            <div class="pie filler"></div>
+                            <div class="mask"></div>
+                            <div class="c-circle__shadow"></div>
+                            <div class="c-circle__inner">
+                                <div class="c-circle__title">
+                                    1,600+
+                                </div>
+                                <div class="c-circle__text">
+                                    socios
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="c-circle -objects -stop">
+                            <div class="pie spinner"></div>
+                            <div class="pie filler"></div>
+                            <div class="mask"></div>
+                            <div class="c-circle__shadow"></div>
+                            <div class="c-circle__inner">
+                                <div class="c-circle__title">
+                                    2,400,000+
+                                </div>
+                                <div class="c-circle__text">
+                                    unidades de seguimiento
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="c-circle -projects -stop">
+                            <div class="pie spinner"></div>
+                            <div class="pie filler"></div>
+                            <div class="mask"></div>
+                            <div class="c-circle__shadow"></div>
+                            <div class="c-circle__inner">
+                                <div class="c-circle__title">
+                                    300,000+
+                                </div>
+                                <div class="c-circle__text">
+                                    proyectos realizados
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div id="community_card">
+
+                                <div class="g-card -pb-0">
+                                    <div class="col-12 col-lg-10">
+                                        <h2>Comunidad de Gurtam: proveedores de servicios, desarrolladores de software, fabricantes de dispositivos</h2>
+                                    </div>
+                                    <div class="col-12 col-lg-2"></div>
+                                    <div class="col-12">
+                                        <div class="g-tabselect -column -mobile-column">
+                                            <div class="g-tabselect__container">
+                                                <div class="g-tabselect__swiper" style="--n:5;">
+
+                                <div class="g-tabselect__content -active" id="tabs_horizontal87">
+                                    <div class="c-tabimage"><img data-src="" class="fr-fic fr-dii -lazy-load -load" src="/storage/tabs/5c8fa72096b51.jpg"/></div>
+                                    <div class="c-tab">
+                                        <div class="c-tab__card">
+                                            <h3>Desarrollamos la comunidad telemática</h3><p><br/></p><ul class="g-list"><li>Organizamos nuestras propias conferencias</li><li>Realizamos reuniones con expertos</li><li>Participamos en las ferias más importantes del sector</li></ul>
+                                            <a href="https://gurtam.com/es/events-calendar" class="g-button -inline">Leer más</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="g-tabselect__content " id="tabs_horizontal83">
+                                    <div class="c-tabimage"><img data-src="" class="fr-fic fr-dii -lazy-load -load" src="/storage/tabs/5c8fa72d0180a.jpg"/></div>
+                                    <div class="c-tab">
+                                        <div class="c-tab__card">
+                                            <h3>Fomentamos su negocio</h3><p><br/></p><ul class="g-list"><li>Entregamos clientes</li><li>Ayudamos a implementar las soluciones de Gurtam</li><li>Capacitamos en ventas y marketing</li></ul>
+                                            <a href="https://gurtam.com/es/#request" class="g-button -inline">Hacerse socio</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="g-tabselect__content " id="tabs_horizontal84">
+                                    <div class="c-tabimage"><img data-src="" class="fr-fic fr-dii -lazy-load -load" src="/storage/tabs/5caaefb2ab3d7.jpg"/></div>
+                                    <div class="c-tab">
+                                        <div class="c-tab__card">
+                                            <h3>Prestamos soporte técnico</h3><p><br/></p><ul class="g-list"><li>Asistencia 24/7</li><li>Contestamos por email y en el chat</li><li>Estamos disponibles en todas las regiones</li></ul>
+                                            <a href="https://gurtam.com/es/techsupport" class="g-button -inline">Leer más</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="g-tabselect__content " id="tabs_horizontal85">
+                                    <div class="c-tabimage"><img data-src="" class="fr-fic fr-dii -lazy-load -load" src="/storage/tabs/5c8fa7405e0cb.jpg"/></div>
+                                    <div class="c-tab">
+                                        <div class="c-tab__card">
+                                            <h3>Enseñamos a usar el producto</h3><p><br/></p><ul class="g-list"><li>Realizamos talleres y seminarios web</li><li>Certificamos a sus empleados</li><li>Compartimos materiales de capacitación</li></ul>
+                                            <a href="https://gurtam.com/es/education" class="g-button -inline">Leer más</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="g-tabselect__content " id="tabs_horizontal86">
+                                    <div class="c-tabimage">
+                                        <img data-src="" class="fr-fic fr-dii -lazy-load -load" src="/storage/tabs/5c8fa749d43e1.jpg"/>
+                                    </div>
+                                    <div class="c-tab">
+                                        <div class="c-tab__card">
+                                            <h3>Potenciamos su marketing</h3><p><br/></p><ul class="g-list"><li>Presentamos materiales</li><li>Asistimos en organización de sus eventos</li><li>Asesoramos sobre promoción</li></ul>
+                                            <a href="https://gurtam.com/es/marketing" class="g-button -inline">Leer más</a>
+                                        </div>
+                                    </div>
+                                    </div>
+
+                                    </div>
+                                </div>
+                                            <div class="g-tabselect__menu">
+                                                <div class="g-tabselect__menu-inner">
+
+                                <div class="g-tabselect__menu-item -active" data-target="#tabs_horizontal87" style="width: auto;">
+                                    <i class="g-numeric-icon">1</i>
+                                    <div class="g-tabselect__menu-text" style="width: 108px;"><span>Comunidad telemática</span></div>
+                                </div>
+
+                                <div class="g-tabselect__menu-item " data-target="#tabs_horizontal83" style="width: auto;">
+                                    <i class="g-numeric-icon">2</i>
+                                    <div class="g-tabselect__menu-text" style="width: 121px;"><span>Asistencia en desarrollo</span></div>
+                                </div>
+
+                                <div class="g-tabselect__menu-item " data-target="#tabs_horizontal84" style="width: auto;">
+                                    <i class="g-numeric-icon">3</i>
+                                    <div class="g-tabselect__menu-text" style="width: 141px;"><span>Soporte técnico</span></div>
+                                </div>
+
+                                <div class="g-tabselect__menu-item " data-target="#tabs_horizontal85" style="width: auto;">
+                                    <i class="g-numeric-icon">4</i>
+                                    <div class="g-tabselect__menu-text" style="width: 120px;"><span>Capacitación</span></div>
+                                </div>
+
+                                <div class="g-tabselect__menu-item " data-target="#tabs_horizontal86" style="width: auto;">
+                                    <i class="g-numeric-icon">5</i>
+                                    <div class="g-tabselect__menu-text" style="width: 185px;"><span>Soporte de marketing</span></div>
+                                </div>
+
+                                                </div>
+                                            </div>
+                                             <div class="g-tabselect__to-left">
+                                                <i class="icon-chevron-left"></i>
+                                            </div>
+                                            <div class="g-tabselect__to-right">
+                                                <i class="icon-chevron-right"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                </div>
+
+                <!--<div class="g-double-card" id="partners_card">
+                    <div class="g-double-card__left">
+                        <h2>
+                            Comunidad internacional de IoT – expertos en 130 países
+                        </h2>
+                        <div>
+                            Los socios de Gurtam comparten sus experiencias en la realización de proyectos en distintos sectores. El seguimiento de personas, transporte, cargas, trenes, barcos, generadores, gasolineras – para cada proyecto habrá expertos en su región. Con mucho gusto le pondremos en contacto con ellos
+                        </div>
+                        <button class="-light"><a href="https://gurtam.com/es/community">Leer más</a></button>
+                    </div>
+                    <div class="g-double-card__right -pt-0 -pb-0 -pr-0 -pl-0">
+                        <img data-src="/images_redesign/chief-map.png" class="-lazy">
+                    </div>
+                </div>-->
+
+                <div class="g-double-card" id="hw_card">
+                    <div class="g-double-card__left -overflow-visible">
+                        <h2>
+                            Wialon está compatible con los dispositivos más populares en el mercado
+                        </h2>
+                        <div class="row -mt-40">
+                            <div class="c-device-count -mr-8 -mb-8">
+                                <div class="c-device-count__title">2,200</div>
+                                <div class="c-device-count__text">tipos de dispositivos</div>
+                            </div>
+                            <div class="c-device-count -mb-8">
+                                <div class="c-device-count__title">500</div>
+                                <div class="c-device-count__text">fabricantes de hardware</div>
+                            </div>
+                        </div>
+                        <div class="-mt-32">
+                            Cualesquiera que sean los rastreadores que utiliza usted, seguramente estarán en la lista de dispositivos integrados. Sin embargo, si por alguna razón no es así, envíe su solicitud, e integraremos para usted el equipo necesario
+                        </div>
+                        <div class="g-field -search -mt-32 -mb-36">
+                            <div class="g-field__icon">
+                                <i class="icon-search"></i>
+                            </div>
+                            <input type="text" autocomplete="off" class="g-input" id="device_search" name="q" data-hw-url="https://hwdb-api.gurtam.com/v1/search.json?access-token=5699e9f8ab244&amp;expand=hw%2Cmanufacturer&amp;_lang=ru&amp;lang=es" data-manufacturer-url="https://gurtam.com/es/hw-manufacturers/temp_id" data-device-url="https://gurtam.com/es/gps-hardware/auto/temp_id" data-label-device="Dispositivo" data-label-manufacturer="Fabricante" data-not-found="No se encontraron resultados." placeholder="Buscar dispositivos"/>
+                            <div class="g-field__button" id="device_search_button">
+                                <i class="icon-arrow-right"></i>
+                            </div>
+                            <div class="g-dropdown" id="device_dropdown" style="display: none">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="g-double-card__right -pt-0 -pb-0 -pr-0 -pl-0 d-xs-none">
+                        <img data-src="" class="-lazy-load -load" src="/resource/new-design/hw-main.png"/>
+                    </div>
+                </div>
+
+                <!-- START banner-new -->
+            <div data-snippet-id="6">    <div class="g-wide -light">
+                    <div class="g-wide__image">
+                        <img src="/resource/new-design/Telematics_project_banner.png"/>
+                    </div>
+                    <div class="col-12 col-lg-3"></div>
+                    <div class="col-12 col-lg-6 text-center">
+                        <h2>IoT project of the year – nuevo concurso global lanzado por Gurtam</h2>
+                        <a href="/es/blog/iot-project-of-the-year" class="g-button -light -center">Enviar solicitud</a>
+                    </div>
+                    <div class="col-12 col-lg-3"></div>
+                </div>
+            </div>
+            <!-- FINISH -->
+
+                <div class="g-double-card" id="developer_card">
+                    <div class="g-double-card__left -pt-0 -pb-0 -pr-0 -pl-0 d-xs-none">
+                        <img data-src="" class="-lazy-load -load" src="/resource/new-design/sdk-wialon-api.png"/>
+                    </div>
+                    <div class="g-double-card__right">
+                        <h2>
+                            Desarrollos a base de Wialon: cree su propia solución o elija entre las que ya están disponibles
+                        </h2>
+                        <div>
+                            Agregamos a Wialon la herramienta SDK y abrimos la API. Ahora todas las funciones de la plataforma pueden formar parte de su solución, y su propia aplicación, a su vez, puede integrarse con Wialon
+                        </div>
+                        <a href="/es/soft-developers"><button class="-w-sm-100 -mb-40">Conocer más</button></a>
+                    </div>
+                </div>
+
+                <!-- START banner-new -->
+            <div data-snippet-id="6">    <div class="g-wide -light">
+                    <div class="g-wide__image">
+                        <img src="/docs/meetups/en/banner_corona.png"/>
+                    </div>
+                    <div class="col-12 col-lg-3"></div>
+                    <div class="col-12 col-lg-6 text-center">
+                        <h2>Evalúe la influencia del COVID-19 en la industria del transporte en su país</h2>
+                        <a href="/es/covid19" class="g-button -light -center">Ver el mapa</a>
+                    </div>
+                    <div class="col-12 col-lg-3"></div>
+                </div>
+            </div>
+            <!-- FINISH -->
+
+                <div class="g-card" id="news_card">
+                    <div id="example_slider" class="g-slider">
+                        <div class="g-slider__title">
+                            <div class="col-12 col-lg-10">
+                                <h2>Noticias de Gurtam</h2>
+                            </div>
+                            <div class="col-12 col-lg-2 text-right">
+                                <div class="g-slider__controls">
+                                    <div class="g-slider__toleft swiper-button-disabled" id="example_slider_prev" tabindex="0" role="button" aria-label="Previous slide" aria-disabled="true">
+                                        <i class="icon-chevron-left"></i>
+                                    </div>
+                                    <div class="g-slider__toright" id="example_slider_next" tabindex="0" role="button" aria-label="Next slide" aria-disabled="false">
+                                        <i class="icon-chevron-right"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="g-slider__content swiper-container-initialized swiper-container-horizontal">
+                            <div class="swiper-wrapper" style="transform: translate3d(0px, 0px, 0px);">
+
+                    <div class="g-slider__item swiper-slide swiper-slide-active" style="width: 401.667px;">
+                        <a href="https://gurtam.com/es/blog/selection-of-personal-trackers-for-the-relevant-niches-by-gurtam" class="w-slider-item">
+                            <div class="w-slider-item__image">
+                                <img class="-lazy-load -load" data-src="" src="https://gurtam.com/storage/news/5ef604e33df1e.jpg"/>
+                                                        <div class="w-slider-item__tag" style="background-color: #434343;">
+                                        Dispositivos                        </div>
+                                                </div>
+                            <div class="w-slider-item__content">
+                                <div class="w-slider-item__date">
+                                    26 junio, 2020                    </div>
+                                <h4 class="w-slider-item__title">
+                                    <span class="-text-overflow" style="-webkit-line-clamp: 2; height: 48px;">
+                                        Elija un rastreador personal para su proyecto: selección de Gurtam                        </span>
+                                </h4>
+                                <div class="w-slider-item__text">
+                                    <div class="-text-overflow" style="-webkit-line-clamp: 3; height: 60px;">
+                                        Comparamos los equipos populares.                        </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="g-slider__item swiper-slide swiper-slide-next" style="width: 401.667px;">
+                        <a target="_blank" href="https://flespi.com/blog/covid19-iot-alliance-quarantine-singapore" class="w-slider-item">
+                            <div class="w-slider-item__image">
+                                <img class="-lazy-load -load" data-src="" src="https://gurtam.com/storage/news/5ef1ad8d1f279.png"/>
+                                                        <div class="w-slider-item__tag" style="background-color: #FF001F;">
+                                        flespi                        </div>
+                                                </div>
+                            <div class="w-slider-item__content">
+                                <div class="w-slider-item__date">
+                                    19 junio, 2020                    </div>
+                                <h4 class="w-slider-item__title">
+                                    <span class="-text-overflow" style="-webkit-line-clamp: 2; height: 48px;">
+                                        COVID-19 IoT Alliance contribuye al cumplimiento de la cuarentena en Singapur                        </span>
+                                </h4>
+                                <div class="w-slider-item__text">
+                                    <div class="-text-overflow" style="-webkit-line-clamp: 3; height: 60px;">
+                                        Conozca cómo los rastreadores GPS de Teltonika, las pulseras BLE y flespi resolvieron el problema de seguimiento de las personas infectadas en instalaciones de cuarentena.                        </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="g-slider__item swiper-slide" style="width: 401.667px;">
+                        <a href="https://gurtam.com/es/blog/adapting-business-during-pandemic-in-us-and-canada" class="w-slider-item">
+                            <div class="w-slider-item__image">
+                                <img class="-lazy-load -load" data-src="" src="https://gurtam.com/storage/news/5efb55bd0f4bf.png"/>
+                                                        <div class="w-slider-item__tag" style="background-color: #6fa8dc;">
+                                        Meetup                        </div>
+                                                </div>
+                            <div class="w-slider-item__content">
+                                <div class="w-slider-item__date">
+                                    8 junio, 2020                    </div>
+                                <h4 class="w-slider-item__title">
+                                    <span class="-text-overflow" style="-webkit-line-clamp: 2; height: 48px;">
+                                        Resumen del meetup de Gurtam. Cómo las empresas telemáticas en EE. UU. y Canadá se adaptan durante la pandemia                        </span>
+                                </h4>
+                                <div class="w-slider-item__text">
+                                    <div class="-text-overflow" style="-webkit-line-clamp: 3; height: 60px;">
+                                        Ideas anticrisis de nuestros socios de América del Norte.                        </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="g-slider__item swiper-slide" style="width: 401.667px;">
+                        <a href="https://gurtam.com/es/blog/gurtam-meetup-wialon-marketing-and-new-events-for-the-community" class="w-slider-item">
+                            <div class="w-slider-item__image">
+                                <img class="-lazy-load -load" data-src="" src="https://gurtam.com/storage/news/5eea392709a35.jpg"/>
+                                                        <div class="w-slider-item__tag" style="background-color: #6fa8dc;">
+                                        Meetup                        </div>
+                                                </div>
+                            <div class="w-slider-item__content">
+                                <div class="w-slider-item__date">
+                                    17 junio, 2020                    </div>
+                                <h4 class="w-slider-item__title">
+                                    <span class="-text-overflow" style="-webkit-line-clamp: 2; height: 48px;">
+                                        Cómo funciona. El marketing de Wialon y nuevos eventos para la comunidad [meetup de Gurtam]                        </span>
+                                </h4>
+                                <div class="w-slider-item__text">
+                                    <div class="-text-overflow" style="-webkit-line-clamp: 3; height: 60px;">
+                                        Envíe las preguntas relacionadas con las actividades de marketing de Gurtam y le daremos las respuestas el 18 de junio.                        </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="g-slider__item swiper-slide" style="width: 401.667px;">
+                        <a href="https://gurtam.com/es/blog/updates-whats-new-in-may-2020" class="w-slider-item">
+                            <div class="w-slider-item__image">
+                                <img class="-lazy-load -load" data-src="" src="https://gurtam.com/storage/news/5ee9fde5c653e.png"/>
+                                                        <div class="w-slider-item__tag" style="background-color: #ffc618;">
+                                        Actualizaciones                        </div>
+                                                </div>
+                            <div class="w-slider-item__content">
+                                <div class="w-slider-item__date">
+                                    17 junio, 2020                    </div>
+                                <h4 class="w-slider-item__title">
+                                    <span class="-text-overflow" style="-webkit-line-clamp: 2; height: 48px;">
+                                        Actualizaciones del mayo de 2020                        </span>
+                                </h4>
+                                <div class="w-slider-item__text">
+                                    <div class="-text-overflow" style="-webkit-line-clamp: 3; height: 60px;">
+                                        Nuevos filtros en NimBus y operaciones masivas en Hecterra. ¿Qué más trae la actualización de mayo?                        </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="g-slider__item swiper-slide" style="width: 401.667px;">
+                        <a href="https://gurtam.com/es/blog/wialon-how-it-works-gurtam-meetup" class="w-slider-item">
+                            <div class="w-slider-item__image">
+                                <img class="-lazy-load -load" data-src="" src="https://gurtam.com/storage/news/5ee095d7b7df0.png"/>
+                                                        <div class="w-slider-item__tag" style="background-color: #6fa8dc;">
+                                        Meetup                        </div>
+                                                </div>
+                            <div class="w-slider-item__content">
+                                <div class="w-slider-item__date">
+                                    12 mayo, 2020                    </div>
+                                <h4 class="w-slider-item__title">
+                                    <span class="-text-overflow" style="-webkit-line-clamp: 2; height: 48px;">
+                                        ¿Cómo funciona? Diseño y funcionalidad de Wialon (meetups de Gurtam)                        </span>
+                                </h4>
+                                <div class="w-slider-item__text">
+                                    <div class="-text-overflow" style="-webkit-line-clamp: 3; height: 60px;">
+                                        Únase al meetup de Gurtam y haga preguntas relacionadas con Wialon.                         </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                            </div>
+                        <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+                        <div class="g-slider__dots-line swiper-pagination-bullets"><span class="g-slider__dot -active"></span><span class="g-slider__dot"></span></div>
+                    </div>
+                    <a href="/es/blog" class="c-to-news">
+                        <button class="-light -mt-0">Todas las noticias</button>
+                    </a>
+                </div>
+
+                <div class="g-card -dark-bg" id="request">
+                    <div class="r-step">
+                        <h2 class="text-center">
+                            Por favor, llene la solicitud para iniciar el trabajo con Wialon
+                        </h2>
+
+            <script defer="">
+                window.lang = 'es';
+            </script>
+
+            <form class="g-form -step" method="post" action="/es/form/step-form/request_by_step">
+                <input type="hidden" name="_csrf" value="5blfm95WRgvsyLHNNGTRGCMXLbNr5mOchs8ltNE8ll-d_izxtxcjc9id0PRfV4RSUyV50QCvJq3Qo2fm4k3zJg=="/>
+                <input type="hidden" name="step" value="1" class="-step-counter"/>
+                <input type="hidden" name="form_id" class="-form-id"/>
+                <div class="g-form__steps-line">
+                    <div class="g-form__step -active" data-target="#step_1">
+                        Paso 1        </div>
+                    <div class="g-form__step" data-target="#step_2">
+                        Paso 2        </div>
+                    <div class="g-form__step" data-target="#step_3">
+                        Paso 3        </div>
+                </div>
+                <div class="g-form__step-fields" id="step_1" style="display: block">
+                    <div class="g-field">
+                        <div class="g-field__label">Nombre y apellido*</div>
+                        <input type="text" name="name" class="g-input" placeholder="Introduzca su nombre"/>
+                        <div class="g-input__error"></div>
+                    </div>
+                    <div class="g-field">
+                        <div class="g-field__label">Compañía*</div>
+                        <input type="text" name="organization" class="g-input" placeholder="Introduzca el nombre de la empresa"/>
+                        <div class="g-input__error"></div>
+                    </div>
+                    <div class="g-field">
+                        <div class="g-field__label">Email*</div>
+                        <input type="text" name="email" class="g-input" placeholder="Introduzca su e-mail"/>
+                        <div class="g-input__error"></div>
+                    </div>
+                    <div class="g-field">
+                        <div class="g-field__label">Teléfono</div>
+                        <input type="text" name="phone" class="g-input" placeholder="Introduzca su número de teléfono"/>
+                        <div class="g-input__error"></div>
+                    </div>
+                    <div class="g-field">
+                        <div class="g-checkbox">
+                            <input type="checkbox" value="1" name="access_to_the_personal_data" class="g-checkbox__input" id="check_3"/>
+                            <label class="g-checkbox__label" for="check_3">
+                                <span class="g-checkbox__icon icon-square temp-icon-square"></span>
+                                <span class="g-checkbox__text">
+                                Acepto el tratamiento de datos personales                        <br/>
+                                <a href="http://gurtam.com/es/data-protection-agreement" target="_blank">
+                                    Política de privacidad                    </a>
+                            </span>
+                            </label>
+                        </div>
+                    </div>
+                    <button data-next="#step_2">Siguiente</button>
+                </div>
+                <div class="g-form__step-fields" id="step_2" style="display: none">
+                    <div class="g-field">
+                        <div class="g-field__label">País*</div>
+                        <div class="g-select">
+                            <select id="form-country2" class="g-select__input" name="country" data-placeholder="Seleccione una de las variantes" style="display: none;">
+
+            <option></option><option value="238">Afghanistan</option><option value="228">Albania</option><option value="229">Algeria</option><option value="485">American Samoa</option><option value="232">Andorra</option><option value="230">Angola</option><option value="231">Anguilla</option><option value="233">Antigua and Barbuda</option><option value="235">Argentina</option><option value="236">Armenia</option><option value="237">Aruba</option><option value="225">Australia</option><option value="226">Austria</option><option value="227">Azerbaijan</option><option value="239">Bahamas</option><option value="242">Bahrain</option><option value="240">Bangladesh</option><option value="241">Barbados</option><option value="221">Belarus</option><option value="244">Belgium</option><option value="243">Belize</option><option value="245">Benin</option><option value="246">Bermuda</option><option value="256">Bhutan</option><option value="248">Bolivia</option><option value="249">Bosnia and Herzegovina</option><option value="250">Botswana</option><option value="251">Brazil</option><option value="252">British Virgin Islands</option><option value="253">Brunei</option><option value="247">Bulgaria</option><option value="254">Burkina Faso</option><option value="255">Burundi</option><option value="302">Cambodia</option><option value="303">Cameroon</option><option value="304">Canada</option><option value="301">Cape Verde</option><option value="482">Cayman Islands</option><option value="478">Central African Republic</option><option value="421">Chad</option><option value="424">Chile</option><option value="309">China</option><option value="487">Christmas Island</option><option value="490">Cocos (Keeling) Islands</option><option value="310">Colombia</option><option value="311">Comoros</option><option value="313">Congo (Kinshasa)</option><option value="318">Cook Islands</option><option value="314">Costa Rica</option><option value="315">Cote D'Ivoire</option><option value="420">Croatia</option><option value="316">Cuba</option><option value="234">Curacao</option><option value="307">Cyprus</option><option value="423">Czech Republic</option><option value="281">Denmark</option><option value="283">Djibouti</option><option value="480">Dominica</option><option value="284">Dominican Republic</option><option value="262">East Timor</option><option value="428">Ecuador</option><option value="286">Egypt</option><option value="373">El Salvador</option><option value="429">Equatorial Guinea</option><option value="430">Eritrea</option><option value="431">Estonia</option><option value="432">Ethiopia</option><option value="484">Falkland Islands</option><option value="413">Faroe Islands</option><option value="414">Fiji</option><option value="416">Finland</option><option value="417">France</option><option value="418">French Guiana</option><option value="419">French Polynesia</option><option value="264">Gabon</option><option value="267">Gambia</option><option value="280">Georgia</option><option value="223">Germany</option><option value="268">Ghana</option><option value="274">Gibraltar</option><option value="279">Greece</option><option value="278">Greenland</option><option value="277">Grenada</option><option value="269">Guadeloupe</option><option value="445">Guam</option><option value="270">Guatemala</option><option value="273">Guernsey</option><option value="271">Guinea</option><option value="272">Guinea-Bissau</option><option value="266">Guyana</option><option value="265">Haiti</option><option value="275">Honduras</option><option value="276">Hong Kong</option><option value="260">Hungary</option><option value="297">Iceland</option><option value="291">India</option><option value="292">Indonesia</option><option value="295">Iran</option><option value="294">Iraq</option><option value="296">Ireland</option><option value="346">Isle of Man</option><option value="290">Israel</option><option value="299">Italy</option><option value="436">Jamaica</option><option value="437">Japan</option><option value="282">Jersey</option><option value="293">Jordan</option><option value="222">Kazakhstan</option><option value="306">Kenya</option><option value="308">Kiribati</option><option value="444">Kosovo</option><option value="317">Kuwait</option><option value="319">Kyrgyzstan</option><option value="320">Laos</option><option value="321">Latvia</option><option value="324">Lebanon</option><option value="322">Lesotho</option><option value="323">Liberia</option><option value="325">Libya</option><option value="327">Liechtenstein</option><option value="326">Lithuania</option><option value="328">Luxembourg</option><option value="438">Macau</option><option value="332">Macedonia</option><option value="331">Madagascar</option><option value="333">Malawi</option><option value="334">Malaysia</option><option value="336">Maldives</option><option value="335">Mali</option><option value="337">Malta</option><option value="479">Marshall Islands</option><option value="338">Martinique</option><option value="330">Mauritania</option><option value="329">Mauritius</option><option value="339">Mexico</option><option value="486">Micronesia</option><option value="341">Moldova</option><option value="342">Monaco</option><option value="343">Mongolia</option><option value="422">Montenegro</option><option value="344">Morocco</option><option value="340">Mozambique</option><option value="345">Myanmar (Burma)</option><option value="347">Namibia</option><option value="348">Nauru</option><option value="349">Nepal</option><option value="355">New Caledonia</option><option value="354">New Zealand</option><option value="353">Nicaragua</option><option value="350">Niger</option><option value="351">Nigeria</option><option value="488">Niue</option><option value="357">Norfolk Island</option><option value="381">North Korea</option><option value="483">Northern Mariana Islands</option><option value="356">Norway</option><option value="359">Oman</option><option value="360">Pakistan</option><option value="491">Palau</option><option value="361">Panama</option><option value="362">Papua New Guinea</option><option value="363">Paraguay</option><option value="364">Peru</option><option value="415">Philippines</option><option value="365">Pitcairn Islands</option><option value="366">Poland</option><option value="367">Portugal</option><option value="368">Puerto Rico</option><option value="305">Qatar</option><option value="312">Republic of the Congo</option><option value="369">Reunion</option><option value="371">Romania</option><option value="219">Russia</option><option value="370">Rwanda</option><option value="380">Saint Helena</option><option value="385">Saint Kitts and Nevis</option><option value="379">Saint Lucia</option><option value="383">Saint Pierre and Miquelon</option><option value="386">Saint Vincent and the Grenadines</option><option value="374">Samoa</option><option value="375">San Marino</option><option value="376">Sao Tome and Principe</option><option value="377">Saudi Arabia</option><option value="384">Senegal</option><option value="387">Serbia</option><option value="382">Seychelles</option><option value="396">Sierra Leone</option><option value="388">Singapore</option><option value="489">Sint Maarten</option><option value="390">Slovakia</option><option value="391">Slovenia</option><option value="392">Solomon Islands</option><option value="393">Somalia</option><option value="433">South Africa</option><option value="434">South Korea</option><option value="525">South Sudan</option><option value="298">Spain</option><option value="427">Sri Lanka</option><option value="394">Sudan</option><option value="395">Suriname</option><option value="378">Swaziland</option><option value="426">Sweden</option><option value="425">Switzerland</option><option value="389">Syria</option><option value="398">Taiwan</option><option value="397">Tajikistan</option><option value="400">Tanzania</option><option value="399">Thailand</option><option value="352">The Netherlands</option><option value="401">Togo</option><option value="402">Tokelau</option><option value="403">Tonga</option><option value="404">Trinidad and Tobago</option><option value="406">Tunisia</option><option value="409">Turkey</option><option value="407">Turkmenistan</option><option value="408">Turks and Caicos Islands</option><option value="405">Tuvalu</option><option value="372">USA</option><option value="410">Uganda</option><option value="220">Ukraine</option><option value="358">United Arab Emirates (UAE)</option><option value="259">United Kingdom</option><option value="481">United States Virgin Islands</option><option value="443">Unknown</option><option value="412">Uruguay</option><option value="411">Uzbekistan</option><option value="258">Vanuatu</option><option value="261">Venezuela</option><option value="263">Vietnam</option><option value="257">Wallis and Futuna</option><option value="288">Western Sahara</option><option value="300">Yemen</option><option value="287">Zambia</option><option value="289">Zimbabwe</option></select><div class="chosen-container chosen-container-single" title="" id="form_country2_chosen" style="width: 100%;"><a class="chosen-single chosen-default">
+              <span>Seleccione una de las variantes</span>
+              <div><b></b></div>
+            </a>
+            <div class="chosen-drop">
+              <div class="chosen-search">
+                <input class="chosen-search-input" type="text" autocomplete="off"/>
+              </div>
+              <ul class="chosen-results"></ul>
+            </div></div>            </div>
+                    </div>
+                    <div class="g-field">
+                        <div class="g-field__label">Ciudad</div>
+                        <div class="g-select">
+                            <select id="form-city2" class="g-select__input" name="city" data-city-url="/region/cities?country_id=_country_id&amp;_lang=es" data-placeholder="Seleccione una de las variantes" style="display: none;">
+
+            </select><div class="chosen-container chosen-container-single chosen-container-single-nosearch" title="" id="form_city2_chosen" style="width: 100%;"><a class="chosen-single chosen-default">
+              <span>Seleccione una de las variantes</span>
+              <div><b></b></div>
+            </a>
+            <div class="chosen-drop">
+              <div class="chosen-search">
+                <input class="chosen-search-input" type="text" autocomplete="off" readonly=""/>
+              </div>
+              <ul class="chosen-results"></ul>
+            </div></div>            </div>
+                    </div>
+                    <div class="g-field">
+                        <div class="g-field__label">¿Cómo se enteró de nosotros?*</div>
+                        <div class="g-select">
+                            <select class="g-select__input" name="how_did_you_find_us" data-placeholder="Seleccione una de las variantes" style="display: none;">
+            <option value=""></option>
+            <option value="La publicidad en Internet">La publicidad en Internet</option>
+            <option value="Encontré en el buscador">Encontré en el buscador</option>
+            <option value="Correo masivo">Correo masivo</option>
+            <option value="Vi en una exposición">Vi en una exposición</option>
+            <option value="Me enteré de los amigos">Me enteré de los amigos</option>
+            <option value="Otro (Escriba en el campo &quot;Comentario&quot;)">Otro (Escriba en el campo "Comentario")</option>
+            </select><div class="chosen-container chosen-container-single chosen-container-single-nosearch" title="" style="width: 100%;"><a class="chosen-single chosen-default">
+              <span>Seleccione una de las variantes</span>
+              <div><b></b></div>
+            </a>
+            <div class="chosen-drop">
+              <div class="chosen-search">
+                <input class="chosen-search-input" type="text" autocomplete="off" readonly=""/>
+              </div>
+              <ul class="chosen-results"></ul>
+            </div></div>            </div>
+                    </div>
+                    <button data-next="#step_3">Siguiente</button>
+                </div>
+                <div class="g-form__step-fields" id="step_3" style="display: none">
+                    <div class="-mb-28">
+                        <div class="g-text-bold">
+                            Propósitos de adquirir Wialon*
+                        </div>
+                                        <div class="g-radio">
+                                <input class="g-radio__input" checked="" name="acquisition" type="radio" id="step_radio_2" value="2"/>
+                                <label class="g-radio__label -tab" for="step_radio_2" data-target=".-for-step-radio-2">
+                                    <span class="g-radio__text">Necesita seguir su propia flota de transporte</span>
+                                </label>
+                            </div>
+                                        <div class="g-radio">
+                                <input class="g-radio__input" name="acquisition" type="radio" id="step_radio_0" value="0"/>
+                                <label class="g-radio__label -tab" for="step_radio_0" data-target=".-for-step-radio-0">
+                                    <span class="g-radio__text">Desea hacerse integrador en la esfera de rastreo</span>
+                                </label>
+                            </div>
+                                        <div class="g-radio">
+                                <input class="g-radio__input" name="acquisition" type="radio" id="step_radio_1" value="1"/>
+                                <label class="g-radio__label -tab" for="step_radio_1" data-target=".-for-step-radio-1">
+                                    <span class="g-radio__text">Se ocupa del rastreo, pero quiere probar Wialon</span>
+                                </label>
+                            </div>
+                                </div>
+
+                    <div class="g-field -mt-lg-12 -tab-target -for-step-radio-0 -for-step-radio-1" style="display: none">
+                        <div class="g-field__label">Cantidad planificada de unidades de seguimiento</div>
+                        <input type="number" name="count_near_future" class="g-input -number-no-spin" placeholder="Cantidad de vehículos (solo números)" min="0"/>
+                        <div class="g-input__error"></div>
+                    </div>
+                    <div class="g-field -tab-target -for-step-radio-2" style="display: block">
+                        <div class="g-field__label">Tamaño de la flota</div>
+                        <input type="number" name="size_of_fleet" class="g-input -number-no-spin" placeholder="Cantidad de vehículos (solo números)" min="0"/>
+                        <div class="g-input__error"></div>
+                    </div>
+                    <div class="g-field -tab-target -for-step-radio-1 -for-step-radio-2" style="display: block">
+                        <div class="g-field__label">El sistema de seguimiento, si utiliza</div>
+                        <input type="text" name="request_other_soft" class="g-input" placeholder="Indique el nombre"/>
+                        <div class="g-input__error"></div>
+                    </div>
+                    <div class="g-field -tab-target -for-step-radio-0 -for-step-radio-1 -for-step-radio-2" style="display: block">
+                        <div class="g-field__label">Los dispositivos que planifica utilizar</div>
+                        <input type="text" name="device_manufacturer" class="g-input" placeholder="Indique el nombre"/>
+                        <div class="g-input__error"></div>
+                    </div>
+                    <div class="g-field">
+                        <div class="g-field__label">Comentario</div>
+                        <textarea name="comment" class="r-textarea" placeholder="Su comentario"></textarea>
+                        <div class="g-input__error"></div>
+                    </div>
+                    <div class="g-field">
+                        <div class="g-checkbox">
+                            <input type="checkbox" value="1" name="trial_version" class="g-checkbox__input" id="check_2"/>
+                            <label class="g-checkbox__label" for="check_2">
+                                <span class="g-checkbox__icon icon-square temp-icon-square"></span>
+                                <span class="g-checkbox__text">Obtener una versión de prueba de Wialon</span>
+                            </label>
+                        </div>
+                    </div>
+                    <button class="-from-send" data-next="#step_finish" onclick="yaCounter10337233.reachGoal('REQUEST_ES');">Enviar</button>
+                </div>
+                <div id="step_finish" class="g-form__step-ok" style="display: none">
+                    <div class="g-form__ok-icon">
+                        <img src="/images_redesign/icon_ok.png"/>
+                    </div>
+                    <div class="g-form__step-ok-message">
+                        <div>¡Gracias! Sus datos han sido enviados correctamente.</div>
+                        <div>Nuestro especialista se pondrá en contacto con usted.</div>
+                    </div>
+                </div>
+            </form>
+
+                    </div>
+                </div>
+
+            </div>
+
         </t>
     </template>
 
