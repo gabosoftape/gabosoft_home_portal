@@ -36,11 +36,7 @@ class HomePortal(CustomerPortal):
 
     @http.route(['/inicio'], type='http', auth="public", website=True)
     def portal_home_index(self, **kw):
-        # try:
-        #    appointment_sudo = self._document_check_access('hms.appointment', appointment_id, access_token=access_token)
-        # except (AccessError, MissingError):
-        #    return request.redirect('/my')
-
-        # values = self._appointment_get_page_view_values(appointment_sudo, access_token, **kw)
-        # return request.render("acs_hms_portal.portal_my_appointment", values)
-        return request.render("gabosoft_home_portal.portal_my_home")
+        values = {
+            'inicio': 'yes',
+        }
+        return request.render("gabosoft_home_portal.portal_my_home", values)
