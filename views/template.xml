@@ -125,6 +125,9 @@
                     <!--************ FOOTER *************************************************************************************-->
                     <!--*********************************************************************************************************-->
                     <footer id="ts-footer">
+
+                        <iframe class="map ts-height__600px" width="100%" src="https://www.google.com/maps/embed?pb=!1m17!1m8!1m3!1d7953.269586502632!2d-74.06606937948918!3d4.65904105038233!3m2!1i1024!2i768!4f13.1!4m6!3e6!4m0!4m3!3m2!1d4.6586826!2d-74.0636876!5e0!3m2!1ses!2sco!4v1594152925436!5m2!1ses!2sco" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
                         <section id="contact" class="ts-separate-bg-element footer_motion" style="background-color:#c6007e;" >
                             <div class="container f_container">
                                 <div class="ts-box mb-0 p-5 ts-mt__n-10">
@@ -307,9 +310,8 @@
                     <!--end ts-title-->
                     <div class="row align-items-center">
                         <div class="col-lg-6 pt16 pb16">
-                            <h2 class="o_default_snippet_text">Un Subtítulo de Sección</h2>
-                            <p class="o_default_snippet_text">Escriba uno o dos párrafos describiendo su producto o servicios. <br/>Para tener éxito su contenido debe ser útil a sus lectores.</p>
-                            <p class="o_default_snippet_text">Comience con el cliente – descubra lo que quiere y déselo.</p>
+                            <h2 class="o_default_snippet_text">Soluciones diseñadas para ti</h2>
+                            <p class="o_default_snippet_text">En MOTION manejamos un amplio portafolio de soluciones de nicho bajo un modelo SaaS para las organizaciones de todos los tamaños y de todos los sectores. De acuerdo a sus necesidades. <br/> Creadas específicamente para que puedas activar y trabajar, sin necesidad de contar con un especialista de TI para que realice configuraciones complejas.</p>
                             <div class="s_btn text-left pt16 pb16" data-name="Buttons">
                                 <a href="#" class="btn btn-primary o_default_snippet_text">Descubre más </a>
                             </div>
@@ -317,7 +319,6 @@
                         <div class="col-lg-6 pt16 pb16">
                             <img src="/web/image/website.s_text_image_default_image" class="img img-fluid mx-auto" alt="Odoo • Texto e imagen"/>
                         </div>
-
                     </div>
                     <!--end row-->
                 </div>
@@ -335,9 +336,8 @@
                           <img src="/web/image/website.s_image_text_default_image" class="img img-fluid mx-auto" alt="Odoo • Imagen y texto"/>
                         </div>
                         <div class="col-lg-6 pt16 pb16">
-                            <h2 class="o_default_snippet_text">Sección Subtítulo</h2>
-                            <p class="o_default_snippet_text">Escriba uno o dos párrafos describiendo su producto o servicios. <br/>Para tener éxito su contenido debe ser útil a sus lectores.</p>
-                            <p class="o_default_snippet_text">Comience con el cliente – descubra lo que quiere y déselo.</p>
+                            <h2 class="o_default_snippet_text">Motion es compatible con cualquier dispositivo</h2>
+                            <p class="o_default_snippet_text">Cualesquiera que sean los rastreadores que utiliza usted, seguramente estarán en la lista de dispositivos integrados. Sin embargo, si por alguna razón no es así, envíe su solicitud, e integraremos para usted el equipo necesario.</p>
                             <div class="s_btn text-left pt16 pb16">
                                 <a href="#" class="btn btn-outline-primary o_default_snippet_text">Descubra más</a>
                             </div>
@@ -434,7 +434,6 @@
                   </div>
                 </div>
               </section>
-            <div class="map ts-height__600px" id="map"></div>
         </t>
     </template>
 
