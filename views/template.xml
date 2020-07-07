@@ -247,9 +247,8 @@
     <!-- template alistamientos -->
     <template id="portal_my_home" name="Inicio">
         <t t-call="gabosoft_home_portal.portal_layout">
-
-        <!--HOW IT WORKS ****************************************************************************************-->
-            <section id="how-it-works" class="ts-block text-center">
+            <!-- PRODUCTOS ****************************************************************************************-->
+            <section id="productos" class="ts-block text-center">
                 <div class="container">
                     <div class="ts-title">
                         <h2>Productos</h2>
@@ -300,625 +299,177 @@
                 </div>
                 <!--end container-->
             </section>
-            <!--END HOW IT WORKS ************************************************************************************-->
-
-            <!--HOW IT LOOKS ****************************************************************************************-->
-            <section id="how-it-looks" class="pb-0 ts-block text-center ts-overflow__hidden ts-shape-mask__down" data-bg-color="#ededed" data-bg-image="/gabosoft_home_portal/static/src/img/bg-blurred-shape.jpg" data-bg-repeat="no-repeat" data-bg-position="bottom" data-bg-size="inherit">
+            <!-- SOLUCIONES ************************************************************************************-->
+            <section id="soluciones" class="ts-block text-center">
                 <div class="container">
                     <div class="ts-title">
-                        <h2>How It Looks</h2>
-                        <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h5>
+                        <h2>Soluciones</h2>
                     </div>
                     <!--end ts-title-->
+                    <div class="row">
 
-                    <ul class="nav nav-tabs justify-content-center my-5" id="myTab" role="tablist">
-                        <li class="nav-item">
-                            <a class="nav-link active" id="desktop-tab" data-toggle="tab" href="#desktop" role="tab" aria-controls="desktop" aria-selected="true">
-                                <h4>Desktop</h4>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" id="tablet-tab" data-toggle="tab" href="#tablet" role="tab" aria-controls="tablet" aria-selected="false">
-                                <h4>Tablet</h4>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" id="mobile-tab" data-toggle="tab" href="#mobile" role="tab" aria-controls="mobile" aria-selected="false">
-                                <h4>Mobile</h4>
-                            </a>
-                        </li>
-                    </ul>
 
-                    <div class="tab-content pt-5 ts-tabs-presentation" id="myTabContent" data-animate="ts-fadeInUp">
-                        <div class="tab-pane fade show active" id="desktop" role="tabpanel" aria-labelledby="desktop">
-                            <img src="/gabosoft_home_portal/static/src/img/img-desktop.png" class="mw-100" alt=""/>
-                        </div>
-                        <div class="tab-pane fade" id="tablet" role="tabpanel" aria-labelledby="tablet">
-                            <img src="/gabosoft_home_portal/static/src/img/img-tablet.png" class="mw-100" alt=""/>
-                        </div>
-                        <div class="tab-pane fade" id="mobile" role="tabpanel" aria-labelledby="mobile">
-                            <img src="/gabosoft_home_portal/static/src/img/img-phone.png" class="mw-100" alt=""/>
-                        </div>
                     </div>
-
+                    <!--end row-->
                 </div>
+                <!--end container-->
             </section>
-            <!--END HOW IT LOOKS ************************************************************************************-->
-
-            <!--WHAT IS APPSTORM ************************************************************************************-->
-            <section id="what-is-appstorm" class="ts-block">
+            <!-- HARDWARE ************************************************************************************-->
+            <section id="hardware" class="ts-block text-center">
                 <div class="container">
                     <div class="ts-title">
-                        <h2>What Is AppStorm?</h2>
+                        <h2>Hardware</h2>
                     </div>
                     <!--end ts-title-->
                     <div class="row">
-                        <div class="col-md-5 col-xl-5" data-animate="ts-fadeInUp" data-offset="100">
-                            <p>
-                                Vivamus fermentum magna non faucibus dignissim. Sed a venenatis mi, vel tempus neque.
-                                Fusce pharetra, diam in hendrerit facilisis, enim diam cursus augue, egestas egestas
-                                purus diam at felis. Nullam tellus turpis, molestie ac urna quis, pulvinar semper massa.
-                            </p>
-                            <p>
-                                Nam tristique  Sed nisl justo, commodo ac gravida vitae, sodales maximus erat. Phasellus
-                                euismod nunc metus, et posuere elit venenatis eget. Nunc non risus libero.
-                            </p>
-                            <a href="#download" class="btn btn-primary mb-4 ts-scroll">Download Now!</a>
+                        <div class="col-sm-6 col-md-4 col-xl-4">
+                            <figure data-animate="ts-fadeInUp">
+                                <figure class="icon mb-5 p-2">
+                                    <img src="/gabosoft_home_portal/static/src/img/icon-watch-heart.png" alt=""/>
+                                    <div class="ts-svg ts-svg__organic-shape-01" data-animate="ts-zoomInShort"></div>
+                                </figure>
+                                <h4>Plataforma para el seguimiento GPS y IoT</h4>
+                                <p>
+                                    Controle vehículos, maquinaria especializada, unidades estacionarias, personas – para cada proyecto habrá un dispositivo apropiado. Los sensores adicionales, a su vez, le mostrarán tales datos como la temperatura, el peso, la inclinación, la ubicación de mecanismos y muchos otros parámetros de seguimiento.
+                                </p>
+                            </figure>
                         </div>
-                        <!--end col-xl-5-->
-                        <div class="col-md-7 col-xl-7 text-center" data-animate="ts-fadeInUp" data-delay="0.1s" data-offset="100">
-                            <div class="px-3">
-                                <img src="/gabosoft_home_portal/static/src/img/img-screen-desktop.jpg" class="mw-100 ts-shadow__lg ts-border-radius__md" alt=""/>
-                            </div>
+                        <!--end col-xl-4-->
+                        <div class="col-sm-6 col-md-4 col-xl-4">
+                            <figure data-animate="ts-fadeInUp" data-delay="0.1s">
+                                <figure class="icon mb-5 p-2">
+                                    <img src="/gabosoft_home_portal/static/src/img/icon-lcd-chart.png" alt=""/>
+                                    <div class="ts-svg ts-svg__organic-shape-02" data-animate="ts-zoomInShort"></div>
+                                </figure>
+                                <h4>Plataforma backend para conectar dispositivos a sistemas telematicos</h4>
+                                <p>
+                                    Diseñamos cualquier proyecto basado en GPS o IoT que tenga en mente, desde la conectividad de hardware GPS hasta la agregación de datos de telemetría y el análisis en tiempo real. Lo que hay en ti es envolver la lógica del negocio.
+                                </p>
+                            </figure>
                         </div>
-                        <!--end col-xl-7-->
+                        <!--end col-xl-4-->
+                        <div class="col-sm-6 offset-sm-4 col-md-4 offset-md-0 col-xl-4">
+                            <figure data-animate="ts-fadeInUp" data-delay="0.2s">
+                                <figure class="icon mb-5 p-2">
+                                    <img src="/gabosoft_home_portal/static/src/img/icon-cup-winner.png" alt=""/>
+                                    <div class="ts-svg ts-svg__organic-shape-03" data-animate="ts-zoomInShort"></div>
+                                </figure>
+                                <h4>App iOS &amp; Android</h4>
+                                <p>
+                                    Manténgase móvil y utilice la funcionalidad básica y avanzada de la versión web del sistema desde cualquier parte del mundo.
+                                </p>
+                            </figure>
+                        </div>
+                        <!--end col-xl-4-->
                     </div>
                     <!--end row-->
                 </div>
                 <!--end container-->
             </section>
-            <!--END WHAT IS APPSTORM ********************************************************************************-->
-
-            <!--FEATURES ********************************************************************************************-->
-            <section id="features" class="ts-block" data-bg-image="/gabosoft_home_portal/static/src/img/bg-blurred-shape-02.jpg" data-bg-size="contain" data-bg-position="left" data-bg-repeat="no-repeat">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-7 col-xl-7 text-center">
-                            <div class="position-relative">
-                                <figure class="position-absolute text-center w-100 ts-z-index__1" data-animate="ts-zoomInShort">
-                                    <img src="/gabosoft_home_portal/static/src/img/img-screen-small-01.jpg" class="mw-100 d-inline-block ts-shadow__lg" alt=""/>
-                                </figure>
-                                <figure class="p-5" data-animate="ts-zoomInShort" data-delay="0.1s">
-                                    <img src="/gabosoft_home_portal/static/src/img/img-screen-desktop.jpg" class="mw-100 ts-shadow__lg" alt=""/>
-                                </figure>
-                                <figure class="position-absolute ts-bottom__0 ts-left__0 ts-z-index__2" data-animate="ts-zoomInShort" data-delay="0.2s">
-                                    <img src="/gabosoft_home_portal/static/src/img/img-screen-small-02.jpg" class="mw-100 d-inline-block ts-shadow__lg" alt=""/>
-                                </figure>
-                            </div>
-                        </div>
-                        <!--end col-xl-7-->
-                        <div class="col-md-5 col-xl-5" data-animate="ts-fadeInUp" data-offset="100">
-                            <div class="ts-title">
-                                <h2>Features</h2>
-                            </div>
-                            <!--end ts-title-->
-                            <p>
-                                Vivamus fermentum magna non faucibus dignissim. Sed a venenatis mi, vel tempus neque.
-                                Fusce pharetra, diam in hendrerit facilisis, enim diam cursus augue.
-                            </p>
-                            <!--features list-->
-                            <ul class="list-unstyled ts-list-divided">
-                                <li>
-                                    <a href="#feature-1" class="ts-font-color__black" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="feature-1">
-                                        <h6 class="my-2">Real Time Statistics</h6>
-                                    </a>
-                                    <div class="collapse" id="feature-1">
-                                        <p>
-                                            Proin dapibus augue vitae massa placerat, vitae pulvinar lectus sodales.
-                                            Suspendisse lobortis justo sed sapien placerat eleifend.
-                                        </p>
-                                    </div>
-                                    <!--end collapse-->
-                                </li>
-                                <li>
-                                    <a href="#feature-2" class="ts-font-color__black" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="feature-2">
-                                        <h6 class="my-2">Beautiful Charts</h6>
-                                    </a>
-                                    <div class="collapse" id="feature-2">
-                                        <p>
-                                            Proin dapibus augue vitae massa placerat, vitae pulvinar lectus sodales.
-                                            Suspendisse lobortis justo sed sapien placerat eleifend.
-                                        </p>
-                                    </div>
-                                    <!--end collapse-->
-                                </li>
-                                <li>
-                                    <a href="#feature-3" class="ts-font-color__black" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="feature-3">
-                                        <h6 class="my-2">Activity Reminder</h6>
-                                    </a>
-                                    <div class="collapse" id="feature-3">
-                                        <p>
-                                            Proin dapibus augue vitae massa placerat, vitae pulvinar lectus sodales.
-                                            Suspendisse lobortis justo sed sapien placerat eleifend.
-                                        </p>
-                                    </div>
-                                    <!--end collapse-->
-                                </li>
-                            </ul>
-                            <!--end features list-->
-                        </div>
-                        <!--end col-xl-5-->
-                    </div>
-                    <!--end row-->
-                </div>
-                <!--end container-->
-            </section>
-            <!--FEATURES ********************************************************************************************-->
-
-            <!--PRICING *********************************************************************************************-->
-            <section id="pricing" class="ts-block">
-                <div class="container">
-                    <div class="ts-title text-center">
-                        <h2>Affordable Prices</h2>
-                    </div>
-                    <!--end ts-title-->
-                    <div class="row no-gutters ts-cards-same-height">
-                        <!--Price Box-->
-                        <div class="col-sm-4 col-lg-4">
-                            <div class="card text-center ts-price-box" data-animate="ts-fadeInUp">
-                                <div class="card-header p-0">
-                                    <h5 class="mb-0 py-3 text-white" data-bg-color="#1b1464">Basic</h5>
-                                    <div class="ts-title py-5 mb-0">
-                                        <h3 class="mb-0 font-weight-normal">Free</h3>
-                                        <small class="ts-opacity__50">forever</small >
-                                    </div>
-                                </div>
-                                <!--end card-header-->
-                                <div class="card-body p-0">
-                                    <ul class="list-unstyled ts-list-divided">
-                                        <li>3 Sport Activity</li>
-                                        <li>60 Days Track Record</li>
-                                        <li><s class="ts-opacity__50">Cloud Backup</s></li>
-                                        <li><s class="ts-opacity__50">Ads Removed</s></li>
-                                    </ul>
-                                    <!--end list-->
-                                </div>
-                                <!--end card-body-->
-                                <div class="card-footer bg-transparent pt-0 ts-border-none">
-                                    <a href="#" class="btn btn-outline-primary">Select Now</a>
-                                </div>
-                            </div>
-                            <!--end card-->
-                        </div>
-                        <!--end price-box col-md-4-->
-
-                        <!--Price Box Promoted-->
-                        <div class="col-sm-4 col-lg-4">
-                            <div class="card text-center ts-price-box ts-price-box__promoted" data-animate="ts-fadeInUp" data-delay="0.1s">
-                                <div class="card-header p-0" data-bg-color="#d96270">
-                                    <h5 class="mb-0 py-3 text-white" data-bg-color="#f26d7d">Premium</h5>
-                                    <div class="ts-title text-white py-5 mb-0">
-                                        <h3 class="mb-0 font-weight-normal">
-                                            <sup>$</sup>9,99
-                                        </h3>
-                                        <small class="ts-opacity__50">per month</small >
-                                    </div>
-                                </div>
-                                <!--end card-header-->
-                                <div class="card-body p-0">
-                                    <ul class="list-unstyled ts-list-divided">
-                                        <li>3 Sport Activity</li>
-                                        <li>60 Days Track Record</li>
-                                        <li>Cloud Backup</li>
-                                        <li>Ads Removed</li>
-                                    </ul>
-                                    <!--end list-->
-                                </div>
-                                <!--end card-body-->
-                                <div class="card-footer bg-transparent pt-0 ts-border-none">
-                                    <a href="#" class="btn btn-primary">Select Now</a>
-                                </div>
-                            </div>
-                            <!--end card-->
-                        </div>
-                        <!--end price-box col-md-4-->
-
-                        <!--Price Box-->
-                        <div class="col-sm-4 col-lg-4">
-                            <div class="card text-center ts-price-box" data-animate="ts-fadeInUp" data-delay="0.2s">
-                                <div class="card-header p-0">
-                                    <h5 class="mb-0 py-3 text-white" data-bg-color="#1b1464">Premium</h5>
-                                    <div class="ts-title py-5 mb-0">
-                                        <h3 class="mb-0 font-weight-normal">
-                                            <sup>$</sup>19,99
-                                        </h3>
-                                        <small class="ts-opacity__50">per month</small >
-                                    </div>
-                                </div>
-                                <!--end card-header-->
-                                <div class="card-body p-0">
-                                    <ul class="list-unstyled ts-list-divided">
-                                        <li>5 Sport Activity</li>
-                                        <li>Unlimited Days Track Record</li>
-                                        <li>Cloud Backup</li>
-                                        <li>Ads Removed</li>
-                                    </ul>
-                                    <!--end list-->
-                                </div>
-                                <!--end card-body-->
-                                <div class="card-footer bg-transparent pt-0 ts-border-none">
-                                    <a href="#" class="btn btn-outline-primary">Select Now</a>
-                                </div>
-                            </div>
-                            <!--end card-->
-                        </div>
-                        <!--end price-box col-md-4-->
-                    </div>
-                    <!--end row-->
-                </div>
-                <!--end container-->
-            </section>
-            <!--END PRICING *****************************************************************************************-->
-
-            <section id="our-clients" class="ts-block text-center">
+            <!-- SOBRE NOSOTROS ************************************************************************************-->
+            <section id="nosotros" class="ts-block text-center">
                 <div class="container">
                     <div class="ts-title">
-                        <h2>Our Clients</h2>
+                        <h2>Nuestra Compañia</h2>
                     </div>
                     <!--end ts-title-->
                     <div class="row">
-                        <div class="col-md-8 offset-md-2">
-                            <div class="owl-carousel ts-carousel-blockquote" data-owl-dots="1" data-animate="ts-zoomInShort">
-                                <blockquote class="blockquote">
-                                    <!--person image-->
-                                    <figure>
-                                        <aside>
-                                            <i class="fa fa-quote-right"></i>
-                                        </aside>
-                                        <div class="ts-circle__lg" data-bg-image="/gabosoft_home_portal/static/src/img/person-05.jpg"></div>
-                                    </figure>
-                                    <!--end person image-->
-                                    <!--cite-->
-                                    <p>
-                                        Morbi et nisl a sapien malesuada scelerisque. Suspendisse tempor turpis mattis nibh posuere. Aenean sagittis nisl.
-                                        uthicula sagitti
-                                    </p>
-                                    <!--end cite-->
-                                    <!--person name-->
-                                    <footer class="blockquote-footer">
-                                        <h4>Jane Doe</h4>
-                                        <h6>CEO at MarketsGuru</h6>
-                                    </footer>
-                                    <!--end person name-->
-                                </blockquote>
-                                <!--end blockquote-->
-                                <blockquote class="blockquote">
-                                    <!--person image-->
-                                    <figure>
-                                        <aside>
-                                            <i class="fa fa-quote-right"></i>
-                                        </aside>
-                                        <div class="ts-circle__lg" data-bg-image="/gabosoft_home_portal/static/src/img/person-05.jpg"></div>
-                                    </figure>
-                                    <!--end person image-->
-                                    <!--cite-->
-                                    <p>
-                                        Morbi et nisl a sapien malesuada scelerisque. Suspendisse tempor turpis mattis nibh posuere. Aenean sagittis nisl.
-                                        uthicula sagitti
-                                    </p>
-                                    <!--end cite-->
-                                    <!--person name-->
-                                    <footer class="blockquote-footer">
-                                        <h4>Jane Doe</h4>
-                                        <h6>CEO at MarketsGuru</h6>
-                                    </footer>
-                                    <!--end person name-->
-                                </blockquote>
-                                <!--end blockquote-->
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </section>
-            <!--end #our-clients.ts-block-->
-
-            <section id="gallery" class="ts-block ts-shape-mask__up" data-bg-color="#f7f7f7" data-bg-image="/gabosoft_home_portal/static/src/img/bg-shapes.png" data-bg-size="contain" data-bg-repeat="no-repeat">
-                <div class="ts-title text-center">
-                    <h2>Gallery</h2>
-                </div>
-                <!--end ts-title-->
-                <div class="owl-carousel ts-carousel-centered py-2 mb-5" data-owl-loop="1" data-owl-nav="1" data-owl-items="3" data-owl-margin="30" data-owl-center="1">
-                    <div class="slide">
-                        <img src="/gabosoft_home_portal/static/src/img/img-screen-desktop.jpg" class="ts-shadow__md ts-border-radius__md" alt=""/>
-                    </div>
-                    <div class="slide">
-                        <img src="/gabosoft_home_portal/static/src/img/img-screen-desktop.jpg" class="ts-shadow__md ts-border-radius__md" alt=""/>
-                    </div>
-                    <div class="slide">
-                        <img src="/gabosoft_home_portal/static/src/img/img-screen-desktop.jpg" class="ts-shadow__md ts-border-radius__md" alt=""/>
-                    </div>
-                    <div class="slide">
-                        <img src="/gabosoft_home_portal/static/src/img/img-screen-desktop.jpg" class="ts-shadow__md ts-border-radius__md" alt=""/>
-                    </div>
-                </div>
-            </section>
-            <!--end #gallery.ts-block-->
-
-            <section id="organize" class="ts-block mt-5">
-                <div class="container">
-                    <div class="ts-title text-center">
-                        <h2>Organize Everything!</h2>
-                    </div>
-                    <!--end ts-title-->
-                    <div class="row align-items-center">
-                        <div class="col-md-4">
-                            <figure class="text-right ts-xs-text-center" data-animate="ts-fadeInUp">
-                                <figure class="icon">
-                                    <img src="/gabosoft_home_portal/static/src/img/icon-watch-heart.png" class="" alt=""/>
+                        <div class="col-sm-6 col-md-4 col-xl-4">
+                            <figure data-animate="ts-fadeInUp">
+                                <figure class="icon mb-5 p-2">
+                                    <img src="/gabosoft_home_portal/static/src/img/icon-watch-heart.png" alt=""/>
+                                    <div class="ts-svg ts-svg__organic-shape-01" data-animate="ts-zoomInShort"></div>
                                 </figure>
-                                <h4 class="mb-2">Invest With The Best</h4>
+                                <h4>Plataforma para el seguimiento GPS y IoT</h4>
                                 <p>
-                                    Morbi et nisl a sapien malesuada scelerisque. Suspendisse tempor turpis mattis
-                                </p>
-                            </figure>
-                            <figure class="text-right ts-xs-text-center" data-animate="ts-fadeInUp" data-delay=".1s">
-                                <figure class="icon">
-                                    <img src="/gabosoft_home_portal/static/src/img/icon-lcd-chart.png" class="" alt=""/>
-                                </figure>
-                                <h4 class="mb-2">Real Time Price</h4>
-                                <p>
-                                    Morbi et nisl a sapien malesuada scelerisque. Suspendisse tempor turpis mattis
-                                </p>
-                            </figure>
-                            <figure class="text-right ts-xs-text-center" data-animate="ts-fadeInUp" data-delay=".3s">
-                                <figure class="icon">
-                                    <img src="/gabosoft_home_portal/static/src/img/icon-cup-winner.png" class="" alt=""/>
-                                </figure>
-                                <h4 class="mb-2">Trade From Enywhere</h4>
-                                <p>
-                                    Morbi et nisl a sapien malesuada scelerisque. Suspendisse tempor turpis mattis
+                                    Controle vehículos, maquinaria especializada, unidades estacionarias, personas – para cada proyecto habrá un dispositivo apropiado. Los sensores adicionales, a su vez, le mostrarán tales datos como la temperatura, el peso, la inclinación, la ubicación de mecanismos y muchos otros parámetros de seguimiento.
                                 </p>
                             </figure>
                         </div>
-                        <!--end col-md-4-->
-
-                        <div class="col-md-4 my-5 d-flex justify-content-center align-items-center">
-                            <div class="image position-relative">
-                                <img src="/gabosoft_home_portal/static/src/img/img-phone-1st-screen.png" class="mw-100" alt="" data-animate="ts-zoomInShort" data-delay=".1s"/>
-                                <aside class="ts-svg ts-svg__organic-shape-01 ts-background-size-contain" data-animate="ts-zoomInShort" data-delay=".4s"></aside>
-                            </div>
-                        </div>
-                        <!--end col-md-4-->
-
-                        <div class="col-md-4">
-                            <figure class="ts-xs-text-center" data-animate="ts-fadeInUp">
-                                <figure class="icon">
-                                    <img src="/gabosoft_home_portal/static/src/img/icon-watch-heart.png" class="" alt=""/>
+                        <!--end col-xl-4-->
+                        <div class="col-sm-6 col-md-4 col-xl-4">
+                            <figure data-animate="ts-fadeInUp" data-delay="0.1s">
+                                <figure class="icon mb-5 p-2">
+                                    <img src="/gabosoft_home_portal/static/src/img/icon-lcd-chart.png" alt=""/>
+                                    <div class="ts-svg ts-svg__organic-shape-02" data-animate="ts-zoomInShort"></div>
                                 </figure>
-                                <h4 class="mb-2">Invest With The Best</h4>
+                                <h4>Plataforma backend para conectar dispositivos a sistemas telematicos</h4>
                                 <p>
-                                    Morbi et nisl a sapien malesuada scelerisque. Suspendisse tempor turpis mattis
-                                </p>
-                            </figure>
-                            <figure class="ts-xs-text-center" data-animate="ts-fadeInUp" data-delay=".1s">
-                                <figure class="icon">
-                                    <img src="/gabosoft_home_portal/static/src/img/icon-lcd-chart.png" class="" alt=""/>
-                                </figure>
-                                <h4 class="mb-2">Real Time Price</h4>
-                                <p>
-                                    Morbi et nisl a sapien malesuada scelerisque. Suspendisse tempor turpis mattis
-                                </p>
-                            </figure>
-                            <figure class="ts-xs-text-center" data-animate="ts-fadeInUp" data-delay=".3s">
-                                <figure class="icon">
-                                    <img src="/gabosoft_home_portal/static/src/img/icon-cup-winner.png" class="" alt=""/>
-                                </figure>
-                                <h4 class="mb-2">Trade From Enywhere</h4>
-                                <p>
-                                    Morbi et nisl a sapien malesuada scelerisque. Suspendisse tempor turpis mattis
+                                    Diseñamos cualquier proyecto basado en GPS o IoT que tenga en mente, desde la conectividad de hardware GPS hasta la agregación de datos de telemetría y el análisis en tiempo real. Lo que hay en ti es envolver la lógica del negocio.
                                 </p>
                             </figure>
                         </div>
-                        <!--end col-md-4-->
+                        <!--end col-xl-4-->
+                        <div class="col-sm-6 offset-sm-4 col-md-4 offset-md-0 col-xl-4">
+                            <figure data-animate="ts-fadeInUp" data-delay="0.2s">
+                                <figure class="icon mb-5 p-2">
+                                    <img src="/gabosoft_home_portal/static/src/img/icon-cup-winner.png" alt=""/>
+                                    <div class="ts-svg ts-svg__organic-shape-03" data-animate="ts-zoomInShort"></div>
+                                </figure>
+                                <h4>App iOS &amp; Android</h4>
+                                <p>
+                                    Manténgase móvil y utilice la funcionalidad básica y avanzada de la versión web del sistema desde cualquier parte del mundo.
+                                </p>
+                            </figure>
+                        </div>
+                        <!--end col-xl-4-->
                     </div>
                     <!--end row-->
                 </div>
                 <!--end container-->
             </section>
-            <!--end #organize-->
-
-            <section id="download">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-8 offset-md-2">
-                            <div class="p-5 text-center ts-border-radius__round-shape ts-shadow__lg" data-bg-color="#1b1464">
-                                <div class="bg-white p-5 ts-border-radius__round-shape">
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <a href="#">
-                                                <img src="/gabosoft_home_portal/static/src/img/download-appstore.png" class="mw-100 py-3" alt=""/>
-                                            </a>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <a href="#">
-                                                <img src="/gabosoft_home_portal/static/src/img/download-play.png" class="mw-100 py-3" alt=""/>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <hr class="position-absolute ts-top__0 ts-bottom__0 m-auto w-100 ts-z-index__-1"/>
-            </section>
-
-            <!--OUR TEAM ********************************************************************************************-->
-            <section id="our-team" class="ts-block">
+            <!-- ENTRADAS O NOTICIAS DESTACADAS ************************************************************************************-->
+            <section id="entradas" class="ts-block text-center">
                 <div class="container">
                     <div class="ts-title">
-                        <h2>Our Team</h2>
+                        <h2>Noticias recientes</h2>
                     </div>
                     <!--end ts-title-->
                     <div class="row">
-                        <div class="col-sm-6 col-lg-3">
-                            <div class="card" data-animate="ts-fadeInUp">
-                                <div class="ts-card__image ts-img-into-bg">
-                                    <img class="card-img-top" src="/gabosoft_home_portal/static/src/img/person-01.jpg" alt="Card image cap"/>
-                                </div>
-                                <!--end ts-card__image-->
-                                <div class="card-body">
-                                    <h5 class="mb-1">Anita Matthews</h5>
-                                    <h6 class="ts-opacity__50">Company CEO</h6>
-                                </div>
-                                <!--end card-body-->
-                                <div class="card-footer bg-white">
-                                    <div class="ts-social-icons">
-                                        <a href="#">
-                                            <i class="fa fa-envelope"></i>
-                                        </a>
-                                        <a href="#">
-                                            <i class="fab fa-twitter"></i>
-                                        </a>
-                                        <a href="#">
-                                            <i class="fab fa-linkedin"></i>
-                                        </a>
-                                    </div>
-                                    <!--end social-icons-->
-                                </div>
-                                <!--end card-footer-->
-                            </div>
-                            <!--end card-->
+                        <div class="col-sm-6 col-md-4 col-xl-4">
+                            <figure data-animate="ts-fadeInUp">
+                                <figure class="icon mb-5 p-2">
+                                    <img src="/gabosoft_home_portal/static/src/img/icon-watch-heart.png" alt=""/>
+                                    <div class="ts-svg ts-svg__organic-shape-01" data-animate="ts-zoomInShort"></div>
+                                </figure>
+                                <h4>Plataforma para el seguimiento GPS y IoT</h4>
+                                <p>
+                                    Controle vehículos, maquinaria especializada, unidades estacionarias, personas – para cada proyecto habrá un dispositivo apropiado. Los sensores adicionales, a su vez, le mostrarán tales datos como la temperatura, el peso, la inclinación, la ubicación de mecanismos y muchos otros parámetros de seguimiento.
+                                </p>
+                            </figure>
                         </div>
-                        <!--end col-md-3-->
-                        <div class="col-sm-6 col-lg-3">
-                            <div class="card" data-animate="ts-fadeInUp" data-delay=".1s">
-                                <div class="ts-card__image ts-img-into-bg">
-                                    <img class="card-img-top" src="/gabosoft_home_portal/static/src/img/person-02.jpg" alt="Card image cap"/>
-                                </div>
-                                <div class="card-body">
-                                    <h5 class="mb-1">Levi Masters</h5>
-                                    <h6 class="ts-opacity__50">Investment Specialist</h6>
-                                </div>
-                                <div class="card-footer bg-white">
-                                    <div class="ts-social-icons">
-                                        <a href="#">
-                                            <i class="fa fa-envelope"></i>
-                                        </a>
-                                        <a href="#">
-                                            <i class="fab fa-twitter"></i>
-                                        </a>
-                                        <a href="#">
-                                            <i class="fab fa-linkedin"></i>
-                                        </a>
-                                    </div>
-                                    <!--end social-icons-->
-                                </div>
-                            </div>
-                            <!--end card-->
+                        <!--end col-xl-4-->
+                        <div class="col-sm-6 col-md-4 col-xl-4">
+                            <figure data-animate="ts-fadeInUp" data-delay="0.1s">
+                                <figure class="icon mb-5 p-2">
+                                    <img src="/gabosoft_home_portal/static/src/img/icon-lcd-chart.png" alt=""/>
+                                    <div class="ts-svg ts-svg__organic-shape-02" data-animate="ts-zoomInShort"></div>
+                                </figure>
+                                <h4>Plataforma backend para conectar dispositivos a sistemas telematicos</h4>
+                                <p>
+                                    Diseñamos cualquier proyecto basado en GPS o IoT que tenga en mente, desde la conectividad de hardware GPS hasta la agregación de datos de telemetría y el análisis en tiempo real. Lo que hay en ti es envolver la lógica del negocio.
+                                </p>
+                            </figure>
                         </div>
-                        <!--end col-md-3-->
-                        <div class="col-sm-6 col-lg-3">
-                            <div class="card" data-animate="ts-fadeInUp" data-delay=".2s">
-                                <div class="ts-card__image ts-img-into-bg">
-                                    <img class="card-img-top" src="/gabosoft_home_portal/static/src/img/person-03.jpg" alt="Card image cap"/>
-                                </div>
-                                <div class="card-body">
-                                    <h5 class="mb-1">John Doe</h5>
-                                    <h6 class="ts-opacity__50">Head Of Marketing</h6>
-                                </div>
-                                <div class="card-footer bg-white">
-                                    <div class="ts-social-icons">
-                                        <a href="#">
-                                            <i class="fa fa-envelope"></i>
-                                        </a>
-                                        <a href="#">
-                                            <i class="fab fa-twitter"></i>
-                                        </a>
-                                        <a href="#">
-                                            <i class="fab fa-linkedin"></i>
-                                        </a>
-                                    </div>
-                                    <!--end social-icons-->
-                                </div>
-                            </div>
-                            <!--end card-->
+                        <!--end col-xl-4-->
+                        <div class="col-sm-6 offset-sm-4 col-md-4 offset-md-0 col-xl-4">
+                            <figure data-animate="ts-fadeInUp" data-delay="0.2s">
+                                <figure class="icon mb-5 p-2">
+                                    <img src="/gabosoft_home_portal/static/src/img/icon-cup-winner.png" alt=""/>
+                                    <div class="ts-svg ts-svg__organic-shape-03" data-animate="ts-zoomInShort"></div>
+                                </figure>
+                                <h4>App iOS &amp; Android</h4>
+                                <p>
+                                    Manténgase móvil y utilice la funcionalidad básica y avanzada de la versión web del sistema desde cualquier parte del mundo.
+                                </p>
+                            </figure>
                         </div>
-                        <!--end col-md-3-->
-                        <div class="col-sm-6 col-lg-3">
-                            <div class="card" data-animate="ts-fadeInUp" data-delay=".3s">
-                                <div class="ts-card__image ts-img-into-bg">
-                                    <img class="card-img-top" src="/gabosoft_home_portal/static/src/img/person-04.jpg" alt="Card image cap"/>
-                                </div>
-                                <div class="card-body">
-                                    <h5 class="mb-1">Lisa Haley</h5>
-                                    <h6 class="ts-opacity__50">Customer Support</h6>
-                                </div>
-                                <div class="card-footer bg-white">
-                                    <div class="ts-social-icons">
-                                        <a href="#">
-                                            <i class="fa fa-envelope"></i>
-                                        </a>
-                                        <a href="#">
-                                            <i class="fab fa-twitter"></i>
-                                        </a>
-                                        <a href="#">
-                                            <i class="fab fa-linkedin"></i>
-                                        </a>
-                                    </div>
-                                    <!--end social-icons-->
-                                </div>
-                            </div>
-                            <!--end card-->
-                        </div>
-                        <!--end col-md-3-->
+                        <!--end col-xl-4-->
                     </div>
                     <!--end row-->
                 </div>
                 <!--end container-->
             </section>
-            <!--END OUR TEAM ****************************************************************************************-->
-
-            <!--NUMBERS *********************************************************************************************-->
-            <section id="numbers" class="ts-block ts-separate-bg-element" data-bg-image="/gabosoft_home_portal/static/src/img/pattern-topo.png" data-bg-image-opacity=".05" data-bg-size="inherit" data-bg-repeat="repeat">
-                <div class="container">
-                    <div class="ts-promo-numbers">
-                        <div class="row">
-                            <div class="col-sm-4">
-                                <div class="ts-promo-number text-center">
-                                    <h2 data-animate="ts-zoomIn">1,200+</h2>
-                                    <h3 class="mb-0 ts-opacity__50">Clients</h3>
-                                    <span class="ts-promo-number-divider"></span>
-                                </div>
-                                <!--end ts-promo-number-->
-                            </div>
-                            <!--end col-sm-4-->
-                            <div class="col-sm-4">
-                                <div class="ts-promo-number text-center">
-                                    <h2 data-animate="ts-zoomIn" data-delay="0.2s">$3,15 M</h2>
-                                    <h3 class="mb-0 ts-opacity__50">Invested</h3>
-                                    <span class="ts-promo-number-divider"></span>
-                                </div>
-                                <!--end ts-promo-number-->
-                            </div>
-                            <!--end col-sm-4-->
-                            <div class="col-sm-4">
-                                <div class="ts-promo-number text-center">
-                                    <h2 data-animate="ts-zoomIn" data-delay="0.2s">14%</h2>
-                                    <h3 class="mb-0 ts-opacity__50">Growth p.a.</h3>
-                                </div>
-                                <!--end ts-promo-number-->
-                            </div>
-                            <!--end col-sm-4-->
-                        </div>
-                        <!--end row-->
-                    </div>
-                    <!--end ts-promo-numbers-->
-                </div>
-                <!--end container-->
-            </section>
-            <!--END NUMBERS *****************************************************************************************-->
         </t>
     </template>
 
