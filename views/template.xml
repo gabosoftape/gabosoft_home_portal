@@ -66,7 +66,7 @@
                                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                                     <div class="navbar-nav ml-auto">
                                         <a class="nav-item nav-link active ts-scroll" href="/inicio">Inicio</a>
-                                        <a class="nav-item nav-link ts-scroll" href="#">Productos</a>
+                                        <a class="nav-item nav-link ts-scroll" href="/inicio_gur">Productos</a>
                                         <a class="nav-item nav-link ts-scroll" href="#">Soluciones </a>
                                         <a class="nav-item nav-link ts-scroll" href="#">Equipos</a>
                                         <a class="nav-item nav-link ts-scroll" href="#">Nuestra compañia</a>
