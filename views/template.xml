@@ -125,8 +125,8 @@
                     <!--************ FOOTER *************************************************************************************-->
                     <!--*********************************************************************************************************-->
                     <footer id="ts-footer">
-                        <section id="contact" class="ts-separate-bg-element" data-bg-image="/gabosoft_home_portal/static/src/img/bg-desk.jpg" data-bg-image-opacity=".1" data-bg-color="#1b1464">
-                            <div class="container">
+                        <section id="contact" class="ts-separate-bg-element footer_motion" style="background-color:#c6007e;" >
+                            <div class="container f_container">
                                 <div class="ts-box mb-0 p-5 ts-mt__n-10">
                                     <div class="row">
                                         <div class="col-md-4">
@@ -405,7 +405,7 @@
                   <div class="row s_nb_column_fixed">
                     <div class="col-lg-12 s_title pt16 pb16">
                       <h2 class="s_title_thin" style="text-align: center;">
-                        <font style="font-size: 62px;" class="o_default_snippet_text">Un titulo llamativo</font>
+                        <font style="font-size: 62px;" class="o_default_snippet_text">Somos Monitoring Innovation</font>
                       </h2>
                     </div>
                     <div class="col-lg-12 pt16 pb16">
@@ -413,7 +413,7 @@
                     </div>
                     <div class="col-lg-8 offset-lg-2 pb24">
                       <figure class="figure">
-                        <img src="/web/image/website.s_picture_default_image" class="figure-img img-fluid rounded img-thumbnail padding-large" alt="Odoo • Una imagen con una leyenda"/>
+                        <img src="/web/image/website.s_picture_default_image" class="figure-img img-fluid rounded img-thumbnail padding-large" alt="MOTION • Una imagen con una leyenda"/>
                         <figcaption class="figure-caption py-3 text-center o_default_snippet_text"><i class="fa fa-1x fa-picture-o mr-2"/>Agrega un título para mejorar el significado de esta imagen.</figcaption>
                       </figure>
                     </div>
@@ -422,7 +422,7 @@
                 <div class="container">
                   <div class="row">
                     <div class="col-lg-9 pb24">
-                      <h3 class="o_default_snippet_text"><b class="o_default_snippet_text">Más de 50,000 empresas</b> utilizan Odoo para hacer crecer sus negocios</h3>
+                      <h3 class="o_default_snippet_text"><b class="o_default_snippet_text">Más de 50,000 empresas</b> utilizan MOTION para hacer crecer sus negocios</h3>
                       <p class="lead o_default_snippet_text">Únase a nosotros y hagade su compañía un lugar mejor.</p>
                     </div>
                     <div class="col-lg-3 s_btn text-right pt8 pb24">
