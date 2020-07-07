@@ -40,3 +40,8 @@ class HomePortal(CustomerPortal):
             'inicio': 'yes',
         }
         return request.render("gabosoft_home_portal.portal_my_home", values)
+
+    @http.route(['/inicio_gur'], type='http', auth="public", website=True)
+    def portal_home_index(self, **kw):
+        return request.render("gabosoft_home_portal.home_gurtam")
+
