@@ -127,6 +127,9 @@
                     <footer id="ts-footer">
                         <section id="contact" class="ts-separate-bg-element footer_motion" style="background-color:#c6007e;" >
                             <div class="container f_container">
+                                <div class="text-center text-white py-4">
+                                    <small>...</small>
+                                </div>
                                 <div class="ts-box mb-0 p-5 ts-mt__n-10">
                                     <div class="row">
                                         <div class="col-md-4">
