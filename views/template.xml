@@ -400,22 +400,26 @@
                 <!--end container-->
             </section>
 
-            <section class="s_call_to_action bg-200 pt48 pb24 oe_img_bg oe_custom_bg" data-name="Call to Action" style="background-image: url(&quot;http://localhost:8069/website/static/src/img/snippets_demo/s_carousel_1.jpg&quot;);">
+            <section class="s_picture bg-200 pt48 pb24" data-name="Picture">
                 <div class="container">
-                  <div class="row">
-                    <div class="col-lg-9 pb24">
-                      <h3><b>Más de 50,000 empresas</b> utilizan MOTION para hacer crecer sus negocios</h3>
-                      <p class="lead">Únase a nosotros y haga de su compañía un lugar mejor.</p>
+                  <div class="row s_nb_column_fixed">
+                    <div class="col-lg-12 s_title pt16 pb16">
+                      <h2 class="s_title_thin" style="text-align: center;">
+                        <font style="font-size: 62px;" class="o_default_snippet_text">Un titulo llamativo</font>
+                      </h2>
                     </div>
-                    <div class="col-lg-3 s_btn text-right pt8 pb24" data-name="Button">
-                      <a href="/contactus" class="btn btn-primary btn-lg">
-                        <span class="o_default_snippet_text">Contáctenos</span>
-                        <i class="fa fa-1x fa-fw fa-arrow-circle-right ml-1"/>
-                      </a>
+                    <div class="col-lg-12 pt16 pb16">
+                      <p style="text-align: center;" class="o_default_snippet_text">Elija una imagen vibrante y escriba un párrafo inspirador al respecto. <br/>No tiene que ser largo, pero debe reforzar su imagen.</p>
+                    </div>
+                    <div class="col-lg-8 offset-lg-2 pb24">
+                      <figure class="figure">
+                        <img src="/web/image/website.s_picture_default_image" class="figure-img img-fluid rounded img-thumbnail padding-large" alt="Odoo • Una imagen con una leyenda"/>
+                        <figcaption class="figure-caption py-3 text-center o_default_snippet_text"><i class="fa fa-1x fa-picture-o mr-2"/>Agrega un título para mejorar el significado de esta imagen.</figcaption>
+                      </figure>
                     </div>
                   </div>
                 </div>
-             </section>
+              </section>
             <!-- ENTRADAS O NOTICIAS DESTACADAS ************************************************************************************-->
             <section id="entradas" class="ts-block text-center">
                 <div class="container">
