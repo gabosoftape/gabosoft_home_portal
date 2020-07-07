@@ -18,6 +18,11 @@
             <script type="text/javascript">
                 odoo.session_info = <t t-raw="json.dumps(request.env['ir.http'].get_frontend_session_info())"/>;
             </script>
+            <t t-call-assets="web.assets_common_minimal_js" t-css="false" defer_load="True"/>
+            <t t-call-assets="web.assets_frontend_minimal_js" t-css="false" defer_load="True"/>
+            <t t-call="web.conditional_assets_tests"/>
+            <t t-call-assets="web.assets_common_lazy" t-css="false" lazy_load="True"/>
+            <t t-call-assets="web.assets_frontend_lazy" t-css="false" lazy_load="True"/>
             <script>
                 if( document.getElementsByClassName("ts-full-screen").length ) {
                     document.getElementsByClassName("ts-full-screen")[0].style.height = window.innerHeight + "px";
@@ -37,17 +42,6 @@
             <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.4/TweenMax.min.js"></script>
             <script src="/gabosoft_home_portal/static/src/js/jquery.wavify.js"></script>
             <script src="/gabosoft_home_portal/static/src/js/custom.js"></script>
-
-            <!--Google map-->
-
-            <script>
-                var latitude = 34.038405;
-                var longitude = -117.946944;
-                var markerImage = "/gabosoft_home_portal/static/src/img/map-marker.png";
-                var mapElement = "map";
-                var mapStyle = [{"featureType":"administrative","elementType":"labels.text.fill","stylers":[{"color":"#444444"}]},{"featureType":"landscape","elementType":"all","stylers":[{"color":"#f2f2f2"}]},{"featureType":"poi","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"poi","elementType":"labels.text","stylers":[{"visibility":"off"}]},{"featureType":"road","elementType":"all","stylers":[{"saturation":-100},{"lightness":45}]},{"featureType":"road.highway","elementType":"all","stylers":[{"visibility":"simplified"}]},{"featureType":"road.arterial","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"transit","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"all","stylers":[{"color":"#dbdbdb"},{"visibility":"on"}]}];
-                google.maps.event.addDomListener(window, 'load', simpleMap(latitude, longitude, markerImage, mapStyle, mapElement));
-            </script>
         </xpath>
         <xpath expr="//t[@t-raw='0']" position="replace">
             <!-- aqui va el header-->
@@ -132,9 +126,6 @@
                     <!--************ FOOTER *************************************************************************************-->
                     <!--*********************************************************************************************************-->
                     <footer id="ts-footer">
-
-                        <div class="map ts-height__600px" id="map"></div>
-
                         <section id="contact" class="ts-separate-bg-element" data-bg-image="/gabosoft_home_portal/static/src/img/bg-desk.jpg" data-bg-image-opacity=".1" data-bg-color="#1b1464">
                             <div class="container">
                                 <div class="ts-box mb-0 p-5 ts-mt__n-10">
@@ -207,7 +198,7 @@
                                 </div>
                                 <!--end ts-box-->
                                 <div class="text-center text-white py-4">
-                                    <small>© 2020 Gabriel Pabon, All Rights Reserved</small>
+                                    <small>© 2020 monitoringinnovation.com , All Rights Reserved</small>
                                 </div>
                             </div>
                             <!--end container-->
@@ -463,34 +454,6 @@
                 <!--end container-->
             </section>
             <!--FEATURES ********************************************************************************************-->
-
-            <!--SUBSCRIBE *******************************************************************************************-->
-            <section id="subscribe" class="ts-block ts-separate-bg-element" data-bg-image="/gabosoft_home_portal/static/src/img/bg-pattern-dot.png" data-bg-size="inherit" data-bg-image-opacity=".1" data-bg-repeat="repeat">
-                <div class="container">
-                    <h3>Subscribe For Crypto News!</h3>
-                    <form class="ts-form ts-form-email ts-labels-inside-input" data-php-path="/gabosoft_home_portal/static/src/php/email.php">
-                        <div class="row">
-                            <div class="col-md-10">
-                                <div class="form-group mb-0">
-                                    <label for="email-subscribe">Email address</label>
-                                    <input type="email" class="form-control" id="email-subscribe" aria-describedby="subscribe" name="email" placeholder="" required=""/>
-                                    <small class="form-text mt-2 ts-opacity__50">*You’ll get only relevant news once a week</small>
-                                </div>
-                                <!--end form-group-->
-                            </div>
-                            <!--end col-md-10-->
-                            <div class="col-md-2">
-                                <button type="submit" class="btn btn-primary w-100">Submit</button>
-                            </div>
-                            <!--end col-md-2-->
-                        </div>
-                        <!--end row-->
-                    </form>
-                    <!--end ts-form-->
-                </div>
-                <!--end container-->
-            </section>
-            <!--END SUBSCRIBE ***************************************************************************************-->
 
             <!--PRICING *********************************************************************************************-->
             <section id="pricing" class="ts-block">
