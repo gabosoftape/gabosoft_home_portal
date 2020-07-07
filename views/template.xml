@@ -216,7 +216,7 @@
     <!-- template alistamientos -->
     <template id="portal_my_home" name="Inicio">
         <t t-call="gabosoft_home_portal.portal_layout">
-            <section id="slider" class="ts-block text-center">
+            <section id="slider">
                 <div class="container align-self-center">
                     <div class="row align-items-center">
                         <div class="col-sm-7">
