@@ -434,58 +434,6 @@
                   </div>
                 </div>
               </section>
-            <!-- ENTRADAS O NOTICIAS DESTACADAS ************************************************************************************-->
-            <section id="entradas" class="ts-block text-center">
-                <div class="container">
-                    <div class="ts-title">
-                        <h2>Noticias recientes</h2>
-                    </div>
-                    <!--end ts-title-->
-                    <div class="row">
-                        <div class="col-sm-6 col-md-4 col-xl-4">
-                            <figure data-animate="ts-fadeInUp">
-                                <figure class="icon mb-5 p-2">
-                                    <img src="/gabosoft_home_portal/static/src/img/icon-watch-heart.png" alt=""/>
-                                    <div class="ts-svg ts-svg__organic-shape-01" data-animate="ts-zoomInShort"></div>
-                                </figure>
-                                <h4>Plataforma para el seguimiento GPS y IoT</h4>
-                                <p>
-                                    Controle vehículos, maquinaria especializada, unidades estacionarias, personas – para cada proyecto habrá un dispositivo apropiado. Los sensores adicionales, a su vez, le mostrarán tales datos como la temperatura, el peso, la inclinación, la ubicación de mecanismos y muchos otros parámetros de seguimiento.
-                                </p>
-                            </figure>
-                        </div>
-                        <!--end col-xl-4-->
-                        <div class="col-sm-6 col-md-4 col-xl-4">
-                            <figure data-animate="ts-fadeInUp" data-delay="0.1s">
-                                <figure class="icon mb-5 p-2">
-                                    <img src="/gabosoft_home_portal/static/src/img/icon-lcd-chart.png" alt=""/>
-                                    <div class="ts-svg ts-svg__organic-shape-02" data-animate="ts-zoomInShort"></div>
-                                </figure>
-                                <h4>Plataforma backend para conectar dispositivos a sistemas telematicos</h4>
-                                <p>
-                                    Diseñamos cualquier proyecto basado en GPS o IoT que tenga en mente, desde la conectividad de hardware GPS hasta la agregación de datos de telemetría y el análisis en tiempo real. Lo que hay en ti es envolver la lógica del negocio.
-                                </p>
-                            </figure>
-                        </div>
-                        <!--end col-xl-4-->
-                        <div class="col-sm-6 offset-sm-4 col-md-4 offset-md-0 col-xl-4">
-                            <figure data-animate="ts-fadeInUp" data-delay="0.2s">
-                                <figure class="icon mb-5 p-2">
-                                    <img src="/gabosoft_home_portal/static/src/img/icon-cup-winner.png" alt=""/>
-                                    <div class="ts-svg ts-svg__organic-shape-03" data-animate="ts-zoomInShort"></div>
-                                </figure>
-                                <h4>App iOS &amp; Android</h4>
-                                <p>
-                                    Manténgase móvil y utilice la funcionalidad básica y avanzada de la versión web del sistema desde cualquier parte del mundo.
-                                </p>
-                            </figure>
-                        </div>
-                        <!--end col-xl-4-->
-                    </div>
-                    <!--end row-->
-                </div>
-                <!--end container-->
-            </section>
         </t>
     </template>
 
