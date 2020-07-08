@@ -84,7 +84,7 @@
                             <div class="container align-self-center">
                                 <div class="row align-items-center">
                                     <div class="col-sm-7">
-                                        <div class="owl-carousel text-center" data-owl-nav="1" data-owl-loop="1">
+                                        <div class="owl-carousel" data-owl-nav="0" data-owl-loop="1">
                                             <div class="d-inline-block mw-100 p-md-5 p-lg-0 ts-width__auto">
                                                 <h3 class="ts-font-color__black ts-opacity__50">Bienvenido</h3>
                                                 <h1>Todo lo que buscas en un solo lugar </h1>
