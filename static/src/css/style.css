@@ -101,29 +101,47 @@ html {
 
 h1 {
     font-weight: 600;
+    font-size: 60px;
+    font-family: 'Mont Heavy';
 }
 
 h2 {
     font-weight: 500;
+    font-size: 60px;
+    font-family: 'Mont Extra Light';
 }
 
 h3 {
-    font-weight: 600;
+    font-weight: 500;
     margin-bottom: 1.5625rem;
+    font-size: 40px;
+    font-family: 'Ubuntu Bold';
 }
 
 h4 {
-    font-weight: 600;
+    font-weight: 500;
     margin-bottom: 1.875rem;
+    font-size: 30px;
+    font-family: 'Ubuntu Regular';
 }
 
 h5 {
     font-size: 1rem;
-    font-weight: 600;
+    font-weight: 500;
+    font-size: 24px;
+    font-family: 'Ubuntu Bold';
 }
 
 h6 {
     font-size: .9375rem;
+    font-size: 24px;
+    font-family: 'Ubuntu Regular';
+}
+
+span {
+    font-size: .9375rem;
+    font-size: 14px;
+    font-family: 'Ubuntu Medium';
 }
 
 /* NEW */
