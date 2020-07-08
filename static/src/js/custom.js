@@ -472,6 +472,7 @@ $(function () {
         }
         if ($(this).scrollTop() < 1000) {
             $('.navbar .navbar-brand img').attr('src','/gabosoft_home_portal/static/src/svg/motion-logo-negativo-tagline.svg');
+            $('.navbar .navbar-brand img').removeClass('el_logo');
         }
     })
 });
