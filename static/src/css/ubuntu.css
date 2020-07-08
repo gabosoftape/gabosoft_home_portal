@@ -1,0 +1,54 @@
+@font-face {
+font-family: 'Ubuntu Regular';
+font-style: normal;
+font-weight: normal;
+src: local('Ubuntu Regular'), url('/gabosoft_home_portal/static/src/font/Ubuntu-R.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Ubuntu Italic';
+font-style: normal;
+font-weight: normal;
+src: local('Ubuntu Italic'), url('/gabosoft_home_portal/static/src/font/Ubuntu-RI.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Ubuntu Light';
+font-style: normal;
+font-weight: normal;
+src: local('Ubuntu Light'), url('/gabosoft_home_portal/static/src/font/Ubuntu-L.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Ubuntu Light Italic';
+font-style: normal;
+font-weight: normal;
+src: local('Ubuntu Light Italic'), url('/gabosoft_home_portal/static/src/font/Ubuntu-LI.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Ubuntu Medium';
+font-style: normal;
+font-weight: normal;
+src: local('Ubuntu Medium'), url('/gabosoft_home_portal/static/src/font/Ubuntu-M.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Ubuntu Medium Italic';
+font-style: normal;
+font-weight: normal;
+src: local('Ubuntu Medium Italic'), url('/gabosoft_home_portal/static/src/font/Ubuntu-MI.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Ubuntu Bold';
+font-style: normal;
+font-weight: normal;
+src: local('Ubuntu Bold'), url('/gabosoft_home_portal/static/src/font/Ubuntu-B.woff') format('woff');
+}
