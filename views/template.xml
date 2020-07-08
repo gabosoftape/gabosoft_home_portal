@@ -86,19 +86,21 @@
                                     <div class="col-sm-7">
                                         <div class="owl-carousel" data-owl-nav="0" data-owl-loop="1">
                                             <div class="d-inline-block mw-100 p-md-5 p-lg-0 ts-width__auto">
-                                                <h3 class="ts-font-color__black ts-opacity__50">Bienvenido</h3>
-                                                <h1>Todo lo que buscas en un solo lugar </h1>
-                                                <a href="#how-it-works" class="btn btn-primary btn-lg ts-scroll" data-bg-color="#1b1464">Learn More</a>
+                                                <h3 class="ts-font-color__black ts-opacity__50">Monitoreo de flotas vehiculares</h3>
+                                                <h1>Seguimiento en Tiempo Real</h1>
+                                                <a href="#how-it-works" class="btn btn-primary btn-lg ts-scroll" data-bg-color="#1b1464">Descargar App
+                                                </a>
                                             </div>
                                             <div class="d-inline-block mw-100 p-md-5 p-lg-0 ts-width__auto">
-                                                <h3 class="ts-font-color__black ts-opacity__50">otra vez Bienvenido</h3>
-                                                <h1>Todo lo que buscas en un solo lugar </h1>
-                                                <a href="#how-it-works" class="btn btn-primary btn-lg ts-scroll" data-bg-color="#1b1464">Learn More</a>
+                                                <h3 class="ts-font-color__black ts-opacity__50">Planifique y controle los gastos</h3>
+                                                <h1>Minimice Costos de Mantenimiento</h1>
+                                                <a href="#how-it-works" class="btn btn-primary btn-lg ts-scroll" data-bg-color="#1b1464">Solicitar Demo
+                                                </a>
                                             </div>
                                             <div class="d-inline-block mw-100 p-md-5 p-lg-0 ts-width__auto">
-                                                <h3 class="ts-font-color__black ts-opacity__50">una vez mas Bienvenido</h3>
-                                                <h1>Todo lo que buscas en un solo lugar </h1>
-                                                <a href="#how-it-works" class="btn btn-primary btn-lg ts-scroll" data-bg-color="#1b1464">Learn More</a>
+                                                <h3 class="ts-font-color__black ts-opacity__50">Monitoreo de Síntomas de COVID-19</h3>
+                                                <h1>Reporte Diarop del Estado de su Flota.</h1>
+                                                <a href="#how-it-works" class="btn btn-primary btn-lg ts-scroll" data-bg-color="#1b1464">Descargar App</a>
                                             </div>
                                         </div>
 
@@ -107,8 +109,8 @@
                                     <div class="col-sm-5 d-none d-sm-block">
                                         <div class="owl-carousel text-center" data-owl-nav="1" data-owl-loop="1">
                                             <img src="/gabosoft_home_portal/static/src/images/home-banner-wialon.png" class="d-inline-block mw-100 p-md-5 p-lg-0 ts-width__auto" alt=""/>
-                                            <img src="/gabosoft_home_portal/static/src/img/img-phone-1st-screen.png" class="d-inline-block mw-100 p-md-5 p-lg-0 ts-width__auto" alt=""/>
-                                            <img src="/gabosoft_home_portal/static/src/img/img-phone-2nd-screen.png" class="d-inline-block mw-100 p-md-5 p-lg-0 ts-width__auto" alt=""/>
+                                            <img src="/gabosoft_home_portal/static/src/images/home-banner-fleetrun.png" class="d-inline-block mw-100 p-md-5 p-lg-0 ts-width__auto" alt=""/>
+                                            <img src="/gabosoft_home_portal/static/src/images/home-banner-enlist.png" class="d-inline-block mw-100 p-md-5 p-lg-0 ts-width__auto" alt=""/>
                                         </div>
                                     </div>
                                     <!--end col-sm-5 col-md-5 col-xl-5-->
