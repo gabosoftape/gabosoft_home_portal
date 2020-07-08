@@ -16,6 +16,9 @@ $(document).ready(function($) {
 	$('.navbar-nav .nav-link').on('click', function(){
 		$('.navbar-collapse').collapse('hide');
 	});
+// Trigger logo onload
+    $('.navbar .navbar-brand img').attr('src','/gabosoft_home_portal/static/src/svg/motion-logo-negativo-tagline.svg');
+    $('.navbar .navbar-brand img').addClass('svg_l');
 
     $(".ts-img-into-bg").each(function() {
         $(this).css("background-image", "url("+ $(this).find("img").attr("src") +")" );
@@ -469,11 +472,11 @@ $(function () {
     $(window).scroll(function () {
         if ($(this).scrollTop() > 1000) {
             $('.navbar .navbar-brand img').attr('src','/gabosoft_home_portal/static/src/img/logo.png');
-            $('.navbar .navbar-brand img').attr('width','150px');
+            $('.navbar .navbar-brand img').removeClass('svg_l');
         }
         if ($(this).scrollTop() < 1000) {
             $('.navbar .navbar-brand img').attr('src','/gabosoft_home_portal/static/src/svg/motion-logo-negativo-tagline.svg');
-
+            $('.navbar .navbar-brand img').addClass('svg_l');
         }
     })
 });
