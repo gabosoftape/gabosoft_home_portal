@@ -462,3 +462,17 @@ function simpleMap(latitude, longitude, markerImage, mapStyle, mapElement, marke
         draggable: markerDrag
     });
 }
+
+
+
+$(function () {
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 2) {
+            $('.navbar .navbar-brand img').attr('src','/gabosoft_home_portal/static/src/img/logo.png');
+        }
+        if ($(this).scrollTop() < 2) {
+            $('.navbar .navbar-brand img').attr('src','/gabosoft_home_portal/static/src/svg/motion-logo-negativo-tagline.svg');
+        }
+    })
+});
+
