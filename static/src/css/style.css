@@ -2066,29 +2066,65 @@ figure.icon {
 .primario_2_dark{
     color:#0047bb!important;
 }
-.destacado_1_dark{
-    color:#01bebd!important;
-}
-.destacado_2_dark{
-
+.destacado_dark{
+    color:#c6007e!important;
 }
 .neutro_1_dark{
-
+    color:#c5c5c5!important;
 }
 .neutro_2_dark{
-
+    color:#8b8c8c!important;
 }
-.claro_1_dark{
-
+.claro_dark{
+    color:#e2e2e2!important;
 }
-.claro_2_dark{
 
+.btn_activo_1_dark{
+    color:linear-gradient(45deg, rgba(198,0,126,1) 0%, rgba(209,51,152,1) 100%)!important;
+    background: #fff!important;
+    border:0!important;
 }
 .btn_activo_2_dark{
     color:#fff!important;
     background: linear-gradient(45deg, rgba(198,0,126,1) 0%, rgba(209,51,152,1) 100%)!important;
     border:0!important;
 }
+.btn_inactivo_1_dark{
+    color:#0047bb!important;
+    background: #01bebd!important;
+    border:0!important;
+}
+.btn_inactivo_2_dark{
+    color:#01bebd!important;
+    background: #0047bb!important;
+    border:0!important;
+}
+.btn_activo_3_dark{
+    color:#0047bb!important;
+    background: #ffffff!important;
+    border:0!important;
+}
+.btn_activo_4_dark{
+    color:#ffffff!important;
+    background:#0047bb!important;
+    border:0!important;
+}
+.btn_contorno_activo_dark{
+    background:rgba(0, 0, 0, 0.0)!important;
+    color: #ffffff!important;
+    border:2!important;
+    border-color:#ffffff!important;
+    border-radius:5px!important;
+}
+.btn_contorno_activo_dark{
+    background:rgba(0, 0, 0, 0.0)!important;
+    color: #01bebd!important;
+    border:2!important;
+    border-color:#01bebd!important;
+    border-radius:5px!important;
+}
+
+
 
 
 /*-------------------------------------------
