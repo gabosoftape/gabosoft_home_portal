@@ -107,9 +107,7 @@
                                     <defs></defs>
                                     <path class="ts-dynamic-wave" id="wave-2" d="" data-wave-color="#fff" data-wave-height=".3" data-wave-bones="6" data-wave-speed=".26"/>
                                 </svg>
-                                <div class="ts-background-image ts-parallax-element" id="home_video" >
-                                    <div class="ts-background-image ts-parallax-element" data-bg-image="/gabosoft_home_portal/static/src/images/home-video-bg.jpg"></div>
-                                </div>
+                                <div class="ts-background-image ts-parallax-element" data-bg-image="/gabosoft_home_portal/static/src/images/home-video-bg.jpg" ></div>
                             </div>
                         </t>
                     </header>
