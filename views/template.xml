@@ -12,6 +12,7 @@
             <link rel="stylesheet" href="/gabosoft_home_portal/static/src/bootstrap/css/bootstrap.min.css" type="text/css"/>
             <link rel="stylesheet" href="/gabosoft_home_portal/static/src/font-awesome/css/fontawesome-all.min.css"/>
             <link rel="stylesheet" href="/gabosoft_home_portal/static/src/css/style.css"/>
+            <link rel="stylesheet" href="/gabosoft_home_portal/static/src/css/ubuntu.css"/>
             <link rel="stylesheet" href="/gabosoft_home_portal/static/src/css/owl.carousel.min.css"/>
         </xpath>
         <xpath expr="//head/script" position="after">
