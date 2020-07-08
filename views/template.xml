@@ -84,9 +84,24 @@
                             <div class="container align-self-center">
                                 <div class="row align-items-center">
                                     <div class="col-sm-7">
-                                        <h3 class="ts-font-color__black ts-opacity__50">Bienvenido</h3>
-                                        <h1>Todo lo que buscas en un solo lugar </h1>
-                                        <a href="#how-it-works" class="btn btn-primary btn-lg ts-scroll" data-bg-color="#1b1464">Learn More</a>
+                                        <div class="owl-carousel text-center" data-owl-nav="1" data-owl-loop="1">
+                                            <div class="d-inline-block mw-100 p-md-5 p-lg-0 ts-width__auto">
+                                                <h3 class="ts-font-color__black ts-opacity__50">Bienvenido</h3>
+                                                <h1>Todo lo que buscas en un solo lugar </h1>
+                                                <a href="#how-it-works" class="btn btn-primary btn-lg ts-scroll" data-bg-color="#1b1464">Learn More</a>
+                                            </div>
+                                            <div class="d-inline-block mw-100 p-md-5 p-lg-0 ts-width__auto">
+                                                <h3 class="ts-font-color__black ts-opacity__50">otra vez Bienvenido</h3>
+                                                <h1>Todo lo que buscas en un solo lugar </h1>
+                                                <a href="#how-it-works" class="btn btn-primary btn-lg ts-scroll" data-bg-color="#1b1464">Learn More</a>
+                                            </div>
+                                            <div class="d-inline-block mw-100 p-md-5 p-lg-0 ts-width__auto">
+                                                <h3 class="ts-font-color__black ts-opacity__50">una vez mas Bienvenido</h3>
+                                                <h1>Todo lo que buscas en un solo lugar </h1>
+                                                <a href="#how-it-works" class="btn btn-primary btn-lg ts-scroll" data-bg-color="#1b1464">Learn More</a>
+                                            </div>
+                                        </div>
+
                                     </div>
                                     <!--end col-sm-7 col-md-7-->
                                     <div class="col-sm-5 d-none d-sm-block">
