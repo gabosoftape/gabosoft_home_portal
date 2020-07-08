@@ -71,7 +71,7 @@
                                         <a class="nav-item nav-link ts-scroll" href="#">Soluciones </a>
                                         <a class="nav-item nav-link ts-scroll" href="#">Equipos</a>
                                         <a class="nav-item nav-link ts-scroll" href="#">Nuestra compañia</a>
-                                        <a class="nav-item nav-link ts-scroll btn btn-primary btn-sm text-white ml-3 px-3 ts-width__auto" href="#download">Ingresar</a>
+                                        <a class="nav-item nav-link ts-scroll btn btn-sm ml-3 px-3 ts-width__auto btn_activo_1_dark" href="#">Ingresar</a>
                                     </div>
                                     <!--end navbar-nav-->
                                 </div>
@@ -88,19 +88,19 @@
                                             <div class="d-inline-block mw-100 p-md-5 p-lg-0 ts-width__auto">
                                                 <h3 class="primario_1_dark">Monitoreo de flotas vehiculares</h3>
                                                 <h1>Seguimiento en Tiempo Real</h1>
-                                                <a href="#how-it-works" class="btn btn-primary btn-lg ts-scroll btn_activo_2_dark" >Descargar App
+                                                <a href="#how-it-works" class="btn btn-lg ts-scroll btn_activo_2_dark" >Descargar App
                                                 </a>
                                             </div>
                                             <div class="d-inline-block mw-100 p-md-5 p-lg-0 ts-width__auto">
                                                 <h3 class="primario_1_dark">Planifique y controle los gastos</h3>
                                                 <h1>Minimice Costos de Mantenimiento</h1>
-                                                <a href="#how-it-works" class="btn btn-primary btn-lg ts-scroll btn_activo_1_dark" >Solicitar Demo
+                                                <a href="#how-it-works" class="btn btn-lg ts-scroll btn_activo_2_dark" >Solicitar Demo
                                                 </a>
                                             </div>
                                             <div class="d-inline-block mw-100 p-md-5 p-lg-0 ts-width__auto">
                                                 <h3 class="primario_1_dark">Monitoreo de Síntomas de COVID-19</h3>
                                                 <h1>Reporte Diario del Estado de su Flota.</h1>
-                                                <a href="#how-it-works" class="btn btn-primary btn-lg ts-scroll btn_contorno_inactivo_dark">Descargar App</a>
+                                                <a href="#how-it-works" class="btn btn-lg ts-scroll btn_activo_2_dark">Descargar App</a>
                                             </div>
                                         </div>
 
