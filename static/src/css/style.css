@@ -2087,6 +2087,7 @@ figure.icon {
 .btn_activo_2_dark{
     color:#fff!important;
     background: linear-gradient(45deg, rgba(198,0,126,1) 0%, rgba(209,51,152,1) 100%)!important;
+    border:0!important;
 }
 
 
