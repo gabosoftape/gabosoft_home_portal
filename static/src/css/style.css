@@ -2116,7 +2116,7 @@ figure.icon {
     border-color:#ffffff!important;
     border-radius:5px!important;
 }
-.btn_contorno_activo_dark{
+.btn_contorno_inactivo_dark{
     background:rgba(0, 0, 0, 0.0)!important;
     color: #01bebd!important;
     border:2!important;
