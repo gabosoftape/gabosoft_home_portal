@@ -120,7 +120,7 @@
                             <div id="ts-dynamic-waves" class="ts-background">
                                 <svg class="ts-svg ts-z-index__1" width="100%" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg">
                                     <defs></defs>
-                                    <path class="ts-dynamic-wave" id="wave-2" d="" data-wave-color="#fff" data-wave-height=".3" data-wave-bones="6" data-wave-speed=".26"/>
+                                    <path class="ts-dynamic-wave" id="wave-2" d="" data-wave-color="#fff" data-wave-height=".8" data-wave-bones="16" data-wave-speed=".26"/>
                                 </svg>
                                 <div class="ts-background-image ts-parallax-element" data-bg-image="/gabosoft_home_portal/static/src/images/home-video-bg.jpg" ></div>
                             </div>
