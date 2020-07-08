@@ -2059,6 +2059,33 @@ figure.icon {
 .svg_l{
     width: 220px!important;
 }
+
+.primario_1_dark{
+    color:#01bebd!important;
+}
+.primario_2_dark{
+    color:#0047bb!important;
+}
+.destacado_1_dark{
+    color:#01bebd!important;
+}
+.destacado_2_dark{
+
+}
+.neutro_1_dark{
+
+}
+.neutro_2_dark{
+
+}
+.claro_1_dark{
+
+}
+.claro_2_dark{
+
+}
+
+
 /*-------------------------------------------
   -- Other
 -------------------------------------------*/
@@ -2393,3 +2420,4 @@ figure.icon {
         left: 2.5rem;
     }
 }
+
