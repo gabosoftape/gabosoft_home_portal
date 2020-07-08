@@ -86,19 +86,19 @@
                                     <div class="col-sm-7">
                                         <div class="owl-carousel" data-owl-nav="0" data-owl-loop="1">
                                             <div class="d-inline-block mw-100 p-md-5 p-lg-0 ts-width__auto">
-                                                <h3 class="ts-font-color__black ts-opacity__50">Monitoreo de flotas vehiculares</h3>
+                                                <h3 class="primario_1_dark">Monitoreo de flotas vehiculares</h3>
                                                 <h1>Seguimiento en Tiempo Real</h1>
                                                 <a href="#how-it-works" class="btn btn-primary btn-lg ts-scroll btn_activo_2_dark" >Descargar App
                                                 </a>
                                             </div>
                                             <div class="d-inline-block mw-100 p-md-5 p-lg-0 ts-width__auto">
-                                                <h3 class="ts-font-color__black ts-opacity__50">Planifique y controle los gastos</h3>
+                                                <h3 class="primario_1_dark">Planifique y controle los gastos</h3>
                                                 <h1>Minimice Costos de Mantenimiento</h1>
                                                 <a href="#how-it-works" class="btn btn-primary btn-lg ts-scroll btn_activo_1_dark" >Solicitar Demo
                                                 </a>
                                             </div>
                                             <div class="d-inline-block mw-100 p-md-5 p-lg-0 ts-width__auto">
-                                                <h3 class="ts-font-color__black ts-opacity__50">Monitoreo de Síntomas de COVID-19</h3>
+                                                <h3 class="primario_1_dark">Monitoreo de Síntomas de COVID-19</h3>
                                                 <h1>Reporte Diario del Estado de su Flota.</h1>
                                                 <a href="#how-it-works" class="btn btn-primary btn-lg ts-scroll btn_contorno_inactivo_dark">Descargar App</a>
                                             </div>
