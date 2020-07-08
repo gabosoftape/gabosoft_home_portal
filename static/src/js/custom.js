@@ -469,6 +469,7 @@ $(function () {
     $(window).scroll(function () {
         if ($(this).scrollTop() > 1000) {
             $('.navbar .navbar-brand img').attr('src','/gabosoft_home_portal/static/src/img/logo.png');
+            $('.navbar .navbar-brand img').addClass('el_logo');
         }
         if ($(this).scrollTop() < 1000) {
             $('.navbar .navbar-brand img').attr('src','/gabosoft_home_portal/static/src/svg/motion-logo-negativo-tagline.svg');
