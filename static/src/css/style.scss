@@ -1,0 +1,491 @@
+$base-bg-color: #f3f2f1;
+$base-text-color: #284135;
+$secondary-text-color: #999790;
+
+@mixin bg-img($imgUrl) {
+  height: 90vh;
+  background-image: $imgUrl;
+  object-position: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+@mixin flex($flex-dir, $justify, $align) {
+  display: flex;
+  flex-direction: $flex-dir;
+  justify-content: $justify;
+  align-items: $align;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  background-color: $base-bg-color;
+  font-family: "Cormorant Garamond", serif;
+  overflow-x: hidden;
+  position: relative;
+}
+
+#logo {
+  color: $base-text-color;
+  font-family: "Italianno", cursive;
+  font-size: 2.8rem;
+  z-index: 2;
+}
+
+.nav-header {
+  min-height: 10vh;
+  font-size: 1rem;
+  @include flex(row, space-between, center);
+  color: $base-text-color;
+  width: 80%;
+  margin: auto;
+  padding: 2rem 0rem;
+  z-index: 2;
+  position: relative;
+}
+
+.burger {
+  cursor: pointer;
+
+  .line1,
+  .line2 {
+    width: 3rem;
+    height: 0.2rem;
+    margin: 0.4rem;
+    background: $base-text-color;
+    pointer-events: none;
+  }
+}
+
+.slide {
+  min-height: 100vh;
+  margin: 0 auto 0 auto;
+  width: 80%;
+  @include flex(row, space-between, center);
+  color: $base-text-color;
+}
+
+.hero-desc {
+  @include flex(column, center, center);
+  flex: 1;
+  flex-basis: 25rem;
+  padding-left: 5rem;
+  position: relative;
+
+  .title h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    padding: 1rem 0;
+    letter-spacing: 0.05rem;
+  }
+
+  p {
+    margin-top: 1.5rem;
+    font-weight: 400;
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+  }
+}
+
+.btn-main {
+  margin-top: 3rem;
+  padding: 0.5rem 2rem;
+  font-size: 1.3rem;
+  background: none;
+  border: 1px solid $base-text-color;
+  color: $base-text-color;
+  transition: all 0.5s ease;
+
+  &:hover {
+    background-color: $base-text-color;
+    color: $base-bg-color;
+  }
+}
+
+.hero-img {
+  position: relative;
+  flex: 1;
+  flex: 25rem;
+  overflow: hidden;
+
+  img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: $base-text-color;
+  @include flex(row, space-around, center);
+  z-index: 1;
+  opacity: 1;
+  clip-path: circle(50px at 100% -10%);
+  -webkit-clip-path: circle(50px at 100% -10%);
+
+  .navbar-nav {
+    font-size: 4rem;
+    flex-basis: 30rem;
+    display: flex;
+    flex-direction: column;
+
+    a {
+      color: $secondary-text-color;
+      padding: 2rem 0;
+      transition: color 0.5s ease-in;
+
+      &:hover {
+        color: $base-bg-color;
+      }
+    }
+  }
+
+  .contact {
+    @include flex(column, center, center);
+    flex-basis: 30rem;
+
+    h2 {
+      font-size: 5rem;
+      color: $base-bg-color;
+      padding: 2rem 0;
+    }
+
+    p,
+    a {
+      text-align: center;
+      font-size: 1.2rem;
+      line-height: 2rem;
+      color: $secondary-text-color;
+    }
+  }
+}
+
+footer {
+  @include flex(column, center, center);
+  background-color: $base-text-color;
+  padding: 0.5rem 0;
+  color: $secondary-text-color;
+
+  h1 {
+    font-size: 3rem;
+    color: $base-bg-color;
+    font-family: "Italianno", cursive;
+    letter-spacing: 0;
+  }
+  a {
+    padding: 0.5rem 0 0.5rem 0;
+    color: $base-bg-color;
+  }
+}
+
+.reveal-img,
+.reveal-text {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: $base-bg-color;
+  left: 0;
+  top: 0%;
+}
+
+.cursor {
+  width: 1.5rem;
+  height: 1.5rem;
+  border: 2px solid $secondary-text-color;
+  border-radius: 50%;
+  position: absolute;
+  transform: translate((-50%, -50%));
+  pointer-events: none;
+  transition: all 0.3s ease-in;
+  transition-property: border, transform;
+  transform-origin: 75% 75%;
+}
+
+.scrollmagic-pin-spacer {
+  position: static !important;
+}
+
+.cursor.nav-active {
+  transform: scale(3);
+  border: 1px solid $base-text-color;
+}
+
+body.hide {
+  overflow: hidden;
+}
+
+.title {
+  position: relative;
+  overflow: hidden;
+}
+.title-swipe {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  mix-blend-mode: darken;
+  transform: translateY(100%);
+}
+.t-swipe1 {
+  background: $secondary-text-color;
+}
+
+//ABOUT PAGE
+
+.main-img {
+  @include bg-img(url("../assets/img/aboutUs-main.jpg"));
+}
+
+.about-info {
+  display: flex;
+  flex-direction: column;
+  padding: 10rem 10%;
+
+  .about-info--title {
+    @include flex(column, center, center);
+
+    h1 {
+      font-size: 4rem;
+      font-family: "Italianno", cursive;
+      color: $base-text-color;
+      padding: 1rem;
+    }
+
+    p {
+      font-size: 2rem;
+      padding: 0 20% 1rem 20%;
+      text-align: center;
+    }
+  }
+
+  .about-info--desc {
+    @include flex(row, center, center);
+    margin-top: 5rem;
+
+    div {
+      padding: 1rem;
+      display: flex;
+      flex-direction: column;
+
+      p,
+      a {
+        font-size: 1.2rem;
+        padding: 1rem 0;
+        color: $base-text-color;
+      }
+    }
+  }
+}
+
+//SERVICES PAGE
+
+.services-img {
+  @include bg-img(url("../assets/img/services-main.jpg"));
+}
+
+.services {
+  display: flex;
+  flex-direction: column;
+
+  .services-block {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+
+    .services-block--left {
+      width: 50%;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+
+    .services-block--right {
+      width: 50%;
+      padding: 4rem 3rem;
+      @include flex(column, flex-start, flex-start);
+      h1 {
+        font-size: 4rem;
+        color: $base-text-color;
+        padding: 1rem;
+      }
+
+      p {
+        font-size: 1.2rem;
+        padding: 2rem;
+        color: $base-text-color;
+      }
+    }
+
+    #right-align {
+      align-items: flex-end;
+      text-align: right;
+    }
+  }
+}
+
+//PORTFOLIO
+.portfolio {
+  @include flex(row, center, center);
+  flex-wrap: wrap;
+  padding: 2rem 8rem 4rem 8rem;
+
+  .portofolio-sample {
+    height: 40rem;
+    width: 30rem;
+    padding: 0 2rem 8rem 2rem;
+    color: $base-text-color;
+
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+
+    p {
+      padding: 1rem;
+      text-align: center;
+    }
+  }
+}
+.potfolio-img {
+  @include bg-img(url("../assets/img/marisa-morton-h-dR-XFJXis-unsplash.jpg"));
+}
+//SAMPLE BOARD PAGE
+.sample-board {
+  @include flex(column, center, center);
+  padding: 0 8rem;
+
+  .sample-board--single {
+    padding: 1rem 8rem;
+    width: 90rem;
+    height: 50rem;
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .sample-board--double {
+    @include flex(row, center, center);
+    padding: 1rem 8rem;
+    width: 90rem;
+
+    img {
+      width: 50%;
+      height: 50rem;
+      object-fit: cover;
+      padding: 2rem 1rem;
+    }
+  }
+}
+
+.sample-1-img {
+  @include bg-img(
+    url("../assets/img/portfolio/sample-1/jeremy-wong-weddings-464ps_nOflw-unsplash.jpg")
+  );
+}
+
+.sample-2-img {
+  @include bg-img(
+    url("../assets/img/portfolio/sample-2/jeremy-wong-weddings-3kjxOxW1Q-4-unsplash.jpg")
+  );
+}
+
+.sample-3-img {
+  @include bg-img(
+    url("../assets/img/portfolio/sample-3/photos-by-lanty--pcFcc64vGE-unsplash.jpg")
+  );
+}
+
+.sample-4-img {
+  @include bg-img(
+    url("../assets/img/portfolio/sample-4/jeremy-wong-weddings-AlF80wr34Cw-unsplash.jpg")
+  );
+}
+
+.sample-5-img {
+  @include bg-img(
+    url("../assets/img/portfolio/sample-5/thomas-william-6Sls-TB27kM-unsplash.jpg")
+  );
+}
+
+@media screen and (max-width: 1024px) {
+  main {
+    width: 100%;
+    margin: 0;
+  }
+
+  .slide {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  .hero-desc {
+    padding: 0;
+  }
+  .hero-img {
+    padding-top: 4rem;
+  }
+  .hero-desc h2 {
+    font-size: 1.6rem;
+    padding: 1rem 0rem;
+  }
+  .hero-desc p {
+    padding: 2rem 1rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-align: center;
+  }
+
+  .services {
+    .services-block {
+      flex-direction: column;
+      .services-block--right {
+        width: 100%;
+        margin-bottom: -5rem;
+      }
+    }
+    .services-block--left {
+      width: 100%;
+      margin-bottom: -5rem;
+
+      img {
+        display: none;
+      }
+    }
+  }
+
+  .nav-bar {
+    .navbar-nav {
+      font-size: 2rem;
+      padding-left: 3rem;
+    }
+
+    .contact {
+      h2 {
+        font-size: 2.7rem;
+      }
+
+      p,
+      a {
+        font-size: 1rem;
+      }
+    }
+  }
+}
