@@ -41,7 +41,15 @@ class HomePortal(CustomerPortal):
         }
         return request.render("gabosoft_home_portal.portal_my_home", values)
 
-    @http.route(['/inicio_gur'], type='http', auth="public", website=True)
+    @http.route(['/productos'], type='http', auth="public", website=True)
     def portal_productos(self, **kw):
         return request.render("gabosoft_home_portal.productos")
+
+    @http.route(['/soluciones'], type='http', auth="public", website=True)
+    def portal_soluciones(self, **kw):
+        return request.render("gabosoft_home_portal.soluciones")
+
+    @http.route(['/hardware'], type='http', auth="public", website=True)
+    def portal_hardware(self, **kw):
+        return request.render("gabosoft_home_portal.hardware")
 
