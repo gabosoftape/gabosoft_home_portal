@@ -355,7 +355,7 @@
             <!-- SOBRE NOSOTROS ************************************************************************************-->
 
 
-            <section class="s_picture bg-200 pt48 pb24 ts-block fashion slide" data-name="Picture">
+            <section id="ultima" class="s_picture bg-200 pt48 pb24 ts-block fashion slide" data-name="Picture">
                 <div class="container">
                       <div class="row s_nb_column_fixed">
                         <div class="col-lg-12 s_title pt16 pb16">
@@ -394,66 +394,7 @@
 
     <template id="home_gurtam" name="Test Home gurtam">
         <t t-call="gabosoft_home_portal.portal_layout">
-            <section class="slide">
-                <div class="hero-img">
-                    <img src="assets/img/main-01.jpg" alt="wedding rings" />
-                    <div class="reveal-img"></div>
-                </div>
-                <div class="hero-desc">
-                    <div class="title">
-                        <h2>
-                            Authentic celebrations <br/> <span class="mountain-span">Considered gatherings</span>
-                        </h2>
-                    </div>
-                    <p>
-                        Planning boutique luxury and elegantly understated weddings and events across America. We
-                        work with
-                        style-concious couples, to create authentic gatherings and stylish celebrations with a creative,
-                        design-led focus
-                    </p>
-                    <a href="about.html" class="btn-main">About us</a>
-                    <div class="reveal-text"></div>
-                </div>
-            </section>
-            <section class="hike slide">
-                <div class="hero-img">
-                    <img src="assets/img/main-02.jpg" alt="hike image" />
-                    <div class="reveal-img"></div>
-                </div>
-                <div class="hero-desc">
-                    <div class="title">
-                        <h2>Colect moments <span class="hike-span">Create memories</span></h2>
-                    </div>
-                    <p>
-                        Our luxury wedding planning &amp; design services are an artistic collaboration between us and our
-                        clients.
-                        We do as little or as much as you need, to create flawlessly executed weddings, events and luxury
-                        experiences.
-                    </p>
-                    <a href="services.html" class="btn-main">Our Services</a>
-                    <div class="reveal-text"></div>
-                </div>
-            </section>
-            <section class="fashion slide">
-                <div class="hero-img">
-                    <img src="assets/img/main-03.jpg" alt="fashion image" />
-                    <div class="reveal-img"></div>
-                </div>
-                <div class="hero-desc">
-                    <div class="title">
-                        <h2>
-                            You are <span class="fashion-span">the muse</span>
-                        </h2>
-                    </div>
-                    <p>
-                        Snippets of life are interwoven into every luxury wedding and event experience created for our
-                        clients.
-                        From fine art to heritage craftsmanship, from wellness to luxury travel, from interiors to fashion.
-                    </p>
-                    <a href="portfolio.html" class="btn-main">Our Portfolio</a>
-                    <div class="reveal-text"></div>
-                </div>
-            </section>
+            <p>Test template </p>
         </t>
     </template>
 
