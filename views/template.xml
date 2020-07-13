@@ -273,9 +273,6 @@
         <t t-call="gabosoft_home_portal.portal_layout">
             <div id="pinContainer">
                 <div id="slideContainer">
-                    <section class="panel blue">
-                        <b>ONE</b>
-                    </section>
                      <!-- PRODUCTOS ****************************************************************************************-->
                     <section id="productos" class="panel turqoise ts-block text-center slide">
                         <div class="container">
