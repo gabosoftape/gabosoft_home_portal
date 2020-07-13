@@ -327,25 +327,25 @@
                 </div>
                 <!--end container-->
             </section>
-            <!-- HARDWARE ************************************************************************************-->
-            <section id="hardware" class="ts-block text-center">
+             <!-- SOLUCIONES ************************************************************************************-->
+             <section id="soluciones" class="ts-block text-center">
                 <div class="container">
                     <div class="ts-title">
-                        <h2>Desarrollo de soluciones</h2>
+                       <h2>Desarrollo de soluciones</h2>
                     </div>
                     <!--end ts-title-->
                     <div class="row align-items-center">
                         <div class="col-lg-6 pt16 pb16">
-                          <img src="/web/image/website.s_image_text_default_image" class="img img-fluid mx-auto" alt="Odoo • Imagen y texto"/>
-                        </div>
-                        <div class="col-lg-6 pt16 pb16">
-                            <!--<h2 class="o_default_snippet_text">Motion es compatible con cualquier dispositivo</h2>-->
+                            <h2 class="o_default_snippet_text">Soluciones diseñadas para ti</h2>
                             <p class="o_default_snippet_text">Pensando en todas las necesidades de su empresa, ofrecemos un amplio portafolio de soluciones de nicho, todo esto bajo un modelo SaaS. Tenemos soluciones para organizaciones de todos los tamaños y de todos los sectores.
                                 <br/>
                             Todas nuestras soluciones son creadas especificamente para estar activas funcionando al 100% siempre, sin necesidad de contar con un especialista en TI para ejecutar configuraciones complejas. Esto se traduce en funcionamiento óptimo.</p>
-                            <div class="s_btn text-left pt16 pb16">
-                                <a href="#" class="btn btn-outline-primary o_default_snippet_text">Buscar solución</a>
+                            <div class="s_btn text-left pt16 pb16" data-name="Buttons">
+                                <a href="#" class="btn btn-primary o_default_snippet_text">Buscar solucion </a>
                             </div>
+                        </div>
+                        <div class="col-lg-6 pt16 pb16">
+                            <img src="/web/image/website.s_text_image_default_image" class="img img-fluid mx-auto" alt="Odoo • Texto e imagen"/>
                         </div>
                     </div>
                     <!--end row-->
