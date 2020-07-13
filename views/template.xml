@@ -437,7 +437,7 @@
     <template id="hardware" name="Hardware">
         <t t-call="gabosoft_home_portal.portal_layout">
              <!-- Productos ************************************************************************************-->
-            <section id="ultima" class="panel s_picture bg-200 pt48 pb24 ts-block fashion slide" data-name="Picture">
+            <section id="ultima" class="s_picture bg-200 pt48 pb24 ts-block fashion" data-name="Picture">
                         <div class="container">
                               <div class="row s_nb_column_fixed">
                                 <div class="col-lg-12 s_title pt16 pb16">
