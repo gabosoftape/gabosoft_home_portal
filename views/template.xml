@@ -271,86 +271,82 @@
     <!-- template alistamientos -->
     <template id="portal_my_home" name="Inicio">
         <t t-call="gabosoft_home_portal.portal_layout">
-            <div id="pinContainer">
-                <div id="slideContainer">
-                     <!-- PRODUCTOS ****************************************************************************************-->
-                    <section id="productos" class="ts-block text-center ">
-                        <div class="container">
-                            <div class="ts-title">
-                                <h2>Productos</h2>
-                            </div>
-                            <!--end ts-title-->
-                            <div class="row">
-                                <div class="col-sm-6 col-md-4 col-xl-4">
-                                    <figure data-animate="ts-fadeInUp">
-                                        <figure class="icon mb-5 p-2">
-                                            <img src="/gabosoft_home_portal/static/src/img/icon-watch-heart.png" alt=""/>
-                                            <div class="ts-svg ts-svg__organic-shape-01" data-animate="ts-zoomInShort"></div>
-                                        </figure>
-                                        <h4>Seguimiento GPS &amp; IoT</h4>
-                                        <p>
-                                            Esta plataforma le dara control sobre todas sus unidades de transporte. Optimiza sus gastos operativos, mejora la diciplina de los conductores y es compatible con cualquier tipo de dispositivo.
-                                        </p>
-                                    </figure>
-                                </div>
-                                <!--end col-xl-4-->
-                                <div class="col-sm-6 col-md-4 col-xl-4">
-                                    <figure data-animate="ts-fadeInUp" data-delay="0.1s">
-                                        <figure class="icon mb-5 p-2">
-                                            <img src="/gabosoft_home_portal/static/src/img/icon-lcd-chart.png" alt=""/>
-                                            <div class="ts-svg ts-svg__organic-shape-02" data-animate="ts-zoomInShort"></div>
-                                        </figure>
-                                        <h4>Desarrollo telematico</h4>
-                                        <p>
-                                            Esta plataforma conecta cualquier dispositivo telemáticos, IoT o BI. Recibe y procesa los datos utilizando cualquier protocolo y luego los alamacena en el formato unificado JSON.
-                                        </p>
-                                    </figure>
-                                </div>
-                                <!--end col-xl-4-->
-                                <div class="col-sm-6 offset-sm-4 col-md-4 offset-md-0 col-xl-4">
-                                    <figure data-animate="ts-fadeInUp" data-delay="0.2s">
-                                        <figure class="icon mb-5 p-2">
-                                            <img src="/gabosoft_home_portal/static/src/img/icon-cup-winner.png" alt=""/>
-                                            <div class="ts-svg ts-svg__organic-shape-03" data-animate="ts-zoomInShort"></div>
-                                        </figure>
-                                        <h4>App Móvil de rastreo GPS</h4>
-                                        <p>
-                                            Esta aplicacion le permite acceder a la plataforma de rastreo GPS en cualquier momento y cualquier lugar. Podrá utilizar funciones basicas y avanzadas. App disponible para iOS y Android.
-                                        </p>
-                                    </figure>
-                                </div>
-                                <!--end col-xl-4-->
-                            </div>
-                            <!--end row-->
+             <!-- PRODUCTOS ****************************************************************************************-->
+            <section id="productos" class="ts-block text-center ">
+                <div class="container">
+                    <div class="ts-title">
+                        <h2>Productos</h2>
+                    </div>
+                    <!--end ts-title-->
+                    <div class="row">
+                        <div class="col-sm-6 col-md-4 col-xl-4">
+                            <figure data-animate="ts-fadeInUp">
+                                <figure class="icon mb-5 p-2">
+                                    <img src="/gabosoft_home_portal/static/src/img/icon-watch-heart.png" alt=""/>
+                                    <div class="ts-svg ts-svg__organic-shape-01" data-animate="ts-zoomInShort"></div>
+                                </figure>
+                                <h4>Seguimiento GPS &amp; IoT</h4>
+                                <p>
+                                    Esta plataforma le dara control sobre todas sus unidades de transporte. Optimiza sus gastos operativos, mejora la diciplina de los conductores y es compatible con cualquier tipo de dispositivo.
+                                </p>
+                            </figure>
                         </div>
-                        <!--end container-->
-                    </section>
-                     <!-- SOLUCIONES ************************************************************************************-->
-                     <section id="soluciones" class="ts-block text-center">
-                        <div class="container">
-                            <div class="ts-title">
-                               <h2>Desarrollo de soluciones</h2>
-                            </div>
-                            <!--end ts-title-->
-                            <div class="row align-items-center">
-                                <div class="col-lg-6 pt16 pb16">
-                                    <p class="o_default_snippet_text">Pensando en todas las necesidades de su empresa, ofrecemos un amplio portafolio de soluciones de nicho, todo esto bajo un modelo SaaS. Tenemos soluciones para organizaciones de todos los tamaños y de todos los sectores.
-                                        <br/>
-                                    Todas nuestras soluciones son creadas especificamente para estar activas funcionando al 100% siempre, sin necesidad de contar con un especialista en TI para ejecutar configuraciones complejas. Esto se traduce en funcionamiento óptimo.</p>
-                                    <div class="s_btn text-left pt16 pb16" data-name="Buttons">
-                                        <a href="#" class="btn btn-primary o_default_snippet_text">Buscar solucion </a>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 pt16 pb16">
-                                    <img src="/web/image/website.s_text_image_default_image" class="img img-fluid mx-auto" alt="Odoo • Texto e imagen"/>
-                                </div>
-                            </div>
-                            <!--end row-->
+                        <!--end col-xl-4-->
+                        <div class="col-sm-6 col-md-4 col-xl-4">
+                            <figure data-animate="ts-fadeInUp" data-delay="0.1s">
+                                <figure class="icon mb-5 p-2">
+                                    <img src="/gabosoft_home_portal/static/src/img/icon-lcd-chart.png" alt=""/>
+                                    <div class="ts-svg ts-svg__organic-shape-02" data-animate="ts-zoomInShort"></div>
+                                </figure>
+                                <h4>Desarrollo telematico</h4>
+                                <p>
+                                    Esta plataforma conecta cualquier dispositivo telemáticos, IoT o BI. Recibe y procesa los datos utilizando cualquier protocolo y luego los alamacena en el formato unificado JSON.
+                                </p>
+                            </figure>
                         </div>
-                        <!--end container-->
-                    </section>
+                        <!--end col-xl-4-->
+                        <div class="col-sm-6 offset-sm-4 col-md-4 offset-md-0 col-xl-4">
+                            <figure data-animate="ts-fadeInUp" data-delay="0.2s">
+                                <figure class="icon mb-5 p-2">
+                                    <img src="/gabosoft_home_portal/static/src/img/icon-cup-winner.png" alt=""/>
+                                    <div class="ts-svg ts-svg__organic-shape-03" data-animate="ts-zoomInShort"></div>
+                                </figure>
+                                <h4>App Móvil de rastreo GPS</h4>
+                                <p>
+                                    Esta aplicacion le permite acceder a la plataforma de rastreo GPS en cualquier momento y cualquier lugar. Podrá utilizar funciones basicas y avanzadas. App disponible para iOS y Android.
+                                </p>
+                            </figure>
+                        </div>
+                        <!--end col-xl-4-->
+                    </div>
+                    <!--end row-->
                 </div>
-            </div>
+                <!--end container-->
+            </section>
+             <!-- SOLUCIONES ************************************************************************************-->
+             <section id="soluciones" class="ts-block text-center">
+                <div class="container">
+                    <div class="ts-title">
+                       <h2>Desarrollo de soluciones</h2>
+                    </div>
+                    <!--end ts-title-->
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 pt16 pb16">
+                            <p class="o_default_snippet_text">Pensando en todas las necesidades de su empresa, ofrecemos un amplio portafolio de soluciones de nicho, todo esto bajo un modelo SaaS. Tenemos soluciones para organizaciones de todos los tamaños y de todos los sectores.
+                                <br/>
+                            Todas nuestras soluciones son creadas especificamente para estar activas funcionando al 100% siempre, sin necesidad de contar con un especialista en TI para ejecutar configuraciones complejas. Esto se traduce en funcionamiento óptimo.</p>
+                            <div class="s_btn text-left pt16 pb16" data-name="Buttons">
+                                <a href="#" class="btn btn-primary o_default_snippet_text">Buscar solucion </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 pt16 pb16">
+                            <img src="/web/image/website.s_text_image_default_image" class="img img-fluid mx-auto" alt="Odoo • Texto e imagen"/>
+                        </div>
+                    </div>
+                    <!--end row-->
+                </div>
+                <!--end container-->
+            </section>
 
         </t>
     </template>
