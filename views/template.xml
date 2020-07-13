@@ -281,7 +281,6 @@
                 <div class="container">
                     <div class="ts-title">
                         <h2>Productos</h2>
-                        <div class="reveal-text"></div>
                     </div>
                     <!--end ts-title-->
                     <div class="row">
@@ -324,7 +323,6 @@
                             </figure>
                         </div>
                         <!--end col-xl-4-->
-                        <div class="reveal-img"></div>
                     </div>
                     <!--end row-->
                 </div>
@@ -345,11 +343,9 @@
                             <div class="s_btn text-left pt16 pb16" data-name="Buttons">
                                 <a href="#" class="btn btn-primary o_default_snippet_text">Buscar solucion </a>
                             </div>
-                            <div class="reveal-text"></div>
                         </div>
                         <div class="col-lg-6 pt16 pb16">
                             <img src="/web/image/website.s_text_image_default_image" class="img img-fluid mx-auto" alt="Odoo • Texto e imagen"/>
-                            <div class="reveal-img"></div>
                         </div>
                     </div>
                     <!--end row-->
@@ -377,7 +373,6 @@
                           </figure>
                         </div>
                       </div>
-                    <div class="reveal-img"></div>
                 </div>
                 <div class="container">
                   <div class="row">
@@ -392,7 +387,6 @@
                       </a>
                     </div>
                   </div>
-                    <div class="reveal-text"></div>
                 </div>
               </section>
         </t>
