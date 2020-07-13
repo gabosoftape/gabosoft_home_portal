@@ -273,131 +273,120 @@
         <t t-call="gabosoft_home_portal.portal_layout">
             <div id="pinContainer">
                 <div id="slideContainer">
-                    <section class="panel blue">
-                        <b>ONE</b>
-                    </section>
-                    <section class="panel turqoise">
-                        <b>TWO</b>
-                    </section>
-                    <section class="panel green">
-                        <b>THREE</b>
-                    </section>
-                    <section class="panel bordeaux">
-                        <b>FOUR</b>
-                    </section>
-                </div>
-            </div>
-             <!-- PRODUCTOS ****************************************************************************************-->
-            <section id="productos" class="panel ">
-                <div class="container">
-                    <div class="ts-title">
-                        <h2>Productos</h2>
-                    </div>
-                    <!--end ts-title-->
-                    <div class="row">
-                        <div class="col-sm-6 col-md-4 col-xl-4">
-                            <figure data-animate="ts-fadeInUp">
-                                <figure class="icon mb-5 p-2">
-                                    <img src="/gabosoft_home_portal/static/src/img/icon-watch-heart.png" alt=""/>
-                                    <div class="ts-svg ts-svg__organic-shape-01" data-animate="ts-zoomInShort"></div>
-                                </figure>
-                                <h4>Seguimiento GPS &amp; IoT</h4>
-                                <p>
-                                    Esta plataforma le dara control sobre todas sus unidades de transporte. Optimiza sus gastos operativos, mejora la diciplina de los conductores y es compatible con cualquier tipo de dispositivo.
-                                </p>
-                            </figure>
+                    <!-- PRODUCTOS ****************************************************************************************-->
+                <section id="productos" class="panel ">
+                    <div class="container">
+                        <div class="ts-title">
+                            <h2>Productos</h2>
                         </div>
-                        <!--end col-xl-4-->
-                        <div class="col-sm-6 col-md-4 col-xl-4">
-                            <figure data-animate="ts-fadeInUp" data-delay="0.1s">
-                                <figure class="icon mb-5 p-2">
-                                    <img src="/gabosoft_home_portal/static/src/img/icon-lcd-chart.png" alt=""/>
-                                    <div class="ts-svg ts-svg__organic-shape-02" data-animate="ts-zoomInShort"></div>
+                        <!--end ts-title-->
+                        <div class="row">
+                            <div class="col-sm-6 col-md-4 col-xl-4">
+                                <figure data-animate="ts-fadeInUp">
+                                    <figure class="icon mb-5 p-2">
+                                        <img src="/gabosoft_home_portal/static/src/img/icon-watch-heart.png" alt=""/>
+                                        <div class="ts-svg ts-svg__organic-shape-01" data-animate="ts-zoomInShort"></div>
+                                    </figure>
+                                    <h4>Seguimiento GPS &amp; IoT</h4>
+                                    <p>
+                                        Esta plataforma le dara control sobre todas sus unidades de transporte. Optimiza sus gastos operativos, mejora la diciplina de los conductores y es compatible con cualquier tipo de dispositivo.
+                                    </p>
                                 </figure>
-                                <h4>Desarrollo telematico</h4>
-                                <p>
-                                    Esta plataforma conecta cualquier dispositivo telemáticos, IoT o BI. Recibe y procesa los datos utilizando cualquier protocolo y luego los alamacena en el formato unificado JSON.
-                                </p>
-                            </figure>
-                        </div>
-                        <!--end col-xl-4-->
-                        <div class="col-sm-6 offset-sm-4 col-md-4 offset-md-0 col-xl-4">
-                            <figure data-animate="ts-fadeInUp" data-delay="0.2s">
-                                <figure class="icon mb-5 p-2">
-                                    <img src="/gabosoft_home_portal/static/src/img/icon-cup-winner.png" alt=""/>
-                                    <div class="ts-svg ts-svg__organic-shape-03" data-animate="ts-zoomInShort"></div>
+                            </div>
+                            <!--end col-xl-4-->
+                            <div class="col-sm-6 col-md-4 col-xl-4">
+                                <figure data-animate="ts-fadeInUp" data-delay="0.1s">
+                                    <figure class="icon mb-5 p-2">
+                                        <img src="/gabosoft_home_portal/static/src/img/icon-lcd-chart.png" alt=""/>
+                                        <div class="ts-svg ts-svg__organic-shape-02" data-animate="ts-zoomInShort"></div>
+                                    </figure>
+                                    <h4>Desarrollo telematico</h4>
+                                    <p>
+                                        Esta plataforma conecta cualquier dispositivo telemáticos, IoT o BI. Recibe y procesa los datos utilizando cualquier protocolo y luego los alamacena en el formato unificado JSON.
+                                    </p>
                                 </figure>
-                                <h4>App Móvil de rastreo GPS</h4>
-                                <p>
-                                    Esta aplicacion le permite acceder a la plataforma de rastreo GPS en cualquier momento y cualquier lugar. Podrá utilizar funciones basicas y avanzadas. App disponible para iOS y Android.
-                                </p>
-                            </figure>
+                            </div>
+                            <!--end col-xl-4-->
+                            <div class="col-sm-6 offset-sm-4 col-md-4 offset-md-0 col-xl-4">
+                                <figure data-animate="ts-fadeInUp" data-delay="0.2s">
+                                    <figure class="icon mb-5 p-2">
+                                        <img src="/gabosoft_home_portal/static/src/img/icon-cup-winner.png" alt=""/>
+                                        <div class="ts-svg ts-svg__organic-shape-03" data-animate="ts-zoomInShort"></div>
+                                    </figure>
+                                    <h4>App Móvil de rastreo GPS</h4>
+                                    <p>
+                                        Esta aplicacion le permite acceder a la plataforma de rastreo GPS en cualquier momento y cualquier lugar. Podrá utilizar funciones basicas y avanzadas. App disponible para iOS y Android.
+                                    </p>
+                                </figure>
+                            </div>
+                            <!--end col-xl-4-->
                         </div>
-                        <!--end col-xl-4-->
+                        <!--end row-->
                     </div>
-                    <!--end row-->
-                </div>
-                <!--end container-->
-            </section>
-             <!-- SOLUCIONES ************************************************************************************-->
-             <section id="soluciones" class="panel ">
-                <div class="container">
-                    <div class="ts-title">
-                       <h2>Desarrollo de soluciones</h2>
-                    </div>
-                    <!--end ts-title-->
-                    <div class="row align-items-center">
-                        <div class="col-lg-6 pt16 pb16">
-                            <p class="o_default_snippet_text">Pensando en todas las necesidades de su empresa, ofrecemos un amplio portafolio de soluciones de nicho, todo esto bajo un modelo SaaS. Tenemos soluciones para organizaciones de todos los tamaños y de todos los sectores.
-                                <br/>
-                            Todas nuestras soluciones son creadas especificamente para estar activas funcionando al 100% siempre, sin necesidad de contar con un especialista en TI para ejecutar configuraciones complejas. Esto se traduce en funcionamiento óptimo.</p>
-                            <div class="s_btn text-left pt16 pb16" data-name="Buttons">
-                                <a href="#" class="btn btn-primary o_default_snippet_text">Buscar solucion </a>
+                    <!--end container-->
+                </section>
+                 <!-- SOLUCIONES ************************************************************************************-->
+                 <section id="soluciones" class="panel ">
+                    <div class="container">
+                        <div class="ts-title">
+                           <h2>Desarrollo de soluciones</h2>
+                        </div>
+                        <!--end ts-title-->
+                        <div class="row align-items-center">
+                            <div class="col-lg-6 pt16 pb16">
+                                <p class="o_default_snippet_text">Pensando en todas las necesidades de su empresa, ofrecemos un amplio portafolio de soluciones de nicho, todo esto bajo un modelo SaaS. Tenemos soluciones para organizaciones de todos los tamaños y de todos los sectores.
+                                    <br/>
+                                Todas nuestras soluciones son creadas especificamente para estar activas funcionando al 100% siempre, sin necesidad de contar con un especialista en TI para ejecutar configuraciones complejas. Esto se traduce en funcionamiento óptimo.</p>
+                                <div class="s_btn text-left pt16 pb16" data-name="Buttons">
+                                    <a href="#" class="btn btn-primary o_default_snippet_text">Buscar solucion </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 pt16 pb16">
+                                <img src="/web/image/website.s_text_image_default_image" class="img img-fluid mx-auto" alt="Odoo • Texto e imagen"/>
                             </div>
                         </div>
-                        <div class="col-lg-6 pt16 pb16">
-                            <img src="/web/image/website.s_text_image_default_image" class="img img-fluid mx-auto" alt="Odoo • Texto e imagen"/>
-                        </div>
+                        <!--end row-->
                     </div>
-                    <!--end row-->
-                </div>
-                <!--end container-->
-            </section>
-            <!-- SOBRE NOSOTROS ************************************************************************************-->
-            <section id="ultima" class="panel " data-name="Picture">
-                <div class="container">
-                      <div class="row s_nb_column_fixed">
-                        <div class="col-lg-12 s_title pt16 pb16">
-                          <h2 class="s_title_thin" style="text-align: center;">
-                            <font style="font-size: 62px;" class="o_default_snippet_text">Somos Monitoring Innovation</font>
-                          </h2>
+                    <!--end container-->
+                </section>
+                <!-- SOBRE NOSOTROS ************************************************************************************-->
+                <section id="ultima" class="panel " data-name="Picture">
+                    <div class="container">
+                          <div class="row s_nb_column_fixed">
+                            <div class="col-lg-12 s_title pt16 pb16">
+                              <h2 class="s_title_thin" style="text-align: center;">
+                                <font style="font-size: 62px;" class="o_default_snippet_text">Somos Monitoring Innovation</font>
+                              </h2>
+                            </div>
+                            <div class="col-lg-12 pt16 pb16">
+                              <p style="text-align: center;" class="o_default_snippet_text">Elija una imagen vibrante y escriba un párrafo inspirador al respecto. <br/>No tiene que ser largo, pero debe reforzar su imagen.</p>
+                            </div>
+                            <div class="col-lg-8 offset-lg-2 pb24">
+                              <figure class="figure">
+                                <img src="/web/image/website.s_picture_default_image" class="figure-img img-fluid rounded img-thumbnail padding-large" alt="MOTION • Una imagen con una leyenda"/>
+                                <figcaption class="figure-caption py-3 text-center o_default_snippet_text"><i class="fa fa-1x fa-picture-o mr-2"/>Agrega un título para mejorar el significado de esta imagen.</figcaption>
+                              </figure>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-lg-9 pb24">
+                          <h3 class="o_default_snippet_text"><b class="o_default_snippet_text">Más de 50,000 empresas</b> utilizan MOTION para hacer crecer sus negocios</h3>
+                          <p class="lead o_default_snippet_text">Únase a nosotros y haga de su compañía un lugar mejor.</p>
                         </div>
-                        <div class="col-lg-12 pt16 pb16">
-                          <p style="text-align: center;" class="o_default_snippet_text">Elija una imagen vibrante y escriba un párrafo inspirador al respecto. <br/>No tiene que ser largo, pero debe reforzar su imagen.</p>
-                        </div>
-                        <div class="col-lg-8 offset-lg-2 pb24">
-                          <figure class="figure">
-                            <img src="/web/image/website.s_picture_default_image" class="figure-img img-fluid rounded img-thumbnail padding-large" alt="MOTION • Una imagen con una leyenda"/>
-                            <figcaption class="figure-caption py-3 text-center o_default_snippet_text"><i class="fa fa-1x fa-picture-o mr-2"/>Agrega un título para mejorar el significado de esta imagen.</figcaption>
-                          </figure>
+                        <div class="col-lg-3 s_btn text-right pt8 pb24">
+                          <a href="/contactus" class="btn btn-primary btn-lg">
+                            <span class="o_default_snippet_text">Contáctenos</span>
+                            <i class="fa fa-1x fa-fw fa-arrow-circle-right ml-1"/>
+                          </a>
                         </div>
                       </div>
-                </div>
-                <div class="container">
-                  <div class="row">
-                    <div class="col-lg-9 pb24">
-                      <h3 class="o_default_snippet_text"><b class="o_default_snippet_text">Más de 50,000 empresas</b> utilizan MOTION para hacer crecer sus negocios</h3>
-                      <p class="lead o_default_snippet_text">Únase a nosotros y haga de su compañía un lugar mejor.</p>
                     </div>
-                    <div class="col-lg-3 s_btn text-right pt8 pb24">
-                      <a href="/contactus" class="btn btn-primary btn-lg">
-                        <span class="o_default_snippet_text">Contáctenos</span>
-                        <i class="fa fa-1x fa-fw fa-arrow-circle-right ml-1"/>
-                      </a>
-                    </div>
-                  </div>
+                  </section>
                 </div>
-              </section>
+            </div>
+
         </t>
     </template>
 
