@@ -273,8 +273,11 @@
         <t t-call="gabosoft_home_portal.portal_layout">
             <div id="pinContainer">
                 <div id="slideContainer">
+                    <section class="panel blue">
+                        <b>ONE</b>
+                    </section>
                      <!-- PRODUCTOS ****************************************************************************************-->
-                    <section id="productos" class="panel ts-block text-center slide">
+                    <section id="productos" class="panel turqoise ts-block text-center slide">
                         <div class="container">
                             <div class="ts-title">
                                 <h2>Productos</h2>
@@ -326,7 +329,7 @@
                         <!--end container-->
                     </section>
                      <!-- SOLUCIONES ************************************************************************************-->
-                     <section id="soluciones" class="panel ts-block text-center hike slide">
+                     <section id="soluciones" class="panel green ts-block text-center hike slide">
                         <div class="container">
                             <div class="ts-title">
                                <h2>Desarrollo de soluciones</h2>
@@ -350,7 +353,7 @@
                         <!--end container-->
                     </section>
                     <!-- SOBRE NOSOTROS ************************************************************************************-->
-                    <section id="ultima" class="panel s_picture bg-200 pt48 pb24 ts-block fashion slide" data-name="Picture">
+                    <section id="ultima" class="panel bordeaux s_picture bg-200 pt48 pb24 ts-block fashion slide" data-name="Picture">
                         <div class="container">
                               <div class="row s_nb_column_fixed">
                                 <div class="col-lg-12 s_title pt16 pb16">
