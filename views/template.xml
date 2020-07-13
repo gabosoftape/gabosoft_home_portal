@@ -386,7 +386,6 @@
     </template>
 
     <template id="home_gurtam" name="Test Home gurtam">
-        <t t-call="gabosoft_home_portal.portal_layout">
             <style type="text/css">
                 #pinContainer {
                     width: 100%;
@@ -453,7 +452,6 @@
                         .addTo(controller);
                 });
             </script>
-        </t>
     </template>
 
 </odoo>
