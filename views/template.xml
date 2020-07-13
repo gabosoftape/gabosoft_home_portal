@@ -55,7 +55,7 @@
         </xpath>
         <xpath expr="//t[@t-raw='0']" position="replace">
             <!-- aqui va el header-->
-            <body data-spy="scroll" data-target=".navbar" class="has-loading-screen" data-bg-parallax="scroll" data-bg-parallax-speed="3">
+            <body data-spy="scroll" data-target=".navbar" class="has-loading-screen" data-bg-parallax="scroll" data-bg-parallax-speed="3" data-barba="wrapper">
                 <div class="ts-page-wrapper" id="page-top">
                     <!--*********************************************************************************************************-->
                     <!--************ HERO ***************************************************************************************-->
@@ -142,7 +142,7 @@
                     <!--*********************************************************************************************************-->
                     <!--************ CONTENT ************************************************************************************-->
                     <!--*********************************************************************************************************-->
-                    <main id="ts-content">
+                    <main id="ts-content" data-barba="container" data-barba-namespace="home">
                         <t t-raw="0"/>
                     </main>
                     <!--end #content-->
@@ -276,7 +276,7 @@
     <template id="portal_my_home" name="Inicio">
         <t t-call="gabosoft_home_portal.portal_layout">
             <!-- PRODUCTOS ****************************************************************************************-->
-            <section id="productos" class="ts-block text-center">
+            <section id="productos" class="ts-block text-center slide">
                 <div class="container">
                     <div class="ts-title">
                         <h2>Productos</h2>
@@ -328,7 +328,7 @@
                 <!--end container-->
             </section>
              <!-- SOLUCIONES ************************************************************************************-->
-             <section id="soluciones" class="ts-block text-center">
+             <section id="soluciones" class="ts-block text-center hike slide">
                 <div class="container">
                     <div class="ts-title">
                        <h2>Desarrollo de soluciones</h2>
@@ -354,7 +354,7 @@
             <!-- SOBRE NOSOTROS ************************************************************************************-->
 
 
-            <section class="s_picture bg-200 pt48 pb24 ts-block" data-name="Picture">
+            <section class="s_picture bg-200 pt48 pb24 ts-block fashion slide" data-name="Picture">
                 <div class="container">
                   <div class="row s_nb_column_fixed">
                     <div class="col-lg-12 s_title pt16 pb16">
