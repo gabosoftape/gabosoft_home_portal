@@ -480,7 +480,7 @@ $(function () {
             $('.navbar .navbar-brand img').addClass('svg_l');
         }
         if (y > 800) {
-            $('#productos').fadeIn();
+            $('#productos').toggle( "bounce", { times: 2 }, "slow" );
         }
     })
 });
