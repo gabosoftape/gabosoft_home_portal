@@ -52,7 +52,7 @@
         </xpath>
         <xpath expr="//t[@t-raw='0']" position="replace">
             <!-- aqui va el header-->
-            <body data-spy="scroll" data-target=".navbar" class="has-loading-screen" data-bg-parallax="scroll" data-bg-parallax-speed="3" data-barba="wrapper">
+            <body data-spy="scroll" data-target=".navbar" class="has-loading-screen" data-bg-parallax="scroll" data-bg-parallax-speed="3">
                 <div class="ts-page-wrapper" id="page-top">
                     <!--*********************************************************************************************************-->
                     <!--************ HERO ***************************************************************************************-->
@@ -139,7 +139,7 @@
                     <!--*********************************************************************************************************-->
                     <!--************ CONTENT ************************************************************************************-->
                     <!--*********************************************************************************************************-->
-                    <main id="ts-content" data-barba="container" data-barba-namespace="home">
+                    <main id="ts-content">
                         <t t-raw="0"/>
                     </main>
                     <!--end #content-->
