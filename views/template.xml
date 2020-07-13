@@ -390,9 +390,20 @@
         </t>
     </template>
 
-    <template id="home_gurtam" name="Test Home gurtam">
-
-            <p>NO hay nada bro!</p>
+    <template id="productos" name="Productos">
+        <t t-call="gabosoft_home_portal.portal_layout">
+            <p>Productos</p>
+        </t>
+    </template>
+    <template id="soluciones" name="Servicios">
+        <t t-call="gabosoft_home_portal.portal_layout">
+            <p>Soluciones</p>
+        </t>
+    </template>
+    <template id="hardware" name="Hardware">
+        <t t-call="gabosoft_home_portal.portal_layout">
+            <p>Hardware</p>
+        </t>
     </template>
 
 </odoo>

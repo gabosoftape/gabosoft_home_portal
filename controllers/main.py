@@ -42,6 +42,6 @@ class HomePortal(CustomerPortal):
         return request.render("gabosoft_home_portal.portal_my_home", values)
 
     @http.route(['/inicio_gur'], type='http', auth="public", website=True)
-    def portal_home_index_gur(self, **kw):
-        return request.render("gabosoft_home_portal.home_gurtam")
+    def portal_productos(self, **kw):
+        return request.render("gabosoft_home_portal.productos")
 
