@@ -1,6 +1,31 @@
 <odoo>
+    <!-- web layout-->
+    <template id="web_layout" name="Web layout" >&lt;!DOCTYPE html&gt;
+        <html t-att="html_data or {}">
+            <head>
+                <meta charset="utf-8"/>
+                <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+                <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+
+                <title t-esc="title or ''"/>
+                <link type="image/x-icon" rel="shortcut icon" t-att-href="x_icon or '/web/static/src/img/favicon.ico'"/>
+
+                <script type="text/javascript">
+                    var odoo = {
+                        csrf_token: "<t t-esc="request.csrf_token(None)"/>",
+                        debug: "<t t-esc="debug"/>",
+                    };
+                </script>
+
+                <t t-raw="head or ''"/>
+            </head>
+            <body t-att-class="body_classname has-loading-screen" data-spy="scroll" data-target=".navbar" class="has-loading-screen" data-bg-parallax="scroll" data-bg-parallax-speed="3">
+                <t t-raw="0"/>
+            </body>
+        </html>
+    </template>
     <!-- Motion layout frontend general-->
-    <template id="frontend_layout" name="Frontend Enlistcontrol Layout" inherit_id="web.layout" primary="True">
+    <template id="frontend_layout_old" name="" inherit_id="gabosoft_home_portal.web_layout" primary="True">
         <xpath expr="//head/title" position="replace">
             <title t-esc="'Monitoring Innovation'"/>
         </xpath>
@@ -86,51 +111,7 @@
                         </nav>
                         <!--end navbar-->
                         <t t-if="inicio">
-                            <div class="container align-self-center">
-                                <div class="row align-items-center">
-                                    <div class="col-sm-7">
-                                        <div class="owl-carousel" data-owl-nav="0" data-owl-loop="1">
-                                            <div class="d-inline-block mw-100 p-md-5 p-lg-0 ts-width__auto">
-                                                <h3 class="primario_1_dark">Monitoreo de flotas vehiculares</h3>
-                                                <h1>Seguimiento en Tiempo Real</h1>
-                                                <a href="#how-it-works" class="btn btn-lg ts-scroll btn_activo_2_dark" >Descargar App
-                                                </a>
-                                            </div>
-                                            <div class="d-inline-block mw-100 p-md-5 p-lg-0 ts-width__auto">
-                                                <h3 class="primario_1_dark">Planifique y controle los gastos</h3>
-                                                <h1>Minimice Costos de Mantenimiento</h1>
-                                                <a href="#how-it-works" class="btn btn-lg ts-scroll btn_activo_2_dark" >Solicitar Demo
-                                                </a>
-                                            </div>
-                                            <div class="d-inline-block mw-100 p-md-5 p-lg-0 ts-width__auto">
-                                                <h3 class="primario_1_dark">Monitoreo de Síntomas de COVID-19</h3>
-                                                <h1>Reporte Diario del Estado de su Flota.</h1>
-                                                <a href="#how-it-works" class="btn btn-lg ts-scroll btn_activo_2_dark">Descargar App</a>
-                                            </div>
-                                        </div>
 
-                                    </div>
-                                    <!--end col-sm-7 col-md-7-->
-                                    <div class="col-sm-5 d-none d-sm-block">
-                                        <div class="owl-carousel text-center" data-owl-nav="1" data-owl-loop="1">
-                                            <img src="/gabosoft_home_portal/static/src/images/home-banner-wialon.png" class="d-inline-block mw-100 p-md-5 p-lg-0 ts-width__auto" alt=""/>
-                                            <img src="/gabosoft_home_portal/static/src/images/home-banner-fleetrun.png" class="d-inline-block mw-100 p-md-5 p-lg-0 ts-width__auto" alt=""/>
-                                            <img src="/gabosoft_home_portal/static/src/images/home-banner-enlist.png" class="d-inline-block mw-100 p-md-5 p-lg-0 ts-width__auto" alt=""/>
-                                        </div>
-                                    </div>
-                                    <!--end col-sm-5 col-md-5 col-xl-5-->
-                                </div>
-                                <!--end row-->
-                            </div>
-                            <!--end container-->
-
-                            <div id="ts-dynamic-waves" class="ts-background">
-                                <svg class="ts-svg ts-z-index__1" width="100%" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg">
-                                    <defs></defs>
-                                    <path class="ts-dynamic-wave" id="wave-2" d="" data-wave-color="#fff" data-wave-height=".45" data-wave-bones="4" data-wave-speed=".20"/>
-                                </svg>
-                                <div class="ts-background-image ts-parallax-element" data-bg-image="/gabosoft_home_portal/static/src/images/home-video-bg.jpg" ></div>
-                            </div>
                         </t>
                     </header>
                     <!--end #hero-->
@@ -237,9 +218,372 @@
             </body>
         </xpath>
     </template>
-    <!-- motion portal layout-->
+    <template id="frontend_layout" name="Frontend Motion Layout" inherit_id="gabosoft_home_portal.web_layout" primary="True">
+        <xpath expr="//head/link[last()]" position="after">
+            <t t-call-assets="web.assets_common" t-js="false"/>
+            <t t-call-assets="web.assets_frontend" t-js="false"/>
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:400,500,600"/>
+            <link rel="stylesheet" href="/gabosoft_home_portal/static/src/bootstrap/css/bootstrap.min.css" type="text/css"/>
+            <link rel="stylesheet" href="/gabosoft_home_portal/static/src/font-awesome/css/fontawesome-all.min.css"/>
+            <link rel="stylesheet" href="/gabosoft_home_portal/static/src/css/style.css"/>
+            <link rel="stylesheet" href="/gabosoft_home_portal/static/src/css/ubuntu.css"/>
+            <link rel="stylesheet" href="/gabosoft_home_portal/static/src/css/owl.carousel.min.css"/>
+        </xpath>
+        <xpath expr="//head/script" position="after">
+            <script type="text/javascript">
+                odoo.session_info = <t t-raw="json.dumps(request.env['ir.http'].get_frontend_session_info())"/>;
+            </script>
+            <t t-call-assets="web.assets_common_minimal_js" t-css="false" defer_load="True"/>
+            <t t-call-assets="web.assets_frontend_minimal_js" t-css="false" defer_load="True"/>
+            <t t-call="web.conditional_assets_tests"/>
+            <t t-call-assets="web.assets_common_lazy" t-css="false" lazy_load="True"/>
+            <t t-call-assets="web.assets_frontend_lazy" t-css="false" lazy_load="True"/>
+            <script>
+                if( document.getElementsByClassName("ts-full-screen").length ) {
+                    document.getElementsByClassName("ts-full-screen")[0].style.height = window.innerHeight + "px";
+                }
+            </script>
+            <script src="/gabosoft_home_portal/static/src/js/jquery-3.3.1.min.js"></script>
+            <script src="/gabosoft_home_portal/static/src/js/popper.min.js"></script>
+            <script src="/gabosoft_home_portal/static/src/bootstrap/js/bootstrap.min.js"></script>
+            <script src="/gabosoft_home_portal/static/src/js/imagesloaded.pkgd.min.js"></script>
+            <script src="http://maps.google.com/maps/api/js?key=AIzaSyBEDfNcQRmKQEyulDN8nGWjLYPm8s4YB58"></script>
+            <script src="/gabosoft_home_portal/static/src/js/isInViewport.jquery.js"></script>
+            <script src="/gabosoft_home_portal/static/src/js/jquery.particleground.min.js"></script>
+            <script src="/gabosoft_home_portal/static/src/js/owl.carousel.min.js"></script>
+            <script src="/gabosoft_home_portal/static/src/js/scrolla.jquery.min.js"></script>
+            <script src="/gabosoft_home_portal/static/src/js/jquery.validate.min.js"></script>
+            <script src="/gabosoft_home_portal/static/src/js/jquery-validate.bootstrap-tooltip.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.4/TweenMax.min.js"></script>
+            <script src="/gabosoft_home_portal/static/src/js/jquery.wavify.js"></script>
+            <script src="/gabosoft_home_portal/static/src/js/custom.js"></script>
+            <script src="https://unpkg.com/@barba/core"></script>
+            <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+            <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"
+                integrity="sha256-3arngJBQR3FTyeRtL3muAGFaGcL8iHsubYOqq48mBLw=" crossorigin="anonymous"></script>
+        </xpath>
+        <xpath expr="//t[@t-raw='0']" position="replace">
+            <div id="wrapwrap" t-attf-class="ts-page-wrapper #{pageName or ''}">
+                <header t-if="not no_header" id="top" data-anchor="true">
+                    <img class="img-responsive d-block mx-auto" t-attf-src="/web/binary/company_logo" alt="Logo"/>
+                </header>
+                <main>
+                    <t t-raw="0"/>
+                </main>
+                <footer id="ts-footer">
+
+                        <iframe class="map ts-height__600px" width="100%" src="https://www.google.com/maps/embed?pb=!1m17!1m8!1m3!1d7953.269586502632!2d-74.06606937948918!3d4.65904105038233!3m2!1i1024!2i768!4f13.1!4m6!3e6!4m0!4m3!3m2!1d4.6586826!2d-74.0636876!5e0!3m2!1ses!2sco!4v1594152925436!5m2!1ses!2sco" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+                        <section id="contact" class="ts-separate-bg-element footer_motion" style="background-color:#c6007e;" >
+                            <div class="container f_container">
+                                <div class="ts-box mb-0 p-5 ts-mt__n-10">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <h3>Contáctanos</h3>
+                                            <address>
+                                                <figure>
+                                                    Carrera 16a No.70a-74
+                                                    Bogota, CO 16108
+                                                </figure>
+                                                <br/>
+                                                <figure>
+                                                    <div class="font-weight-bold">Correo Electronico:</div>
+                                                    <a href="#">gabosoft.ape@gmail.com</a>
+                                                </figure>
+                                                <figure>
+                                                    <div class="font-weight-bold">Telefono:</div>
+                                                    +57 3209529373
+                                                </figure>
+                                                <div class="font-weight-bold">Skype:</div>
+                                                crypto.agency
+                                            </address>
+                                            <!--end address-->
+                                        </div>
+                                        <!--end col-md-4-->
+                                        <div class="col-md-8">
+                                            <h3>Formulario de Contacto</h3>
+                                            <form id="form-contact" method="post" class="clearfix ts-form ts-form-email ts-inputs__transparent" data-php-path="/gabosoft_home_portal/static/src/php/email.php">
+                                                <div class="row">
+                                                    <div class="col-md-6 col-sm-6">
+                                                        <div class="form-group">
+                                                            <label for="form-contact-name">Su nombre *</label>
+                                                            <input type="text" class="form-control" id="form-contact-name" name="name" placeholder="Nombres" required=""/>
+                                                        </div>
+                                                        <!--end form-group -->
+                                                    </div>
+                                                    <!--end col-md-6 col-sm-6 -->
+                                                    <div class="col-md-6 col-sm-6">
+                                                        <div class="form-group">
+                                                            <label for="form-contact-email">Correo electrionico *</label>
+                                                            <input type="email" class="form-control" id="form-contact-email" name="email" placeholder="usuario@servidor.es" required=""/>
+                                                        </div>
+                                                        <!--end form-group -->
+                                                    </div>
+                                                    <!--end col-md-6 col-sm-6 -->
+                                                </div>
+                                                <!--end row -->
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <div class="form-group">
+                                                            <label for="form-contact-message">Su mensaje*</label>
+                                                            <textarea class="form-control" id="form-contact-message" rows="5" name="message" placeholder="Mensaje" required=""/>
+                                                        </div>
+                                                        <!--end form-group -->
+                                                    </div>
+                                                    <!--end col-md-12 -->
+                                                </div>
+                                                <!--end row -->
+                                                <div class="form-group clearfix">
+                                                    <button type="submit" class="btn btn-primary float-right" id="form-contact-submit">Send a Message</button>
+                                                </div>
+                                                <!--end form-group -->
+                                                <div class="form-contact-status"></div>
+                                            </form>
+                                            <!--end form-contact -->
+                                        </div>
+                                    </div>
+                                    <!--end row-->
+                                </div>
+                                <!--end ts-box-->
+                                <div class="text-center text-white py-4">
+                                    <small>© 2020 monitoringinnovation.com , All Rights Reserved</small>
+                                </div>
+                            </div>
+                            <!--end container-->
+                        </section>
+
+                    </footer>
+            </div>
+        </xpath>
+        <xpath expr="." position="attributes"><attribute name="t-name">web.frontend_layout</attribute>
+        </xpath>
+    </template>
+    <!-- web frontend layout -->
+    <template id="main_front_layout" name="Main Frontend Layout" inherit_id="gabosoft_home_portal.frontend_layout">
+        <xpath expr="//div[@id='wrapwrap']" position="attributes">
+            <attribute name="t-attf-class" add="#{request.env['res.lang'].search([('code', '=', request.env.lang)]).direction == 'rtl' and 'o_rtl' or ''}" separator=" "/>
+            <attribute name="t-attf-class" add="#{'o_portal' if is_portal else ''}" separator=" "/>
+        </xpath>
+        <xpath expr="//div[@id='wrapwrap']/header/img" position="replace">
+            <nav class="navbar navbar-expand-lg nav_item_motion fixed-top ts-separate-bg-element" data-bg-color="#fff">
+                <div class="container">
+                    <a href="/" class="navbar-brand logo">
+                        <img src="/gabosoft_home_portal/static/src/img/logo.png" class="el_logo" alt=""/>
+                    </a>
+                    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#top_menu_collapse">
+                        <span class="navbar-toggler-icon"/>
+                    </button>
+                    <div class="collapse navbar-collapse" id="top_menu_collapse">
+                        <!-- FIXME We want menu to open to the right by default (except cases handled in JS) -->
+                        <ul class="nav navbar-nav ml-auto text-right" id="top_menu">
+                            <li class="nav-item divider" t-ignore="true" t-if="not user_id._is_public()"/>
+                            <li class="nav-item dropdown" t-ignore="true" t-if="not user_id._is_public()">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
+                                    <b>
+                                        <span t-esc="user_id.name[:23] + '...' if user_id.name and len(user_id.name) &gt; 25 else user_id.name"/>
+                                    </b>
+                                </a>
+                                <div class="dropdown-menu js_usermenu" role="menu">
+                                    <a id="o_logout" class="dropdown-item" t-attf-href="/web/session/logout?redirect=/" role="menuitem">Logout</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <t t-if="pageName == 'homepage'">
+                <div class="container align-self-center">
+                    <div class="row align-items-center">
+                        <div class="col-sm-7">
+                            <div class="owl-carousel" data-owl-nav="0" data-owl-loop="1">
+                                <div class="d-inline-block mw-100 p-md-5 p-lg-0 ts-width__auto">
+                                    <h3 class="primario_1_dark">Monitoreo de flotas vehiculares</h3>
+                                    <h1>Seguimiento en Tiempo Real</h1>
+                                    <a href="#how-it-works" class="btn btn-lg ts-scroll btn_activo_2_dark" >Descargar App
+                                    </a>
+                                </div>
+                                <div class="d-inline-block mw-100 p-md-5 p-lg-0 ts-width__auto">
+                                    <h3 class="primario_1_dark">Planifique y controle los gastos</h3>
+                                    <h1>Minimice Costos de Mantenimiento</h1>
+                                    <a href="#how-it-works" class="btn btn-lg ts-scroll btn_activo_2_dark" >Solicitar Demo
+                                    </a>
+                                </div>
+                                <div class="d-inline-block mw-100 p-md-5 p-lg-0 ts-width__auto">
+                                    <h3 class="primario_1_dark">Monitoreo de Síntomas de COVID-19</h3>
+                                    <h1>Reporte Diario del Estado de su Flota.</h1>
+                                    <a href="#how-it-works" class="btn btn-lg ts-scroll btn_activo_2_dark">Descargar App</a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!--end col-sm-7 col-md-7-->
+                        <div class="col-sm-5 d-none d-sm-block">
+                            <div class="owl-carousel text-center" data-owl-nav="1" data-owl-loop="1">
+                                <img src="/gabosoft_home_portal/static/src/images/home-banner-wialon.png" class="d-inline-block mw-100 p-md-5 p-lg-0 ts-width__auto" alt=""/>
+                                <img src="/gabosoft_home_portal/static/src/images/home-banner-fleetrun.png" class="d-inline-block mw-100 p-md-5 p-lg-0 ts-width__auto" alt=""/>
+                                <img src="/gabosoft_home_portal/static/src/images/home-banner-enlist.png" class="d-inline-block mw-100 p-md-5 p-lg-0 ts-width__auto" alt=""/>
+                            </div>
+                        </div>
+                        <!--end col-sm-5 col-md-5 col-xl-5-->
+                    </div>
+                    <!--end row-->
+                </div>
+                <!--end container-->
+
+                <div id="ts-dynamic-waves" class="ts-background">
+                    <svg class="ts-svg ts-z-index__1" width="100%" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                        <defs></defs>
+                        <path class="ts-dynamic-wave" id="wave-2" d="" data-wave-color="#fff" data-wave-height=".45" data-wave-bones="4" data-wave-speed=".20"/>
+                    </svg>
+                    <div class="ts-background-image ts-parallax-element" data-bg-image="/gabosoft_home_portal/static/src/images/home-video-bg.jpg" ></div>
+                </div>
+            </t>
+        </xpath>
+        <xpath expr="//div[@id='wrapwrap']/main/t[@t-raw='0']" position="before">
+            <div t-if="o_portal_fullwidth_alert" class="alert alert-info alert-dismissible rounded-0 fade show d-print-none css_editable_mode_hidden">
+                <div class="container">
+                    <t t-raw="o_portal_fullwidth_alert"/>
+                </div>
+            </div>
+        </xpath>
+    </template>
+    <!-- portal layout-->
+    <template id="main_layout" name="Main layout" inherit_id="gabosoft_home_portal.main_front_layout">
+        <xpath expr="//html" position="before">
+            <t t-set="html_data" t-value="{             'lang': lang and lang.replace('_', '-'),             'data-website-id': website.id if website else None,             'data-editable': '1' if editable else None,             'data-translatable': '1' if translatable else None,             'data-edit_translations': '1' if edit_translations else None,             'data-view-xmlid': xmlid if editable or translatable else None,             'data-viewid': viewid if editable or translatable else None,             'data-main-object': repr(main_object) if editable or translatable else None,             'data-seo-object': repr(seo_object) if seo_object else None,             'data-oe-company-name': res_company.name,         }"/>
+        </xpath>
+        <xpath expr="//head" position="before">
+            <t t-if="not title">
+                <t t-if="not additional_title and main_object and 'name' in main_object">
+                    <t t-set="additional_title" t-value="main_object.name"/>
+                </t>
+                <t t-set="default_title"> <t t-if="additional_title"><t t-raw="additional_title"/> | </t><t t-raw="(website or res_company).name"/> </t>
+                <t t-set="seo_object" t-value="seo_object or main_object"/>
+                <t t-if="seo_object and 'website_meta_title' in seo_object and seo_object.website_meta_title">
+                    <t t-set="title" t-value="seo_object.website_meta_title"/>
+                </t>
+                <t t-else="">
+                    <t t-set="title" t-value="default_title"/>
+                </t>
+            </t>
+            <t t-set="x_icon" t-value="website.image_url(website, 'favicon')"/>
+        </xpath>
+        <xpath expr="//head/meta[last()]" position="after">
+            <meta name="generator" content="Odoo"/>
+            <t t-set="website_meta" t-value="seo_object and seo_object.get_website_meta() or {}"/>
+            <meta name="default_title" t-att-content="default_title" groups="website.group_website_designer"/>
+            <meta t-if="main_object and 'website_indexed' in main_object             and not main_object.website_indexed" name="robots" content="noindex"/>
+                <t t-set="seo_object" t-value="seo_object or main_object"/>
+                <t t-set="meta_description" t-value="seo_object and 'website_meta_description' in seo_object                 and seo_object.website_meta_description or website_meta_description or website_meta.get('meta_description', '')"/>
+                <t t-set="meta_keywords" t-value="seo_object and 'website_meta_keywords' in seo_object                 and seo_object.website_meta_keywords or website_meta_keywords"/>
+            <meta t-if="meta_description or editable" name="description" t-att-content="meta_description"/>
+            <meta t-if="meta_keywords or editable" name="keywords" t-att-content="meta_keywords"/>
+            <t t-if="seo_object">
+                <meta name="default_description" t-att-content="website_meta_description or website_meta.get('meta_description')" groups="website.group_website_designer"/>
+                <!-- OpenGraph tags for Facebook sharing -->
+                <t t-set="opengraph_meta" t-value="website_meta.get('opengraph_meta')"/>
+                <t t-if="opengraph_meta">
+                    <t t-foreach="opengraph_meta" t-as="property">
+                        <t t-if="isinstance(opengraph_meta[property], list)">
+                            <t t-foreach="opengraph_meta[property]" t-as="meta_content">
+                                <meta t-att-property="property" t-att-content="meta_content"/>
+                            </t>
+                        </t>
+                        <t t-else="">
+                            <meta t-att-property="property" t-att-content="opengraph_meta[property]"/>
+                        </t>
+                    </t>
+                </t>
+                <!-- Twitter tags for sharing -->
+                <t t-set="twitter_meta" t-value="website_meta.get('twitter_meta')"/>
+                <t t-if="opengraph_meta">
+                    <t t-foreach="twitter_meta" t-as="t_meta">
+                        <meta t-att-name="t_meta" t-att-content="twitter_meta[t_meta]"/>
+                    </t>
+                </t>
+            </t>
+
+            <t t-if="request and request.is_frontend_multilang and website">
+                <t t-set="alternate_languages" t-value="website._get_alternate_languages(canonical_params=canonical_params)"/>
+                <t t-foreach="alternate_languages" t-as="lg">
+                    <link rel="alternate" t-att-hreflang="lg['hreflang']" t-att-href="lg['href']"/>
+                </t>
+            </t>
+            <link t-if="request and website" rel="canonical" t-att-href="website._get_canonical_url(canonical_params=canonical_params)"/>
+
+            <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin=""/>
+        </xpath>
+
+        <xpath expr="//head/t[@t-js='false'][last()]" position="after">
+            <t t-call-assets="website.assets_editor" t-js="false" groups="website.group_website_publisher"/>
+        </xpath>
+        <xpath expr="//head/t[@t-css='false'][last()]" position="after">
+            <t t-call-assets="website.assets_editor" t-css="false" groups="website.group_website_publisher" lazy_load="True"/>
+        </xpath>
+
+        <xpath expr="//header" position="attributes">
+            <attribute name="data-name">Header</attribute>
+        </xpath>
+        <xpath expr="//header//a[hasclass('navbar-brand')]" position="replace">
+            <a class="navbar-brand" href="/" t-if="website" t-field="website.name">My Website</a>
+        </xpath>
+        <xpath expr="//header//ul[@id='top_menu']" position="attributes">
+            <attribute name="class" separator=" " add="o_menu_loading"/>
+        </xpath>
+        <xpath expr="//header//ul[@id='top_menu']/li[hasclass('divider')]" position="attributes">
+            <attribute name="t-if">website.user_id != user_id</attribute>
+        </xpath>
+        <xpath expr="//header//ul[@id='top_menu']/li[hasclass('dropdown')]" position="attributes">
+            <attribute name="t-if">website.user_id != user_id</attribute>
+        </xpath>
+        <xpath expr="//header//ul[@id='top_menu']/li[hasclass('divider')]" position="before">
+            <t t-foreach="website.menu_id.child_id" t-as="submenu">
+                <t t-call="website.submenu">
+                    <t t-set="item_class" t-value="'nav-item'"/>
+                    <t t-set="link_class" t-value="'nav-link'"/>
+                </t>
+            </t>
+        </xpath>
+
+        <xpath expr="//div[hasclass('o_footer_copyright')]//span[@t-field='res_company.name']" position="after">
+            <t t-call="website.language_selector"/>
+        </xpath>
+        <xpath expr="//t[@t-call='web.brand_promotion']/.." position="attributes">
+            <attribute name="class" add="o_not_editable" separator=" "/>
+            <attribute name="t-if">not editable</attribute>
+        </xpath>
+
+        <xpath expr="//div[@id='wrapwrap']" position="after">
+            <script id="tracking_code" t-if="website and website.google_analytics_key and not editable">
+                (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                ga('create', '<t t-esc="website.google_analytics_key"/>'.trim(), 'auto');
+                ga('send','pageview');
+            </script>
+        </xpath>
+
+        <!-- Page options -->
+        <xpath expr="//div[@id='wrapwrap']" position="before">
+            <t groups="website.group_website_publisher">
+                <t t-foreach="['header_overlay', 'header_color']" t-as="optionName">
+                    <input t-if="optionName in main_object" type="hidden" class="o_page_option_data" t-att-name="optionName" t-att-value="main_object[optionName]"/>
+                </t>
+            </t>
+        </xpath>
+        <xpath expr="//div[@id='wrapwrap']" position="attributes">
+            <attribute name="t-attf-class" add="#{'o_header_overlay' if 'header_overlay' in main_object and main_object.header_overlay else ''}" separator=" "/>
+        </xpath>
+        <xpath expr="//header" position="attributes">
+            <attribute name="t-attf-class" add="#{main_object.header_color if 'header_color' in main_object else ''}" separator=" "/>
+        </xpath>
+    </template>
+    <!-- motion portal layout -->
     <template id="portal_layout" name="Portal Enlistcontrol Layout">
-        <t t-call="gabosoft_home_portal.frontend_layout">
+        <t t-call="gabosoft_home_portal.main_layout">
             <t t-set="is_portal" t-value="True"/>
             <div id="wrap" class='o_portal_wrap'>
                 <div class="container mb64">
@@ -350,7 +694,142 @@
 
         </t>
     </template>
+    <!-- de aqui en adelante voy a eliminar el codigo, por ahora .. zona de testeo -->
 
+    <data name="Main layout" inherit_id="portal.frontend_layout">
+        <xpath expr="//html" position="before">
+            <t t-set="html_data" t-value="{             'lang': lang and lang.replace('_', '-'),             'data-website-id': website.id if website else None,             'data-editable': '1' if editable else None,             'data-translatable': '1' if translatable else None,             'data-edit_translations': '1' if edit_translations else None,             'data-view-xmlid': xmlid if editable or translatable else None,             'data-viewid': viewid if editable or translatable else None,             'data-main-object': repr(main_object) if editable or translatable else None,             'data-seo-object': repr(seo_object) if seo_object else None,             'data-oe-company-name': res_company.name,         }"/>
+        </xpath>
+        <xpath expr="//head" position="before">
+            <t t-if="not title">
+                <t t-if="not additional_title and main_object and 'name' in main_object">
+                    <t t-set="additional_title" t-value="main_object.name"/>
+                </t>
+                <t t-set="default_title"> <t t-if="additional_title"><t t-raw="additional_title"/> | </t><t t-raw="(website or res_company).name"/> </t>
+                <t t-set="seo_object" t-value="seo_object or main_object"/>
+                <t t-if="seo_object and 'website_meta_title' in seo_object and seo_object.website_meta_title">
+                    <t t-set="title" t-value="seo_object.website_meta_title"/>
+                </t>
+                <t t-else="">
+                    <t t-set="title" t-value="default_title"/>
+                </t>
+            </t>
+            <t t-set="x_icon" t-value="website.image_url(website, 'favicon')"/>
+        </xpath>
+        <xpath expr="//head/meta[last()]" position="after">
+            <meta name="generator" content="Odoo"/>
+            <t t-set="website_meta" t-value="seo_object and seo_object.get_website_meta() or {}"/>
+            <meta name="default_title" t-att-content="default_title" groups="website.group_website_designer"/>
+            <meta t-if="main_object and 'website_indexed' in main_object             and not main_object.website_indexed" name="robots" content="noindex"/>
+                <t t-set="seo_object" t-value="seo_object or main_object"/>
+                <t t-set="meta_description" t-value="seo_object and 'website_meta_description' in seo_object                 and seo_object.website_meta_description or website_meta_description or website_meta.get('meta_description', '')"/>
+                <t t-set="meta_keywords" t-value="seo_object and 'website_meta_keywords' in seo_object                 and seo_object.website_meta_keywords or website_meta_keywords"/>
+            <meta t-if="meta_description or editable" name="description" t-att-content="meta_description"/>
+            <meta t-if="meta_keywords or editable" name="keywords" t-att-content="meta_keywords"/>
+            <t t-if="seo_object">
+                <meta name="default_description" t-att-content="website_meta_description or website_meta.get('meta_description')" groups="website.group_website_designer"/>
+                <!-- OpenGraph tags for Facebook sharing -->
+                <t t-set="opengraph_meta" t-value="website_meta.get('opengraph_meta')"/>
+                <t t-if="opengraph_meta">
+                    <t t-foreach="opengraph_meta" t-as="property">
+                        <t t-if="isinstance(opengraph_meta[property], list)">
+                            <t t-foreach="opengraph_meta[property]" t-as="meta_content">
+                                <meta t-att-property="property" t-att-content="meta_content"/>
+                            </t>
+                        </t>
+                        <t t-else="">
+                            <meta t-att-property="property" t-att-content="opengraph_meta[property]"/>
+                        </t>
+                    </t>
+                </t>
+                <!-- Twitter tags for sharing -->
+                <t t-set="twitter_meta" t-value="website_meta.get('twitter_meta')"/>
+                <t t-if="opengraph_meta">
+                    <t t-foreach="twitter_meta" t-as="t_meta">
+                        <meta t-att-name="t_meta" t-att-content="twitter_meta[t_meta]"/>
+                    </t>
+                </t>
+            </t>
+
+            <t t-if="request and request.is_frontend_multilang and website">
+                <t t-set="alternate_languages" t-value="website._get_alternate_languages(canonical_params=canonical_params)"/>
+                <t t-foreach="alternate_languages" t-as="lg">
+                    <link rel="alternate" t-att-hreflang="lg['hreflang']" t-att-href="lg['href']"/>
+                </t>
+            </t>
+            <link t-if="request and website" rel="canonical" t-att-href="website._get_canonical_url(canonical_params=canonical_params)"/>
+
+            <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin=""/>
+        </xpath>
+
+        <xpath expr="//head/t[@t-js='false'][last()]" position="after">
+            <t t-call-assets="website.assets_editor" t-js="false" groups="website.group_website_publisher"/>
+        </xpath>
+        <xpath expr="//head/t[@t-css='false'][last()]" position="after">
+            <t t-call-assets="website.assets_editor" t-css="false" groups="website.group_website_publisher" lazy_load="True"/>
+        </xpath>
+
+        <xpath expr="//header" position="attributes">
+            <attribute name="data-name">Header</attribute>
+        </xpath>
+        <xpath expr="//header//a[hasclass('navbar-brand')]" position="replace">
+            <a class="navbar-brand" href="/" t-if="website" t-field="website.name">My Website</a>
+        </xpath>
+        <xpath expr="//header//ul[@id='top_menu']" position="attributes">
+            <attribute name="class" separator=" " add="o_menu_loading"/>
+        </xpath>
+        <xpath expr="//header//ul[@id='top_menu']/li[hasclass('divider')]" position="attributes">
+            <attribute name="t-if">website.user_id != user_id</attribute>
+        </xpath>
+        <xpath expr="//header//ul[@id='top_menu']/li[hasclass('dropdown')]" position="attributes">
+            <attribute name="t-if">website.user_id != user_id</attribute>
+        </xpath>
+        <xpath expr="//header//ul[@id='top_menu']/li[hasclass('divider')]" position="before">
+            <t t-foreach="website.menu_id.child_id" t-as="submenu">
+                <t t-call="website.submenu">
+                    <t t-set="item_class" t-value="'nav-item'"/>
+                    <t t-set="link_class" t-value="'nav-link'"/>
+                </t>
+            </t>
+        </xpath>
+
+        <xpath expr="//div[hasclass('o_footer_copyright')]//span[@t-field='res_company.name']" position="after">
+            <t t-call="website.language_selector"/>
+        </xpath>
+        <xpath expr="//t[@t-call='web.brand_promotion']/.." position="attributes">
+            <attribute name="class" add="o_not_editable" separator=" "/>
+            <attribute name="t-if">not editable</attribute>
+        </xpath>
+
+        <xpath expr="//div[@id='wrapwrap']" position="after">
+            <script id="tracking_code" t-if="website and website.google_analytics_key and not editable">
+                (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                ga('create', '<t t-esc="website.google_analytics_key"/>'.trim(), 'auto');
+                ga('send','pageview');
+            </script>
+        </xpath>
+
+        <!-- Page options -->
+        <xpath expr="//div[@id='wrapwrap']" position="before">
+            <t groups="website.group_website_publisher">
+                <t t-foreach="['header_overlay', 'header_color']" t-as="optionName">
+                    <input t-if="optionName in main_object" type="hidden" class="o_page_option_data" t-att-name="optionName" t-att-value="main_object[optionName]"/>
+                </t>
+            </t>
+        </xpath>
+        <xpath expr="//div[@id='wrapwrap']" position="attributes">
+            <attribute name="t-attf-class" add="#{'o_header_overlay' if 'header_overlay' in main_object and main_object.header_overlay else ''}" separator=" "/>
+        </xpath>
+        <xpath expr="//header" position="attributes">
+            <attribute name="t-attf-class" add="#{main_object.header_color if 'header_color' in main_object else ''}" separator=" "/>
+        </xpath>
+    </data>
+
+    <!-- template Productos -->
     <template id="productos" name="Productos">
         <t t-call="gabosoft_home_portal.portal_layout">
             <!-- Productos ************************************************************************************-->
@@ -391,6 +870,130 @@
 
         </t>
     </template>
+    <!-- template wialon -->
+    <template id="wialonweb" name="Wialon Web">
+        <t t-call="gabosoft_home_portal.portal_layout">
+            <!-- Productos ************************************************************************************-->
+            <section id="ultima" class="s_picture bg-200 pt48 pb24 ts-block fashion" data-name="Picture">
+                        <div class="container">
+                              <div class="row s_nb_column_fixed">
+                                <div class="col-lg-12 s_title pt16 pb16">
+                                  <h2 class="s_title_thin" style="text-align: center;">
+                                    <font style="font-size: 62px;" class="o_default_snippet_text">Wialon web</font>
+                                  </h2>
+                                </div>
+                                <div class="col-lg-12 pt16 pb16">
+                                  <p style="text-align: center;" class="o_default_snippet_text">Elija una imagen vibrante y escriba un párrafo inspirador al respecto. <br/>No tiene que ser largo, pero debe reforzar su imagen.</p>
+                                </div>
+                                <div class="col-lg-8 offset-lg-2 pb24">
+                                  <figure class="figure">
+                                    <img src="/web/image/website.s_picture_default_image" class="figure-img img-fluid rounded img-thumbnail padding-large" alt="MOTION • Una imagen con una leyenda"/>
+                                    <figcaption class="figure-caption py-3 text-center o_default_snippet_text"><i class="fa fa-1x fa-picture-o mr-2"/>Agrega un título para mejorar el significado de esta imagen.</figcaption>
+                                  </figure>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="container">
+                          <div class="row">
+                            <div class="col-lg-9 pb24">
+                              <h3 class="o_default_snippet_text"><b class="o_default_snippet_text">Más de 50,000 empresas</b> utilizan MOTION para hacer crecer sus negocios</h3>
+                              <p class="lead o_default_snippet_text">Únase a nosotros y haga de su compañía un lugar mejor.</p>
+                            </div>
+                            <div class="col-lg-3 s_btn text-right pt8 pb24">
+                              <a href="/contactus" class="btn btn-primary btn-lg">
+                                <span class="o_default_snippet_text">Contáctenos</span>
+                                <i class="fa fa-1x fa-fw fa-arrow-circle-right ml-1"/>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </section>
+
+        </t>
+    </template>
+    <!-- template flespi -->
+    <template id="flespi" name="Flespi">
+        <t t-call="gabosoft_home_portal.portal_layout">
+            <!-- Productos ************************************************************************************-->
+            <section id="ultima" class="s_picture bg-200 pt48 pb24 ts-block fashion" data-name="Picture">
+                        <div class="container">
+                              <div class="row s_nb_column_fixed">
+                                <div class="col-lg-12 s_title pt16 pb16">
+                                  <h2 class="s_title_thin" style="text-align: center;">
+                                    <font style="font-size: 62px;" class="o_default_snippet_text">Flespi</font>
+                                  </h2>
+                                </div>
+                                <div class="col-lg-12 pt16 pb16">
+                                  <p style="text-align: center;" class="o_default_snippet_text">Elija una imagen vibrante y escriba un párrafo inspirador al respecto. <br/>No tiene que ser largo, pero debe reforzar su imagen.</p>
+                                </div>
+                                <div class="col-lg-8 offset-lg-2 pb24">
+                                  <figure class="figure">
+                                    <img src="/web/image/website.s_picture_default_image" class="figure-img img-fluid rounded img-thumbnail padding-large" alt="MOTION • Una imagen con una leyenda"/>
+                                    <figcaption class="figure-caption py-3 text-center o_default_snippet_text"><i class="fa fa-1x fa-picture-o mr-2"/>Agrega un título para mejorar el significado de esta imagen.</figcaption>
+                                  </figure>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="container">
+                          <div class="row">
+                            <div class="col-lg-9 pb24">
+                              <h3 class="o_default_snippet_text"><b class="o_default_snippet_text">Más de 50,000 empresas</b> utilizan MOTION para hacer crecer sus negocios</h3>
+                              <p class="lead o_default_snippet_text">Únase a nosotros y haga de su compañía un lugar mejor.</p>
+                            </div>
+                            <div class="col-lg-3 s_btn text-right pt8 pb24">
+                              <a href="/contactus" class="btn btn-primary btn-lg">
+                                <span class="o_default_snippet_text">Contáctenos</span>
+                                <i class="fa fa-1x fa-fw fa-arrow-circle-right ml-1"/>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </section>
+
+        </t>
+    </template>
+    <!-- template wialon app movil -->
+    <template id="wialonapp" name="Productos">
+        <t t-call="gabosoft_home_portal.portal_layout">
+            <!-- Productos ************************************************************************************-->
+            <section id="ultima" class="s_picture bg-200 pt48 pb24 ts-block fashion" data-name="Picture">
+                        <div class="container">
+                              <div class="row s_nb_column_fixed">
+                                <div class="col-lg-12 s_title pt16 pb16">
+                                  <h2 class="s_title_thin" style="text-align: center;">
+                                    <font style="font-size: 62px;" class="o_default_snippet_text">Wialon App</font>
+                                  </h2>
+                                </div>
+                                <div class="col-lg-12 pt16 pb16">
+                                  <p style="text-align: center;" class="o_default_snippet_text">Elija una imagen vibrante y escriba un párrafo inspirador al respecto. <br/>No tiene que ser largo, pero debe reforzar su imagen.</p>
+                                </div>
+                                <div class="col-lg-8 offset-lg-2 pb24">
+                                  <figure class="figure">
+                                    <img src="/web/image/website.s_picture_default_image" class="figure-img img-fluid rounded img-thumbnail padding-large" alt="MOTION • Una imagen con una leyenda"/>
+                                    <figcaption class="figure-caption py-3 text-center o_default_snippet_text"><i class="fa fa-1x fa-picture-o mr-2"/>Agrega un título para mejorar el significado de esta imagen.</figcaption>
+                                  </figure>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="container">
+                          <div class="row">
+                            <div class="col-lg-9 pb24">
+                              <h3 class="o_default_snippet_text"><b class="o_default_snippet_text">Más de 50,000 empresas</b> utilizan MOTION para hacer crecer sus negocios</h3>
+                              <p class="lead o_default_snippet_text">Únase a nosotros y haga de su compañía un lugar mejor.</p>
+                            </div>
+                            <div class="col-lg-3 s_btn text-right pt8 pb24">
+                              <a href="/contactus" class="btn btn-primary btn-lg">
+                                <span class="o_default_snippet_text">Contáctenos</span>
+                                <i class="fa fa-1x fa-fw fa-arrow-circle-right ml-1"/>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </section>
+
+        </t>
+    </template>
+    <!-- template Soluciones -->
     <template id="soluciones" name="Servicios">
         <t t-call="gabosoft_home_portal.portal_layout">
             <!-- Productos ************************************************************************************-->
@@ -430,6 +1033,135 @@
               </section>
         </t>
     </template>
+    <!-- Negocios agrícolas HECTERRA (Web) -->
+    <template id="hecterra" name="Hecterra">
+        <t t-call="gabosoft_home_portal.portal_layout">
+            <!-- Productos ************************************************************************************-->
+            <section id="ultima" class="s_picture bg-200 pt48 pb24 ts-block" data-name="Picture">
+                <div class="container">
+                      <div class="row s_nb_column_fixed">
+                        <div class="col-lg-12 s_title pt16 pb16">
+                          <h2 class="s_title_thin" style="text-align: center;">
+                            <font style="font-size: 62px;" class="o_default_snippet_text">Hecterra</font>
+                          </h2>
+                        </div>
+                        <div class="col-lg-12 pt16 pb16">
+                          <p style="text-align: center;" class="o_default_snippet_text">Elija una imagen vibrante y escriba un párrafo inspirador al respecto. <br/>No tiene que ser largo, pero debe reforzar su imagen.</p>
+                        </div>
+                        <div class="col-lg-8 offset-lg-2 pb24">
+                          <figure class="figure">
+                            <img src="/web/image/website.s_picture_default_image" class="figure-img img-fluid rounded img-thumbnail padding-large" alt="MOTION • Una imagen con una leyenda"/>
+                            <figcaption class="figure-caption py-3 text-center o_default_snippet_text"><i class="fa fa-1x fa-picture-o mr-2"/>Agrega un título para mejorar el significado de esta imagen.</figcaption>
+                          </figure>
+                        </div>
+                      </div>
+                </div>
+                <div class="container">
+                  <div class="row">
+                    <div class="col-lg-9 pb24">
+                      <h3 class="o_default_snippet_text"><b class="o_default_snippet_text">Más de 50,000 empresas</b> utilizan MOTION para hacer crecer sus negocios</h3>
+                      <p class="lead o_default_snippet_text">Únase a nosotros y haga de su compañía un lugar mejor.</p>
+                    </div>
+                    <div class="col-lg-3 s_btn text-right pt8 pb24">
+                      <a href="/contactus" class="btn btn-primary btn-lg">
+                        <span class="o_default_snippet_text">Contáctenos</span>
+                        <i class="fa fa-1x fa-fw fa-arrow-circle-right ml-1"/>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </section>
+        </t>
+    </template>
+    <!-- Entregas LOGISTICS (Web y App) -->
+    <template id="logistics" name="Logistics">
+        <t t-call="gabosoft_home_portal.portal_layout">
+            <!-- Productos ************************************************************************************-->
+            <section id="ultima" class="s_picture bg-200 pt48 pb24 ts-block" data-name="Picture">
+                <div class="container">
+                      <div class="row s_nb_column_fixed">
+                        <div class="col-lg-12 s_title pt16 pb16">
+                          <h2 class="s_title_thin" style="text-align: center;">
+                            <font style="font-size: 62px;" class="o_default_snippet_text">Logistics</font>
+                          </h2>
+                        </div>
+                        <div class="col-lg-12 pt16 pb16">
+                          <p style="text-align: center;" class="o_default_snippet_text">Elija una imagen vibrante y escriba un párrafo inspirador al respecto. <br/>No tiene que ser largo, pero debe reforzar su imagen.</p>
+                        </div>
+                        <div class="col-lg-8 offset-lg-2 pb24">
+                          <figure class="figure">
+                            <img src="/web/image/website.s_picture_default_image" class="figure-img img-fluid rounded img-thumbnail padding-large" alt="MOTION • Una imagen con una leyenda"/>
+                            <figcaption class="figure-caption py-3 text-center o_default_snippet_text"><i class="fa fa-1x fa-picture-o mr-2"/>Agrega un título para mejorar el significado de esta imagen.</figcaption>
+                          </figure>
+                        </div>
+                      </div>
+                </div>
+                <div class="container">
+                  <div class="row">
+                    <div class="col-lg-9 pb24">
+                      <h3 class="o_default_snippet_text"><b class="o_default_snippet_text">Más de 50,000 empresas</b> utilizan MOTION para hacer crecer sus negocios</h3>
+                      <p class="lead o_default_snippet_text">Únase a nosotros y haga de su compañía un lugar mejor.</p>
+                    </div>
+                    <div class="col-lg-3 s_btn text-right pt8 pb24">
+                      <a href="/contactus" class="btn btn-primary btn-lg">
+                        <span class="o_default_snippet_text">Contáctenos</span>
+                        <i class="fa fa-1x fa-fw fa-arrow-circle-right ml-1"/>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </section>
+        </t>
+    </template>
+    <!-- Seguimiento en tiempo real WIALON (Web y App) -->
+    <template id="tracking" name="Seguimiento en tiempo real">
+        <t t-call="gabosoft_home_portal.portal_layout">
+            <!-- Productos ************************************************************************************-->
+            <section id="ultima" class="s_picture bg-200 pt48 pb24 ts-block" data-name="Picture">
+                <div class="container">
+                      <div class="row s_nb_column_fixed">
+                        <div class="col-lg-12 s_title pt16 pb16">
+                          <h2 class="s_title_thin" style="text-align: center;">
+                            <font style="font-size: 62px;" class="o_default_snippet_text">Seguimiento en tiempo real</font>
+                          </h2>
+                        </div>
+                        <div class="col-lg-12 pt16 pb16">
+                          <p style="text-align: center;" class="o_default_snippet_text">Elija una imagen vibrante y escriba un párrafo inspirador al respecto. <br/>No tiene que ser largo, pero debe reforzar su imagen.</p>
+                        </div>
+                        <div class="col-lg-8 offset-lg-2 pb24">
+                          <figure class="figure">
+                            <img src="/web/image/website.s_picture_default_image" class="figure-img img-fluid rounded img-thumbnail padding-large" alt="MOTION • Una imagen con una leyenda"/>
+                            <figcaption class="figure-caption py-3 text-center o_default_snippet_text"><i class="fa fa-1x fa-picture-o mr-2"/>Agrega un título para mejorar el significado de esta imagen.</figcaption>
+                          </figure>
+                        </div>
+                      </div>
+                </div>
+                <div class="container">
+                  <div class="row">
+                    <div class="col-lg-9 pb24">
+                      <h3 class="o_default_snippet_text"><b class="o_default_snippet_text">Más de 50,000 empresas</b> utilizan MOTION para hacer crecer sus negocios</h3>
+                      <p class="lead o_default_snippet_text">Únase a nosotros y haga de su compañía un lugar mejor.</p>
+                    </div>
+                    <div class="col-lg-3 s_btn text-right pt8 pb24">
+                      <a href="/contactus" class="btn btn-primary btn-lg">
+                        <span class="o_default_snippet_text">Contáctenos</span>
+                        <i class="fa fa-1x fa-fw fa-arrow-circle-right ml-1"/>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </section>
+        </t>
+    </template>
+    <!-- Gestión de mantenimiento FLEETRUN (Web)
+      - Seguimiento personal WIATAG (App)
+      - Control de consumo de combustible WIALON (Web y App)
+      - Control transporte público NIMBUS (Web)
+      - Análisis de conducción eficiente ECODRIVE (Web)
+      - Control calidad conducción Tacograph WIALON (Web)
+      - Alistamientos preoperacionales ENLIST CONTROL (Web y App)
+      - Formato Único de Extracto del Contrato FUEC (Web y App View)
+     -->
     <template id="hardware" name="Hardware">
         <t t-call="gabosoft_home_portal.portal_layout">
              <!-- Productos ************************************************************************************-->
@@ -469,5 +1201,9 @@
                       </section>
         </t>
     </template>
+    <!--
+     - Dispositivos GPS (Galería)
+     - Sensores de combustible (Galería)
+    -->
 
 </odoo>
