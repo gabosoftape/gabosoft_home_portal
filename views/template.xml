@@ -19,7 +19,7 @@
 
                 <t t-raw="head or ''"/>
             </head>
-            <body t-att-class="body_classname has-loading-screen" data-spy="scroll" data-target=".navbar" data-bg-parallax="scroll" data-bg-parallax-speed="3">
+            <body t-attf-class="body_classname has-loading-screen" data-spy="scroll" data-target=".navbar" data-bg-parallax="scroll" data-bg-parallax-speed="3">
                 <t t-raw="0"/>
             </body>
         </html>
