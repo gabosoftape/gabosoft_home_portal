@@ -34,7 +34,7 @@ class HomePortal(CustomerPortal):
         }
         return self._get_page_view_values(values, 'mis_alistamientos_history', False, **kwargs)
 
-    @http.route(['/inicio'], type='http', auth="public", website=True)
+    @http.route(['/'], type='http', auth="public", website=True)
     def portal_home_index(self, **kw):
         values = {
             'inicio': 'yes',
