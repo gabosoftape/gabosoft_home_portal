@@ -2162,6 +2162,9 @@ figure.icon {
     position: absolute;
     top:-10px;
 }
+.f_container{
+    height:450px;
+}
 
 .ts-tabs-presentation .tab-pane img {
     opacity: 0;
