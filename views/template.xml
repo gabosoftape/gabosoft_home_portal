@@ -352,7 +352,9 @@
     <!-- template Productos -->
     <template id="productos" name="Productos">
         <t t-call="gabosoft_home_portal.portal_layout">
-            <t t-set="title">Productos</t>
+            <xpath expr="//head/title" position="replace">
+                <title t-esc="'Monitoring Innovation | Productos'"/>
+            </xpath>
             <!-- Productos ************************************************************************************-->
             <section id="ultima" class="s_picture bg-200 pt48 pb24 ts-block fashion" data-name="Picture">
                         <div class="container">
@@ -517,7 +519,9 @@
     <!-- template Soluciones -->
     <template id="soluciones" name="Servicios">
         <t t-call="gabosoft_home_portal.portal_layout">
-            <t t-set="title">Soluciones</t>
+            <xpath expr="//head/title" position="replace">
+                <title t-esc="'Soluciones'"/>
+            </xpath>
             <!-- Productos ************************************************************************************-->
             <section id="ultima" class="s_picture bg-200 pt48 pb24 ts-block" data-name="Picture">
                 <div class="container">
