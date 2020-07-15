@@ -2152,7 +2152,7 @@ figure.icon {
 /* Footer push up */
 #ts-footer {
     position: relative;
-    height:300px;
+    height:20em;
 }
 #whitespace{
     background-color:#ffffff;
