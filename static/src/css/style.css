@@ -2151,6 +2151,10 @@ figure.icon {
 
 /* Footer push up */
 
+#ts-footer {
+    position: relative;
+}
+
 .ts-tabs-presentation .tab-pane img {
     opacity: 0;
     transition: .3s ease;
