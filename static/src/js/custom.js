@@ -470,16 +470,20 @@ function simpleMap(latitude, longitude, markerImage, mapStyle, mapElement, marke
 
 $(function () {
     $(window).scroll(function () {
-        if ($(this).scrollTop() > 500) {
-            $('.navbar .navbar-brand img').attr('src','/gabosoft_home_portal/static/src/img/logo.png');
-            $('.navbar .navbar-brand img').removeClass('svg_l');
-            $('#navbarNavAltMarkup div .nav-item').addClass('primario_2_dark')
+        if(document.title == 'MOTION | Inicio'){
+            if ($(this).scrollTop() > 500) {
+            }
+                $('.navbar .navbar-brand img').attr('src','/gabosoft_home_portal/static/src/img/logo.png');
+                $('.navbar .navbar-brand img').removeClass('svg_l');
+                $('#navbarNavAltMarkup div .nav-item').addClass('primario_2_dark')
+            }
+            if ($(this).scrollTop() < 500) {
+                $('.navbar .navbar-brand img').attr('src','/gabosoft_home_portal/static/src/svg/motion-logo-negativo-tagline.svg');
+                $('.navbar .navbar-brand img').addClass('svg_l');
+                $('#navbarNavAltMarkup div .nav-item').removeClass('primario_2_dark');
+            }
         }
-        if ($(this).scrollTop() < 500) {
-            $('.navbar .navbar-brand img').attr('src','/gabosoft_home_portal/static/src/svg/motion-logo-negativo-tagline.svg');
-            $('.navbar .navbar-brand img').addClass('svg_l');
-            $('#navbarNavAltMarkup div .nav-item').removeClass('primario_2_dark');
-        }
+
     })
 });
 
