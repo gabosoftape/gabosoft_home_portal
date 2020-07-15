@@ -147,7 +147,7 @@
                     <!--************ FOOTER *************************************************************************************-->
                     <!--*********************************************************************************************************-->
                     <footer id="ts-footer" style="position: relative;">
-                        <section id="contact" class="ts-separate-bg-element footer_motion" style="background-color:#c6007e;" >
+                        <section id="contact" class="ts-separate-bg-element footer_motion"  >
                             <div id="whitespace"></div>
                             <div class="container f_container">
                                 <div id="contact_box" class="ts-box center">

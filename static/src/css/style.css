@@ -2165,6 +2165,9 @@ figure.icon {
 .f_container{
     height:500px;
 }
+#contact{
+    background-color:#c6007e;
+}
 .center {
   margin-left: auto;
   margin-right: auto;
