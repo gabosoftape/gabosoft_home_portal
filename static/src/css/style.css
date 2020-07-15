@@ -2166,9 +2166,9 @@ figure.icon {
     height:500px;
 }
 .center {
-  margin: auto;
-  width: 60%;
-  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
 }
 
 .ts-tabs-presentation .tab-pane img {
