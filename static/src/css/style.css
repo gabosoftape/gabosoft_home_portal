@@ -2161,6 +2161,7 @@ figure.icon {
 #contact_box{
     position: absolute;
     top:-10px;
+    color: #6c757d!important;
 }
 .f_container{
     height:500px;
