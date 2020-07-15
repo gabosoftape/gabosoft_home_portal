@@ -2,7 +2,7 @@
     <!-- Motion layout frontend general-->
     <template id="frontend_layout" name="Frontend Enlistcontrol Layout" inherit_id="web.layout" primary="True">
         <xpath expr="//head/title" position="replace">
-            <title t-esc="'Monitoring Innovation'"/>
+            <title t-esc="page_name"/>
         </xpath>
         <xpath expr="//head/link[@type='image/x-icon']" position="replace">
             <link type="image/x-icon" rel="shortcut icon" href="/gabosoft_home_portal/static/src/icon/favicon.ico"/>
@@ -352,9 +352,7 @@
     <!-- template Productos -->
     <template id="productos" name="Productos">
         <t t-call="gabosoft_home_portal.portal_layout">
-            <xpath expr="//head/title" position="replace">
-                <title t-esc="'Monitoring Innovation | Productos'"/>
-            </xpath>
+
             <!-- Productos ************************************************************************************-->
             <section id="ultima" class="s_picture bg-200 pt48 pb24 ts-block fashion" data-name="Picture">
                         <div class="container">
@@ -519,9 +517,6 @@
     <!-- template Soluciones -->
     <template id="soluciones" name="Servicios">
         <t t-call="gabosoft_home_portal.portal_layout">
-            <xpath expr="//head/title" position="replace">
-                <title t-esc="'Soluciones'"/>
-            </xpath>
             <!-- Productos ************************************************************************************-->
             <section id="ultima" class="s_picture bg-200 pt48 pb24 ts-block" data-name="Picture">
                 <div class="container">

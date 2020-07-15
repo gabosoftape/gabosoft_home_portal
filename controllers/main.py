@@ -38,18 +38,29 @@ class HomePortal(CustomerPortal):
     def portal_home_index(self, **kw):
         values = {
             'inicio': 'yes',
+            'page_name': 'Monitoring Innovation | Inicio',
         }
         return request.render("gabosoft_home_portal.portal_my_home", values)
 
     @http.route(['/productos'], type='http', auth="public", website=True)
     def portal_productos(self, **kw):
-        return request.render("gabosoft_home_portal.productos")
+        values = {
+            'page_name': 'Monitoring Innovation | Productos',
+        }
+        return request.render("gabosoft_home_portal.productos", values)
 
     @http.route(['/soluciones'], type='http', auth="public", website=True)
     def portal_soluciones(self, **kw):
-        return request.render("gabosoft_home_portal.soluciones")
+        values = {
+            'page_name': 'Monitoring Innovation | Soluciones',
+        }
+        return request.render("gabosoft_home_portal.soluciones", values)
 
     @http.route(['/hardware'], type='http', auth="public", website=True)
     def portal_hardware(self, **kw):
-        return request.render("gabosoft_home_portal.hardware")
+        values = {
+            'inicio': 'yes',
+            'page_name': 'Monitoring Innovation | Hardware',
+        }
+        return request.render("gabosoft_home_portal.hardware", values)
 
