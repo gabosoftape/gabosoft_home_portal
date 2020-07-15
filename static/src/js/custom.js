@@ -136,8 +136,9 @@ $(document).ready(function($) {
 
     $(".ts-dynamic-wave").each(function(){
         $(this).wavify({
-            height: (1- $(this).attr("data-wave-height")) * $(window).height(),
+            //height: (1- $(this).attr("data-wave-height")) * $(window).height(),
             //height: $(this).attr("data-wave-height"),
+            height: .2 * $(window).height()
             bones: $(this).attr("data-wave-bones"),
             amplitude: .08 * $(window).height(),
             color: $(this).attr("data-wave-color"),
