@@ -2166,7 +2166,7 @@ figure.icon {
     height:500px;
 }
 #contact{
-    background-color:#c6007e;
+    background: linear-gradient(0deg, rgba(0,71,187,1) 0%, rgba(1,187,218,1) 100%);
 }
 .center {
   margin-left: auto;
