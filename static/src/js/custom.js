@@ -138,7 +138,7 @@ $(document).ready(function($) {
         $(this).wavify({
             //height: (1- $(this).attr("data-wave-height")) * $(window).height(),
             //height: $(this).attr("data-wave-height"),
-            height: .2 * $(window).height()
+            height: 0.1 * $(window).height(),
             bones: $(this).attr("data-wave-bones"),
             amplitude: .08 * $(window).height(),
             color: $(this).attr("data-wave-color"),
