@@ -2152,10 +2152,11 @@ figure.icon {
 /* Footer push up */
 #ts-footer {
     position: relative;
+    height:100%;
 }
-#contact{
-   position: absolute;
-   top: 90px;
+#whitespace{
+    background-color:#ffffff;
+    height: 2rem;
 }
 
 .ts-tabs-presentation .tab-pane img {
