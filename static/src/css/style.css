@@ -2150,9 +2150,13 @@ figure.icon {
 -------------------------------------------*/
 
 /* Footer push up */
-
 #ts-footer {
     position: relative;
+}
+#ts-footer .ts-box {
+   position: absolute;
+   left: 80px;
+   top: 90px;
 }
 
 .ts-tabs-presentation .tab-pane img {
