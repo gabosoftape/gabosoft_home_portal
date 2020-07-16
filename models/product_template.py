@@ -14,6 +14,6 @@ class ProductTemplate(models.Model):
         ('otro', 'Locked'),
     ], string='Tipo (Interno)', default='hardware')
     feature_ids = fields.Many2many("motion.product_feature", string='Caracteristicas')
-    support_ids = fields.Many2many("motion.product_feature", string='Soporte')
-    parameter_ids = fields.Many2many("motion.product_feature", string='Parametros')
+    support_ids = fields.Many2many("motion.product_support", string='Soporte')
+    parameter_ids = fields.Many2many("motion.product_parameter", string='Parametros')
     specification = fields.Text('Especificaciones', default='')
