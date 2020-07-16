@@ -16,4 +16,4 @@ class ProductTemplate(models.Model):
     feature_ids = fields.Many2many("motion.product_feature", string='Caracteristicas')
     support_ids = fields.Many2many("motion.product_support", string='Soporte')
     parameter_ids = fields.Many2many("motion.product_parameter", string='Parametros')
-    specification = fields.Text('Especificaciones', default='')
+    specification = fields.Text('Especificaciones', default="")
