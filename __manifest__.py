@@ -9,8 +9,9 @@
     'author': 'gabriel pabon',
     'website': 'https://www.almightycs.com',
     'license': 'OPL-1',
-    'depends' : ['portal'],
-    'data' : [
+    'depends': ['portal'],
+    'data': [
+        'views/product_template.xml',
         'views/template.xml',
     ],
     'installable': True,
