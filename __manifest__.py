@@ -13,6 +13,7 @@
     'data': [
         'views/product_template.xml',
         'views/template.xml',
+        'security/ir.model.access.csv',
     ],
     'installable': True,
     'application': True,

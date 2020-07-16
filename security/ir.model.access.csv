@@ -1,12 +1,4 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_gabosoft_alistamientos_portal,Appointment portal access,alistamientos.model_gpscontrol_alistamientos,base.group_portal,1,0,0,0
-access_gabosoft_alistamientos_drivers_portal,Appointment drivers portal access,alistamientos.model_gpscontrol_wialon_driver,base.group_portal,1,0,0,0
-access_gabosoft_alistamientos_units_portal,Appointment units portal access,alistamientos.model_gpscontrol_wialon_unit,base.group_portal,1,0,0,0
-access_gabosoft_alistamientos_pseudouser_portal,Appointment pseudouser portal access,alistamientos.model_gpscontrol_wialon_pseudouser,base.group_portal,1,0,0,0
-access_gabosoft_covid_portal,Covid portal access,alistamientos.model_gpscontrol_covid,base.group_portal,1,0,0,0
-access_wizard_gabosoft_portal,wizard portal access,alistamientos.model_wizard_enlist_report,base.group_portal,1,0,0,0
-access_adjuntos_gabosoft_portal,adjubntos portal access,base.model_ir_attachment,base.group_portal,1,0,0,0
-access_adjuntos_gabosoft_portal,adjubntos portal access,base.model_ir_attachment,base.group_portal,1,0,0,0
 access_feature_gabosoft, Feature access,motion_product_feature,alistamientos.group_enlist_admin,1,1,1,1
 access_support_gabosoft, Support portal access,motion_product_support,alistamientos.group_enlist_admin,1,1,1,1
 access_parameter_gabosoft, Parameter portal access,motion_product_parameter,alistamientos.group_enlist_admin,1,1,1,1
