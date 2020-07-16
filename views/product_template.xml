@@ -17,7 +17,7 @@
                 </page>
                 <page string="Parametros" name="parameters">
                     <group>
-                        <field name="parameters_ids"/>
+                        <field name="parameter_ids"/>
                     </group>
                     <group>
                         <field name="specification"/>
