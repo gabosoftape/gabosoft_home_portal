@@ -7,7 +7,7 @@
         <!-- product.product_template_only_form_view -->
         <field name="inherit_id" ref="product.product_template_only_form_view"/>
         <field name="arch" type="xml">
-            <xpath expr="field[@name='type']" position="before">
+            <xpath expr="field[@name='categ_id']" position="before">
                 <field name="internal_type"/>
             </xpath>
         </field>
