@@ -9,7 +9,7 @@
         <field name="arch" type="xml">
             <field name="type" position="before">
                 <field name="internal_type" required="True"/>
-                <field name="internal_category" options="{'no_create': True}"/>
+                <field name="internal_category" options="{'no_create': True, 'invisible': [('internal_type','=', 'hardware')]}"/>
             </field>
             <page name="general_information" position="before">
                 <page string="Informacion interna" name="internal_info">
