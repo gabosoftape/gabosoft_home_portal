@@ -13,6 +13,7 @@ class ProductTemplate(models.Model):
         ('hardware', 'Hardware'),
         ('otro', 'Locked'),
     ], string='Tipo (Interno)', default='hardware')
+    internal_category = fields.Many2one('motion.hardware_category', string="Categoria (Hardware)")
     feature_ids = fields.Many2many("motion.product_feature", string='Caracteristicas')
     support_ids = fields.Many2many("motion.product_support", string='Soporte')
     parameter_ids = fields.Many2many("motion.product_parameter", string='Parametros')
