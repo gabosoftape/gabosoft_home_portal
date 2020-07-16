@@ -10,6 +10,20 @@
             <field name="type" position="before">
                 <field name="internal_type" required="True"/>
             </field>
+            <page name="general_information" position="before">
+                <page string="Informacion interna" name="internal_info">
+                    <field name="feature_ids"/>
+                    <field name="support_ids"/>
+                </page>
+                <page string="Parametros" name="parameters">
+                    <group>
+                        <field name="parameters_ids"/>
+                    </group>
+                    <group>
+                        <field name="specification"/>
+                    </group>
+                </page>
+            </page>
         </field>
     </record>
 
