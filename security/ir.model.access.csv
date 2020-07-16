@@ -1,4 +1,4 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_feature_gabosoft, Feature access,motion.product_feature,alistamientos.group_enlist_admin,1,1,1,1
-access_support_gabosoft, Support portal access,motion.product_support,alistamientos.group_enlist_admin,1,1,1,1
-access_parameter_gabosoft, Parameter portal access,motion.product_parameter,alistamientos.group_enlist_admin,1,1,1,1
+access_feature_gabosoft, Feature access,gabosoft_home_portal.motion_product_feature,alistamientos.group_enlist_admin,1,1,1,1
+access_support_gabosoft, Support portal access,gabosoft_home_portal.motion_product_support,alistamientos.group_enlist_admin,1,1,1,1
+access_parameter_gabosoft, Parameter portal access,gabosoft_home_portal.motion_product_parameter,alistamientos.group_enlist_admin,1,1,1,1
