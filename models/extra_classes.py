@@ -20,11 +20,6 @@ class ProductParameter(models.Model):
     desc = fields.Text(string="Descripcion")
     unidad = fields.Char(string="Unidad de medida")
 
-class ProductParameter(models.Model):
-    _name = 'motion.hardware_category'
 
-    titulo = fields.Char(string="Titulo")
-    name = fields.Char(string="Nombre")
-    desc = fields.Text(string="Descripcion")
 
 
