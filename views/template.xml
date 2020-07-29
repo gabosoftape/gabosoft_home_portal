@@ -272,7 +272,7 @@
         <t t-call="gabosoft_home_portal.portal_layout">
              <!-- PRODUCTOS ****************************************************************************************-->
             <section id="productos" class="ts-block text-center trigger1">
-                <div class="products-div container ">
+                <div class="products-div ">
                     <div class="ts-title">
                         <h2>Productos</h2>
                     </div>
