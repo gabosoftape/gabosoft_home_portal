@@ -133,7 +133,7 @@ $(document).ready(function($) {
 
 
     // Dynamic Waves in Hero
-
+    // creamos la onda dinamica aqui ...
     $(".ts-dynamic-wave").each(function(){
         $(this).wavify({
             //height: (1- $(this).attr("data-wave-height")) * $(window).height(),
