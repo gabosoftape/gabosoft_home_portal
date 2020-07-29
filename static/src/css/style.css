@@ -904,8 +904,10 @@ p {
 }
 
 .bg_prod {
-    height:50rem!important;
     background-color:#0246ba;
+}
+.pb10rem{
+    padding-bottom:10rem;
 }
 .ts-background1 {
     bottom: 0;
