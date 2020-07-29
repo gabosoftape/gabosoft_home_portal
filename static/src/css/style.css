@@ -904,6 +904,7 @@ p {
 }
 
 .bg_prod {
+    height:300px!important;
     background-color:#0246ba;
 }
 .ts-background1 {
