@@ -132,7 +132,7 @@
                     <!--*********************************************************************************************************-->
                     <!--************ CONTENT ************************************************************************************-->
                     <!--*********************************************************************************************************-->
-                    <main id="ts-content">
+                    <main id="ts-content" class="ts-full-screen">
                         <t t-raw="0"/>
                     </main>
                     <!--end #content-->
@@ -264,7 +264,7 @@
     <template id="portal_my_home" name="Inicio">
         <t t-call="gabosoft_home_portal.portal_layout">
              <!-- PRODUCTOS ****************************************************************************************-->
-            <section id="productos" class="text-center ts-full-screen trigger1">
+            <section id="productos" class="text-center trigger1">
                 <div class="container">
                     <div class="ts-title">
                         <h2>Productos</h2>
