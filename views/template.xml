@@ -246,7 +246,7 @@
              <!-- PRODUCTOS ****************************************************************************************-->
             <section id="productos" class="text-center trigger1">
                 <div class="container">
-                    <div class="ts-title">
+                    <div class="title_prod">
                         <h2>Productos</h2>
                     </div>
                     <!--end ts-title-->
