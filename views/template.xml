@@ -33,7 +33,6 @@
             <script src="/gabosoft_home_portal/static/src/js/popper.min.js"></script>
             <script src="/gabosoft_home_portal/static/src/bootstrap/js/bootstrap.min.js"></script>
             <script src="/gabosoft_home_portal/static/src/js/imagesloaded.pkgd.min.js"></script>
-            <script src="http://maps.google.com/maps/api/js?key=AIzaSyBEDfNcQRmKQEyulDN8nGWjLYPm8s4YB58"></script>
             <script src="/gabosoft_home_portal/static/src/js/isInViewport.jquery.js"></script>
             <script src="/gabosoft_home_portal/static/src/js/jquery.particleground.min.js"></script>
             <script src="/gabosoft_home_portal/static/src/js/owl.carousel.min.js"></script>
