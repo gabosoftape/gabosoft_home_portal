@@ -43,6 +43,7 @@
             <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.4/TweenMax.min.js"></script>
             <script src="/gabosoft_home_portal/static/src/js/jquery.wavify.js"></script>
             <script src="/gabosoft_home_portal/static/src/js/custom.js"></script>
+            <script src="/gabosoft_home_portal/static/src/js/app.js"></script>
             <script src="https://unpkg.com/@barba/core"></script>
             <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
             <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
@@ -270,8 +271,8 @@
     <template id="portal_my_home" name="Inicio">
         <t t-call="gabosoft_home_portal.portal_layout">
              <!-- PRODUCTOS ****************************************************************************************-->
-            <section id="productos" class="ts-block text-center ">
-                <div class="container">
+            <section id="productos" class="ts-block text-center trigger1">
+                <div class="container product-div">
                     <div class="ts-title">
                         <h2>Productos</h2>
                     </div>
@@ -322,8 +323,8 @@
                 <!--end container-->
             </section>
              <!-- SOLUCIONES ************************************************************************************-->
-             <section id="soluciones" class="ts-block text-center">
-                <div class="container">
+             <section id="soluciones" class="ts-block text-center trigger2">
+                <div class="container solutions-div">
                     <div class="ts-title">
                        <h2>Desarrollo de soluciones</h2>
                     </div>

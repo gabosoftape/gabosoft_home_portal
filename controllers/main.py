@@ -34,33 +34,10 @@ class HomePortal(CustomerPortal):
         }
         return self._get_page_view_values(values, 'mis_alistamientos_history', False, **kwargs)
 
-    @http.route(['/'], type='http', auth="public", website=True)
+    @http.route(['/website_home'], type='http', auth="public", website=True)
     def portal_home_index(self, **kw):
         values = {
             'inicio': 'yes',
             'page_name': 'MOTION | Inicio',
         }
         return request.render("gabosoft_home_portal.portal_my_home", values)
-
-    @http.route(['/productos'], type='http', auth="public", website=True)
-    def portal_productos(self, **kw):
-        values = {
-            'page_name': 'Productos',
-        }
-        return request.render("gabosoft_home_portal.productos", values)
-
-    @http.route(['/soluciones'], type='http', auth="public", website=True)
-    def portal_soluciones(self, **kw):
-        values = {
-            'page_name': 'Soluciones',
-        }
-        return request.render("gabosoft_home_portal.soluciones", values)
-
-    @http.route(['/hardware'], type='http', auth="public", website=True)
-    def portal_hardware(self, **kw):
-        values = {
-            'inicio': 'yes',
-            'page_name': 'Hardware',
-        }
-        return request.render("gabosoft_home_portal.hardware", values)
-
