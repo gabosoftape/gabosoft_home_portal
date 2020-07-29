@@ -245,7 +245,7 @@
             </section>
              <!-- PRODUCTOS ****************************************************************************************-->
             <section id="productos" class="bg_prod text-center trigger1">
-                <div class="container">
+                <div class="container pb10rem">
                     <div class="title_prod">
                         <h2>Productos</h2>
                     </div>
