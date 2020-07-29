@@ -234,28 +234,8 @@
         <t t-call="gabosoft_home_portal.frontend_layout">
             <t t-set="is_portal" t-value="True"/>
             <div id="wrap" class='o_portal_wrap'>
-                <div class="container mb64">
+                <div class="mb64">
                     <t t-raw="0"/>
-                </div>
-            </div>
-        </t>
-    </template>
-    <!-- Motion Error view-->
-    <template id="only_registered_users" name="Only registered users">
-        <t t-call="gabosoft_home_portal.frontend_layout">
-            <div id="wrap">
-                <div class="oe_structure">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="alert alert-danger">
-                                    <button type="button" class="close" data-dismiss="alert">&amp;times;</button>
-                                    <h2>Lo sentimos, no hay acceso!</h2>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </t>
@@ -350,6 +330,25 @@
 
         </t>
     </template>
+    <!-- Motion Error view-->
+    <template id="only_registered_users" name="Only registered users">
+        <t t-call="gabosoft_home_portal.frontend_layout">
+            <div id="wrap">
+                <div class="oe_structure">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="alert alert-danger">
+                                    <button type="button" class="close" data-dismiss="alert">&amp;times;</button>
+                                    <h2>Lo sentimos, no hay acceso!</h2>
 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </t>
+    </template>
 
 </odoo>
