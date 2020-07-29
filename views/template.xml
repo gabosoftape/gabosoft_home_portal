@@ -294,7 +294,7 @@
                     <div id="ts-dynamic-waves2" class="ts-background1">
                         <svg class="ts-svg ts-z-index__1" width="100%" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg">
                             <defs></defs>
-                            <path class="ts-dynamic-wave2" id="wave-2" d="" data-wave-color="#ffffff" data-wave-height=".2" data-wave-bones="4" data-wave-speed=".20"/>
+                            <path class="ts-dynamic-wave2" id="wave-2" d="" data-wave-color="#ffffff" data-wave-height=".3" data-wave-bones="4" data-wave-speed=".20"/>
                         </svg>
                     </div>
                     <!--end row-->
