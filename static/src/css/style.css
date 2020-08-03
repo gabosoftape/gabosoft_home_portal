@@ -2061,7 +2061,7 @@ E. Template Specific Elements
     background-size: contain;
     top: 0;
     z-index: 3;
-    height: 50%;
+    height: 100%;
     position: absolute;
     width: 100%;
     left: 0;
