@@ -915,6 +915,9 @@ p {
 .transform180{
     transform: rotate(180deg);
 }
+.virtualSpace{
+    height:5rem!important;
+}
 .ts-background1 {
     bottom: 0;
     left: 0;
