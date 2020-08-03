@@ -907,10 +907,10 @@ p {
     background-color:#0246ba;
 }
 .pb10rem{
-    padding-bottom:10rem;
+    padding-bottom:15rem;
 }
 .pt10rem{
-    padding-top:10rem;
+    padding-top:15rem;
 }
 .transform180{
     transform: rotate(180deg);
@@ -939,9 +939,7 @@ p {
     width: 100%;
     z-index: 3;
 }
-.b0{
-    bottom:-10rem;
-}
+
 /* NEW */
 
 /***********************************************************************************************************************
