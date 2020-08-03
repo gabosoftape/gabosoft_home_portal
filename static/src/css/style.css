@@ -906,11 +906,11 @@ p {
 .bg_prod {
     background-color:#0246ba;
 }
-.pb20rem{
-    padding-bottom:20rem;
+.pb10rem{
+    padding-bottom:10rem;
 }
-.pt20rem{
-    padding-top:20rem;
+.pt10rem{
+    padding-top:10rem;
 }
 .transform180{
     transform: rotate(180deg);
@@ -940,7 +940,7 @@ p {
     z-index: 3;
 }
 .b0{
-    bottom:0px;
+    bottom:-10rem;
 }
 /* NEW */
 
