@@ -144,6 +144,17 @@ $(document).ready(function($) {
             speed: .15
         });
     });
+    // Onda invertida (180) dinamica aqui
+     $(".ts-dynamic-wave4").each(function(){
+        $(this).wavify({
+            //height: (1- $(this).attr("data-wave-height")) * $(window).height(),
+            height: $(this).attr("data-wave-height"),
+            bones: $(this).attr("data-wave-bones"),
+            amplitude: .08 * $(window).height(),
+            color: $(this).attr("data-wave-color"),
+            speed: .15
+        });
+    });
     //segunda onda dinamica aqui
      $(".ts-dynamic-wave2").each(function(){
         $(this).wavify({

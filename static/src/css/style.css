@@ -912,6 +912,9 @@ p {
 .pt5rem{
     padding-top:10rem;
 }
+.transform180{
+    transform: rotate(180deg);
+}
 .ts-background1 {
     bottom: 0;
     left: 0;
