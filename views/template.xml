@@ -251,8 +251,8 @@
                         <path class="ts-dynamic-wave-inverted" id="wave-1-inverted" d="" data-wave-color="#ffff00" data-wave-height=".05" data-wave-bones="4" data-wave-speed=".20"/>
                     </svg>
                 </div>
-                <div class="container pb20rem pt20rem">
-                    <div class="title_prod">
+                <div class="container pb20rem ">
+                    <div class="title_prod pt20rem">
                         <h2>Productos</h2>
                     </div>
                     <!--end ts-title-->
