@@ -2056,13 +2056,9 @@ E. Template Specific Elements
     margin: auto;
 }
 .ts-svg1{
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
     top: 0;
     z-index: 3;
-    height: 80%;
-    position: absolute;
+    position: static;
     width: 100%;
     left: 0;
     margin: auto;
