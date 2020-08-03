@@ -254,6 +254,9 @@
                 <div class="vspace">
                     <div class="virtualSpace"></div>
                 </div>
+                <div class="title_prod">
+                        <h2>Productos</h2>
+                    </div>
             </section>
             <section id="productos" class="bg_prod text-center trigger1 ">
                 <div class="container pb20rem ">
