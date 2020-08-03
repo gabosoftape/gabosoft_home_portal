@@ -932,14 +932,18 @@ p {
     z-index: 3;
 }
 .ts-background2 {
-    bottom: 0;
     left: 0;
     height: 80%;
     position: static;
     width: 100%;
     z-index: 3;
 }
-
+.t0{
+    top:0!important;
+}
+.b0{
+    bottom:0!important;
+}
 /* NEW */
 
 /***********************************************************************************************************************
