@@ -245,9 +245,6 @@
             </section>
              <!-- PRODUCTOS ****************************************************************************************-->
             <section id="productos" class="bg_prod text-center trigger1 ">
-                <div class="vspace">
-                    <div class="virtualSpace"></div>
-                </div>
                 <div class="container pb20rem pt20rem">
                     <div class="title_prod">
                         <h2>Productos</h2>
