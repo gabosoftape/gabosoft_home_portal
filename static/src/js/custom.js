@@ -150,7 +150,7 @@ $(document).ready(function($) {
             //height: (1- $(this).attr("data-wave-height")) * $(window).height(),
             height: $(this).attr("data-wave-height"),
             bones: $(this).attr("data-wave-bones"),
-            amplitude: .02 * $(window).height(),
+            amplitude: .08 * $(window).height(),
             color: $(this).attr("data-wave-color"),
             speed: .15
         });
