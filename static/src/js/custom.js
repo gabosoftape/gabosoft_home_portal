@@ -145,7 +145,7 @@ $(document).ready(function($) {
         });
     });
     // Onda invertida (180) dinamica aqui
-     $(".ts-dynamic-wave4").each(function(){
+     $(".ts-dynamic-wave-inverted").each(function(){
         $(this).wavify({
             //height: (1- $(this).attr("data-wave-height")) * $(window).height(),
             height: $(this).attr("data-wave-height"),
