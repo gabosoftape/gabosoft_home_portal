@@ -914,6 +914,9 @@ p {
 }
 .transform180{
     transform: rotate(180deg);
+}
+
+.customHeight{
     height:80%!important;
 }
 .virtualSpace{
