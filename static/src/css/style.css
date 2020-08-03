@@ -2073,7 +2073,6 @@ E. Template Specific Elements
     position: static;
     width: 100%;
     left: 0;
-    margin: auto;
 }
 figure.icon {
     position: relative;
