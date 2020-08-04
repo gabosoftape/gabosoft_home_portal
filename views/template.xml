@@ -293,9 +293,7 @@
                             <div class="solutions-info">
                                 <div class="row s1_r1">
                                    <div class="col-lg-4">
-                                       <span>
-                                           icon
-                                       </span>
+                                       <img src="/gabosoft_home_portal/static/src/images/motion/icon_base.png" class="" alt="gIcono generico"/>
                                    </div>
                                     <div class="col-lg-8 text-left">
                                        <h3 class="title_serv">Seguimiento<br/> GPS y IOT</h3>
@@ -311,10 +309,10 @@
                                 </div>
                                 <div class="row s_btn s1_r3">
                                     <div class="col-lg-4">
-                                        <a href="#" class="btn btn-primary ">Buscar solucion </a>
+                                        <a href="#" class="btn btn-primary btn_activo_2_dark">Demo gratis!</a>
                                     </div>
                                     <div class="col-lg-8">
-                                        <a href="#" class="">link</a>
+                                        <a href="#" class="link_motion">Plataforma Web / Dispositivos Móviles</a>
                                     </div>
                                 </div>
 
