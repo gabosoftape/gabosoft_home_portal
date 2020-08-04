@@ -1011,10 +1011,11 @@ p {
 }
 .img_icon_dev{
     height:50%;
+    padding-left:3rem;
 }
 .d_title_serv{
-    padding-left:2rem;
-    padding-top:1rem;
+    padding-left:1.5rem;
+    padding-top:0.5rem;
 }
 .solutions-info{
     padding-top:100px;
