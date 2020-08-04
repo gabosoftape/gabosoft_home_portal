@@ -979,6 +979,21 @@ p {
   left:0;
   top:0;
 }
+.img_front1{
+  position:absolute;
+  z-index: 2;
+  left:30px;
+  top:100px;
+}
+
+.img_back1
+{
+  position:absolute;
+  width:99%;
+  z-index: 1;
+  left:0;
+  top:0;
+}
 .solutions-info{
     padding-top:100px;
     padding-left:1rem;
@@ -986,6 +1001,12 @@ p {
 }
 .link_motion{
     color: #999999;
+}
+.s1_r1{
+    padding-bottom:120px;
+}
+.s1_r2{
+    padding-bottom:40px;
 }
 /* NEW */
 

@@ -323,24 +323,85 @@
                 </div>
                 <!--end container-->
             </section>
-
-            <!-- Conduccion inteligente ************************************************************************************-->
-             <section id="conduccion" class="ts-block text-center trigger2">
+            <!-- Consumo de combustible ************************************************************************************-->
+             <section id="combustiblecontrol" class="trigger2">
                 <div class="container solutions-div">
-                    <div class="title_serv">
-                       <h2>Conduccion responsable</h2>
-                    </div>
                     <!--end ts-title-->
-                    <div class="row align-items-center">
-                        <div class="col-lg-6 pt16 pb16">
-                            <img src="/web/image/website.s_text_image_default_image" class="img img-fluid mx-auto" alt="Odoo • Texto e imagen"/>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="solutions-info">
+                                <div class="row s1_r1">
+                                   <div class="col-lg-4">
+                                       <img src="/gabosoft_home_portal/static/src/images/motion/icon_base.png" class="" alt="gIcono generico"/>
+                                   </div>
+                                    <div class="col-lg-8 text-left">
+                                       <h3 class="title_serv">Consumo de<br/>Combustible</h3>
+                                    </div>
+                                </div>
+                                <div class="row s1_r2">
+                                    <div class="col-lg-12 desc_ser_div">
+                                        <p class="desc_ser">
+                                            Esta plataforma le dará control sobre todas sus unidades de transporte. Optimiza sus gastos operativos. mejora la disciplina de los conductores y
+                                            es compatible con cualquier tipo de dispositivo
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="row s_btn s1_r3">
+                                    <div class="col-lg-4">
+                                        <a href="#" class="btn btn-primary btn_activo_2_dark">Demo gratis!</a>
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <a href="#" class="link_motion">Plataforma Web / Dispositivos Móviles</a>
+                                    </div>
+                                </div>
+
+                            </div>
                         </div>
-                        <div class="col-lg-6 pt16 pb16">
-                            <p class="o_default_snippet_text">Pensando en todas las necesidades de su empresa, ofrecemos un amplio portafolio de soluciones de nicho, todo esto bajo un modelo SaaS. Tenemos soluciones para organizaciones de todos los tamaños y de todos los sectores.
-                                <br/>
-                            Todas nuestras soluciones son creadas especificamente para estar activas funcionando al 100% siempre, sin necesidad de contar con un especialista en TI para ejecutar configuraciones complejas. Esto se traduce en funcionamiento óptimo.</p>
-                            <div class="s_btn text-left pt16 pb16" data-name="Buttons">
-                                <a href="#" class="btn btn-primary o_default_snippet_text">Buscar solucion </a>
+                        <div class="col-lg-6">
+                            <img src="/gabosoft_home_portal/static/src/images/motion/600x600_2.png" class="img_back1" alt="Back"/>
+                            <img src="/gabosoft_home_portal/static/src/images/motion/500x360_2.png" class="img_front1" alt="Front"/>
+                        </div>
+                    </div>
+                    <!--end row-->
+                </div>
+                <!--end container-->
+            </section>
+             <!-- Conduccion responsable ************************************************************************************-->
+             <section id="res_driving" class="trigger2">
+                <div class="container solutions-div">
+                    <!--end ts-title-->
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <img src="/gabosoft_home_portal/static/src/images/motion/600x600_1.png" class="img_back" alt="Back"/>
+                            <img src="/gabosoft_home_portal/static/src/images/motion/500x360_1.png" class="img_front" alt="Front"/>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="solutions-info">
+                                <div class="row s1_r1">
+                                   <div class="col-lg-4">
+                                       <img src="/gabosoft_home_portal/static/src/images/motion/icon_base.png" class="" alt="gIcono generico"/>
+                                   </div>
+                                    <div class="col-lg-8 text-left">
+                                       <h3 class="title_serv">Seguimiento<br/> GPS y IOT</h3>
+                                    </div>
+                                </div>
+                                <div class="row s1_r2">
+                                    <div class="col-lg-12 desc_ser_div">
+                                        <p class="desc_ser">
+                                            Esta plataforma le dará control sobre todas sus unidades de transporte. Optimiza sus gastos operativos. mejora la disciplina de los conductores y
+                                            es compatible con cualquier tipo de dispositivo
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="row s_btn s1_r3">
+                                    <div class="col-lg-4">
+                                        <a href="#" class="btn btn-primary btn_activo_2_dark">Demo gratis!</a>
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <a href="#" class="link_motion">Plataforma Web / Dispositivos Móviles</a>
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
                     </div>
@@ -348,36 +409,7 @@
                 </div>
                 <!--end container-->
             </section>
-            <!-- desarrollo a la medida ************************************************************************************-->
-             <section id="desarrollos" class="ts-block text-center trigger2">
-                <div class="container solutions-div">
-                    <div class="title_serv">
-                       <h2>Desarrollos a medida</h2>
-                    </div>
-                    <!--end ts-title-->
-                    <div class="row align-items-center">
-                        <div class="col-lg-6 pt16 pb16">
-                            <p class="o_default_snippet_text">Pensando en todas las necesidades de su empresa, ofrecemos un amplio portafolio de soluciones de nicho, todo esto bajo un modelo SaaS. Tenemos soluciones para organizaciones de todos los tamaños y de todos los sectores.
-                                <br/>
-                            Todas nuestras soluciones son creadas especificamente para estar activas funcionando al 100% siempre, sin necesidad de contar con un especialista en TI para ejecutar configuraciones complejas. Esto se traduce en funcionamiento óptimo.</p>
-                            <div class="s_btn text-left pt16 pb16" data-name="Buttons">
-                                <a href="#" class="btn btn-primary o_default_snippet_text">Buscar solucion </a>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 pt16 pb16">
-                            <img src="/web/image/website.s_text_image_default_image" class="img img-fluid mx-auto" alt="Odoo • Texto e imagen"/>
-                        </div>
-                    </div>
-                    <!--end row-->
-                 </div>
-                 <div id="ts-dynamic-waves3" class="ts-background">
-                    <svg class="ts-svg ts-z-index__1" width="100%" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg">
-                        <defs></defs>
-                        <path class="ts-dynamic-wave3" id="wave-3" d="" data-wave-color="#0246ba" data-wave-height=".27" data-wave-bones="4" data-wave-speed=".20"/>
-                    </svg>
-                 </div>
-                <!--end container-->
-            </section>
+
             <!--end container-->
             <section id="soluciones" class="text-center bg_prod trigger1">
                 <div class="container pb10rem">
