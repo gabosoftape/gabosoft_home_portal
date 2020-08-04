@@ -969,6 +969,8 @@ p {
   height:360px;
   width:500px;
   z-index: 2;
+  left:30px;
+  top:50px;
 }
 
 .img_back
@@ -978,6 +980,7 @@ p {
   width:600px;
   z-index: 1;
   left:0;
+  top:0;
 }
 /* NEW */
 
