@@ -290,14 +290,34 @@
                             <img src="/gabosoft_home_portal/static/src/images/motion/500x360_1.png" class="img_front" alt="Front"/>
                         </div>
                         <div class="col-lg-6">
-                            <div class="title_serv">
-                               <h2>Seguimiento GPS y IOT</h2>
-                            </div>
-                            <p class="desc_serv">Pensando en todas las necesidades de su empresa, ofrecemos un amplio portafolio de soluciones de nicho, todo esto bajo un modelo SaaS. Tenemos soluciones para organizaciones de todos los tamaños y de todos los sectores.
-                                <br/>
-                            Todas nuestras soluciones son creadas especificamente para estar activas funcionando al 100% siempre, sin necesidad de contar con un especialista en TI para ejecutar configuraciones complejas. Esto se traduce en funcionamiento óptimo.</p>
-                            <div class="s_btn ">
-                                <a href="#" class="btn btn-primary ">Buscar solucion </a>
+                            <div>
+                                <div class="row s1_r1">
+                                   <div class="col-lg-4">
+                                       <span>
+                                           icon
+                                       </span>
+                                   </div>
+                                    <div class="col-lg-8">
+                                       <h3 class="title_serv">Seguimiento GPS y IOT</h3>
+                                    </div>
+                                </div>
+                                <div class="row s1_r2">
+                                    <div class="col-lg-12 desc_ser_div">
+                                        <p class="desc_ser">
+                                            Esta plataforma le dará control sobre todas sus unidades de transporte. Optimiza sus gastos operativos. mejora la disciplina de los conductores y
+                                            es compatible con cualquier tipo de dispositivo
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="row s_btn s1_r3">
+                                    <div class="col-lg-4">
+                                        <a href="#" class="btn btn-primary ">Buscar solucion </a>
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <a href="#" class="">link</a>
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
                     </div>
