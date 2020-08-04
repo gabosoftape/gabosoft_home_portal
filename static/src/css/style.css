@@ -966,10 +966,9 @@ p {
 
 .img_front{
   position:absolute;
-  width:99%;
   z-index: 2;
-  left:30px;
-  top:50px;
+  left:10px;
+  top:20px;
 }
 
 .img_back
