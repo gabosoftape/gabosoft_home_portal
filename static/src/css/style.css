@@ -966,18 +966,18 @@ p {
 
 .img_front{
   position:absolute;
-  height:360px;
-  width:500px;
+  height:70%;
+  width:70%;
   z-index: 2;
-  left:30px;
-  top:50px;
+  left:90px;
+  top:150px;
 }
 
 .img_back
 {
   position:absolute;
-  height:600px;
-  width:600px;
+  height:70%;
+  width:70%;
   z-index: 1;
   left:0;
   top:0;
