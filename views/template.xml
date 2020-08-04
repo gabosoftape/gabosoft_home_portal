@@ -521,65 +521,42 @@
                 </div>
                 <!--end container-->
             </section>
+              <!-- SOLUCIONES ****************************************************************************************-->
+            <section id="solucionesMotion" class="bg_prod text-center trigger6 ">
+                <div id="ts-dynamic-waves-inverted1" class="ts-background2 t0">
+                    <svg class="ts-svg ts-z-index__1 transform180 customHeight" width="100%" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                        <defs></defs>
+                        <path class="ts-dynamic-wave-inverted1" id="wave-1-inverted" d="" data-wave-color="#ffffff" data-wave-height=".15" data-wave-bones="3" data-wave-speed=".20"/>
+                    </svg>
+                </div>
+                <div class="container pb10rem pt10rem">
 
-            <!--end container-->
-            <section id="soluciones" class="text-center bg_prod trigger1">
-                <div class="container pb10rem">
-                    <div class="title_prod">
-                        <h2>Soluciones</h2>
-                    </div>
                     <!--end ts-title-->
                     <div class="row">
-                        <div class="col-sm-6 col-md-4 col-xl-4">
-                            <figure data-animate="ts-fadeInUp">
-                                <figure class="icon mb-5 p-2">
-                                    <img src="/gabosoft_home_portal/static/src/img/icon-watch-heart.png" alt=""/>
-                                    <div class="ts-svg ts-svg__organic-shape-01" data-animate="ts-zoomInShort"></div>
-                                </figure>
-                                <h4>Seguimiento GPS &amp; IoT</h4>
-                                <p>
-                                    Esta plataforma le dara control sobre todas sus unidades de transporte. Optimiza sus gastos operativos, mejora la diciplina de los conductores y es compatible con cualquier tipo de dispositivo.
+
+                        <!--end col-xl-4-->
+                        <div class="col-sm-12 col-md-12 col-xl-12 hm_card">
+                            <figure data-animate="ts-fadeInUp" data-delay="1s">
+                                <div class="title_prod">
+                                    <h1>Productos</h1>
+                                </div>
+                                <p class="hmc_subtitle">
+                                    Desarrollamos herramientas tecnologicas altamente innovadoras, nuestro productos le pueden ayudar a solucionar tareas complejas y procesos extensos de ua manera efectiva y fluida.
                                 </p>
                             </figure>
                         </div>
+
                         <!--end col-xl-4-->
-                        <div class="col-sm-6 col-md-4 col-xl-4">
-                            <figure data-animate="ts-fadeInUp" data-delay="0.1s">
-                                <figure class="icon mb-5 p-2">
-                                    <img src="/gabosoft_home_portal/static/src/img/icon-lcd-chart.png" alt=""/>
-                                    <div class="ts-svg ts-svg__organic-shape-02" data-animate="ts-zoomInShort"></div>
-                                </figure>
-                                <h4>Desarrollo telematico</h4>
-                                <p>
-                                    Esta plataforma conecta cualquier dispositivo telemáticos, IoT o BI. Recibe y procesa los datos utilizando cualquier protocolo y luego los alamacena en el formato unificado JSON.
-                                </p>
-                            </figure>
-                        </div>
-                        <!--end col-xl-4-->
-                        <div class="col-sm-6 offset-sm-4 col-md-4 offset-md-0 col-xl-4">
-                            <figure data-animate="ts-fadeInUp" data-delay="0.2s">
-                                <figure class="icon mb-5 p-2">
-                                    <img src="/gabosoft_home_portal/static/src/img/icon-cup-winner.png" alt=""/>
-                                    <div class="ts-svg ts-svg__organic-shape-03" data-animate="ts-zoomInShort"></div>
-                                </figure>
-                                <h4>App Móvil de rastreo GPS</h4>
-                                <p>
-                                    Esta aplicacion le permite acceder a la plataforma de rastreo GPS en cualquier momento y cualquier lugar. Podrá utilizar funciones basicas y avanzadas. App disponible para iOS y Android.
-                                </p>
-                            </figure>
-                        </div>
-                        <!--end col-xl-4-->
-                    </div>
-                    <div id="ts-dynamic-waves4" class="ts-background1 ">
-                        <svg class="ts-svg ts-z-index__1" width="100%" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg">
-                            <defs></defs>
-                            <path class="ts-dynamic-wave4" id="wave-4" d="" data-wave-color="#ffffff" data-wave-height=".3" data-wave-bones="4" data-wave-speed=".20"/>
-                        </svg>
                     </div>
                     <!--end row-->
                 </div>
                 <!--end container-->
-
+                <div id="ts-dynamic-waves2_1" class="ts-background2 ">
+                        <svg class="ts-svg ts-z-index__1" width="100%" height="90%" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                            <defs></defs>
+                            <path class="ts-dynamic-wave2_1" id="wave-2_1" d="" data-wave-color="#ffffff" data-wave-height=".05" data-wave-bones="4" data-wave-speed=".20"/>
+                        </svg>
+                    </div>
             </section>
             <!-- Final solutions ************************************************************************************-->
              <section id="finalsol" class="ts-block text-center trigger2">
