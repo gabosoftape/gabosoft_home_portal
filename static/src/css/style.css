@@ -999,6 +999,11 @@ p {
     padding-left:1rem;
     padding-right:1rem;
 }
+.solutions-info-dev{
+    padding-top:50px;
+    padding-left:1rem;
+    padding-right:1rem;
+}
 .link_motion{
     color: #999999;
 }
