@@ -1028,6 +1028,15 @@ p {
 .s1_r2{
     padding-bottom:25px;
 }
+.s1_r1-dev{
+    padding-bottom:20px;
+}
+.s1_r2-dev{
+    padding-bottom:25px;
+}
+.s1_r3-dev{
+    padding-bottom:6rem;
+}
 .pb3rem{
     margin-bottom:12rem;
 }
