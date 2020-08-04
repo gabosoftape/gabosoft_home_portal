@@ -258,14 +258,14 @@
 
                         <!--end col-xl-4-->
                         <div class="col-sm-12 col-md-12 col-xl-12">
-                            <div class="homeMotion_card">
-                                <figure data-animate="ts-fadeInUp" data-delay="0.1s">
-                                    <h4 class="hmc_title">Productos</h4>
-                                    <p class="hmc_subtitle">
-                                        Desarrollamos herramientas tecnologicas altamente innovadoras, nuestro productos le pueden ayudar a solucionar tareas complejas y procesos extensos de ua manera efectiva y fluida.
-                                    </p>
-                                </figure>
-                            </div>
+                            <figure data-animate="ts-fadeInUp" data-delay="0.1s">
+                                <div class="title_prod">
+                                    <h2>Productos</h2>
+                                </div>
+                                <p class="hmc_subtitle">
+                                    Desarrollamos herramientas tecnologicas altamente innovadoras, nuestro productos le pueden ayudar a solucionar tareas complejas y procesos extensos de ua manera efectiva y fluida.
+                                </p>
+                            </figure>
                         </div>
 
                         <!--end col-xl-4-->
