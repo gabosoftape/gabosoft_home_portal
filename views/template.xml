@@ -258,7 +258,7 @@
 
                         <!--end col-xl-4-->
                         <div class="col-sm-12 col-md-12 col-xl-12 hm_card">
-                            <figure data-animate="ts-fadeInUp" data-delay="0.1s">
+                            <figure data-animate="ts-fadeInUp" data-delay="1s">
                                 <div class="title_prod">
                                     <h1>Productos</h1>
                                 </div>
