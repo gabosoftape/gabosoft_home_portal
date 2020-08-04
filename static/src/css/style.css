@@ -966,16 +966,16 @@ p {
 
 .img_front{
   position:absolute;
-  width:95%;
+  width:99%;
   z-index: 2;
-  left:90px;
-  top:150px;
+  left:30px;
+  top:50px;
 }
 
 .img_back
 {
   position:absolute;
-  width:95%;
+  width:99%;
   z-index: 1;
   left:0;
   top:0;
