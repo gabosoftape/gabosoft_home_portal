@@ -963,6 +963,21 @@ p {
     padding-right:20rem;
     padding-bottom:2rem;
 }
+
+.img_front{
+  position:absolute;
+  height:360px;
+  width:500px;
+  z-index: 2;
+}
+
+.img_back
+{
+  position:absolute;
+  height:600px;
+  width:600px;
+  z-index: 1;
+}
 /* NEW */
 
 /***********************************************************************************************************************

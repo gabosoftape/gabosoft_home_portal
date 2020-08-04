@@ -289,7 +289,8 @@
                     <!--end ts-title-->
                     <div class="row align-items-center">
                         <div class="col-lg-6 pt16 pb16">
-                            <img src="/web/image/website.s_text_image_default_image" class="img img-fluid mx-auto" alt="Odoo • Texto e imagen"/>
+                            <img src="/gabosoft_home_portal/static/src/images/motion/600x600_1.png" class="img_back" alt="Back"/>
+                            <img src="/gabosoft_home_portal/static/src/images/motion/500x360_1.png" class="img_front" alt="Front"/>
                         </div>
                         <div class="col-lg-6 pt16 pb16">
                             <p class="o_default_snippet_text">Pensando en todas las necesidades de su empresa, ofrecemos un amplio portafolio de soluciones de nicho, todo esto bajo un modelo SaaS. Tenemos soluciones para organizaciones de todos los tamaños y de todos los sectores.
