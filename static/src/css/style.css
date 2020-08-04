@@ -1009,6 +1009,9 @@ p {
   left:0;
   top:0;
 }
+.img_icon_dev{
+    height:10%;
+}
 .solutions-info{
     padding-top:100px;
     padding-left:1rem;

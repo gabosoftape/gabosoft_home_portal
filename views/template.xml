@@ -447,10 +447,8 @@
                         <div class="col-lg-4 text-center">
                             <div class="dev_info">
                                 <div class="row ds1_r1">
-                                   <div class="col-lg-4 icon_dev">
-                                       <img src="/gabosoft_home_portal/static/src/images/motion/icon_base.png" class="img_icon_dev" alt="gIcono generico"/>
-                                   </div>
-                                    <div class="col-lg-8 text-left">
+                                    <img src="/gabosoft_home_portal/static/src/images/motion/icon_base.png" class="img_icon_dev" alt="gIcono generico"/>
+                                    <div class="text-left">
                                        <h4 class="d_title_serv">Enlist Control</h4>
                                     </div>
                                 </div>
