@@ -966,7 +966,7 @@ p {
 
 .img_front{
   position:absolute;
-  width:70%;
+  width:95%;
   z-index: 2;
   left:90px;
   top:150px;
@@ -975,7 +975,7 @@ p {
 .img_back
 {
   position:absolute;
-  width:70%;
+  width:95%;
   z-index: 1;
   left:0;
   top:0;
