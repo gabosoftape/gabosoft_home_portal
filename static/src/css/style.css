@@ -954,6 +954,7 @@ p {
 /* Div del titulo en la tarjeta productos*/
 .title_prod{
     padding:2rem;
+    font-size:12;
 }
 /*Parrafo subtitulo tarjeta productos*/
 .hmc_subtitle{
