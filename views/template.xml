@@ -324,7 +324,7 @@
                 <!--end container-->
             </section>
             <!-- Consumo de combustible ************************************************************************************-->
-             <section id="combustiblecontrol" class="trigger2">
+             <section id="combustiblecontrol" class="trigger2 pb3rem">
                 <div class="container solutions-div">
                     <!--end ts-title-->
                     <div class="row">
@@ -367,7 +367,7 @@
                 <!--end container-->
             </section>
              <!-- Conduccion responsable ************************************************************************************-->
-             <section id="res_driving" class="trigger2">
+             <section id="res_driving" class="trigger2 pb3rem">
                 <div class="container solutions-div">
                     <!--end ts-title-->
                     <div class="row">
@@ -382,7 +382,7 @@
                                        <img src="/gabosoft_home_portal/static/src/images/motion/icon_base.png" class="" alt="gIcono generico"/>
                                    </div>
                                     <div class="col-lg-8 text-left">
-                                       <h3 class="title_serv">Seguimiento<br/> GPS y IOT</h3>
+                                       <h3 class="title_serv">Conducción<br/>Responsable</h3>
                                     </div>
                                 </div>
                                 <div class="row s1_r2">
