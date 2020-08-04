@@ -281,7 +281,7 @@
                     </div>
             </section>
             <!-- GPS y IOT ************************************************************************************-->
-             <section id="gpsiot" class="ts-block text-center trigger2">
+             <section id="gpsiot" class="ts-block trigger2">
                 <div class="container solutions-div">
                     <!--end ts-title-->
                     <div class="row">
@@ -297,8 +297,8 @@
                                            icon
                                        </span>
                                    </div>
-                                    <div class="col-lg-8">
-                                       <h3 class="title_serv">Seguimiento GPS y IOT</h3>
+                                    <div class="col-lg-8 text-left">
+                                       <h3 class="title_serv">Seguimiento<br/> GPS y IOT</h3>
                                     </div>
                                 </div>
                                 <div class="row s1_r2">
