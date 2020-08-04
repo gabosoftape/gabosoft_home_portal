@@ -447,7 +447,7 @@
                         <div class="col-lg-4 text-center">
                             <div class="dev_info">
                                 <div class="row ds1_r1">
-                                    <div class="text-left">
+                                    <div class="text-right">
                                        <img src="/gabosoft_home_portal/static/src/images/motion/icon_base.png" class="img_icon_dev" alt="gIcono generico"/>
                                     </div>
                                     <div class="text-left">
