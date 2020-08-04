@@ -416,7 +416,7 @@
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="solutions-info-dev">
-                                <div class="row s1_r1">
+                                <div class="row s1_r1-dev">
                                    <div class="col-lg-2">
                                        <img src="/gabosoft_home_portal/static/src/images/motion/icon_base.png" class="" alt="gIcono generico"/>
                                    </div>
@@ -424,7 +424,7 @@
                                        <h3 class="title_serv">Desarrollo<br/>a la medida</h3>
                                     </div>
                                 </div>
-                                <div class="row s1_r2">
+                                <div class="row s1_r2-dev">
                                     <div class="col-lg-12 desc_ser_div">
                                         <p class="desc_ser">
                                             Esta plataforma le dará control sobre todas sus unidades de transporte. Optimiza sus gastos operativos. mejora la disciplina de los conductores y
@@ -432,7 +432,7 @@
                                         </p>
                                     </div>
                                 </div>
-                                <div class="row s_btn s1_r3">
+                                <div class="row s_btn s1_r3-dev pb3rem">
                                     <div class="col-lg-12">
                                         <a href="#" class="link_motion">Necesito un desarrollo</a>
                                     </div>
