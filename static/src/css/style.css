@@ -953,10 +953,13 @@ p {
 }
 /* Div del titulo en la tarjeta productos*/
 .title_prod{
-
+    padding:4rem;
 }
 /*Parrafo subtitulo tarjeta productos*/
 .hmc_subtitle{
+    color:#ffffff;
+    padding-left:5rem;
+    padding-right:5rem;
 }
 /* NEW */
 
