@@ -1010,7 +1010,11 @@ p {
   top:0;
 }
 .img_icon_dev{
-    height:40%;
+    height:50%;
+}
+.d_title_serv{
+    padding-left:10px;
+    padding-top:5px;
 }
 .solutions-info{
     padding-top:100px;
