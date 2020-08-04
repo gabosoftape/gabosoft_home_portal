@@ -286,8 +286,8 @@
                     <!--end ts-title-->
                     <div class="row">
                         <div class="col-lg-6">
-                            <img src="/gabosoft_home_portal/static/src/images/motion/600x600_1.png" class="img_back" alt="Back"/>
-                            <img src="/gabosoft_home_portal/static/src/images/motion/500x360_1.png" class="img_front" alt="Front"/>
+                            <img src="/gabosoft_home_portal/static/src/images/motion/600x600_1.png" width="600" height="600" class="img_back" alt="Back"/>
+                            <img src="/gabosoft_home_portal/static/src/images/motion/500x360_1.png" width="500" height="360"  class="img_front" alt="Front"/>
                         </div>
                         <div class="col-lg-6">
                             <div>
