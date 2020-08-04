@@ -967,8 +967,8 @@ p {
 .img_front{
   position:absolute;
   z-index: 2;
-  left:10px;
-  top:20px;
+  left:30px;
+  top:90px;
 }
 
 .img_back

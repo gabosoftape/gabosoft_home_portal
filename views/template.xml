@@ -281,7 +281,7 @@
                     </div>
             </section>
             <!-- GPS y IOT ************************************************************************************-->
-             <section id="gpsiot" class="ts-block trigger2">
+             <section id="gpsiot" class="trigger2">
                 <div class="container solutions-div">
                     <!--end ts-title-->
                     <div class="row">
