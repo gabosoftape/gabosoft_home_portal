@@ -968,7 +968,7 @@ p {
   position:absolute;
   z-index: 2;
   left:30px;
-  top:90px;
+  top:100px;
 }
 
 .img_back
@@ -978,6 +978,11 @@ p {
   z-index: 1;
   left:0;
   top:0;
+}
+.solutions-div{
+    padding-top:2rem;
+    padding-left:1rem;
+    padding-right:1rem;
 }
 /* NEW */
 
