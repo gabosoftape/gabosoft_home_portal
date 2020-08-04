@@ -945,7 +945,7 @@ p {
     bottom:0!important;
 }
 #productos{
-    background: linear-gradient(180deg, rgba(1,71,187,1) 30%, rgba(197,0,126,1) 100%);
+    background: linear-gradient(180deg, rgba(1,71,187,1) 0%, rgba(197,0,126,1) 100%);
 }
 .hm_card{
     background-color: rgba(255,255,255,0.2);
@@ -954,7 +954,7 @@ p {
 /* Div del titulo en la tarjeta productos*/
 .title_prod{
     padding:2rem;
-    font-size: 1rem;
+    font-size: 0.7rem;
 }
 /*Parrafo subtitulo tarjeta productos*/
 .hmc_subtitle{
