@@ -441,8 +441,8 @@
                             </div>
                         </div>
                         <div class="col-lg-6">
-                            <img src="/gabosoft_home_portal/static/src/images/motion/600x380_1.png" class="img_back1" alt="Back"/>
-                            <img src="/gabosoft_home_portal/static/src/images/motion/500x260_1.png" class="img_front1" alt="Front"/>
+                            <img src="/gabosoft_home_portal/static/src/images/motion/600x380_1.png" class="img_back2" alt="Back"/>
+                            <img src="/gabosoft_home_portal/static/src/images/motion/500x260_1.png" class="img_front2" alt="Front"/>
                         </div>
                         <div class="col-lg-4">
                             <div class="dev_info">
