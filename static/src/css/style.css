@@ -1063,9 +1063,20 @@ p {
 .sol_tarjeta-final{
     background-color: rgba(255,255,0,0.9);
 }
-.sol-img_icon{
+.sol-img_icon1{
     position:absolute;
     height:20%!important;
+    left:100px;
+}
+.sol-img_icon2{
+    position:absolute;
+    height:20%!important;
+    left:170px;
+}
+.sol-img_icon3{
+    position:absolute;
+    height:20%!important;
+    left:240px;
 }
 .sol-final-link{
 
