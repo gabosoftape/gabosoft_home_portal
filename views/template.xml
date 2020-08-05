@@ -661,13 +661,29 @@
                                 </div>
                             </div>
                             <div class="col-lg-6">
+                                <div class="sol_tarjeta-final">
+                                    <div class="row">
+                                        Necesita una solucion especifica para su empresa?
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-8">
+                                            <a class="sol-final-link">Contactenos ahora</a>
+                                        </div>
+                                        <div class="col-lg-4">
+                                            <img src="/gabosoft_home_portal/static/src/images/motion/icon_base.png" class="sol-img_icon" alt="gIcono generico"/>
+                                            <img src="/gabosoft_home_portal/static/src/images/motion/icon_base.png" class="sol-img_icon" alt="gIcono generico"/>
+                                            <img src="/gabosoft_home_portal/static/src/images/motion/icon_base.png" class="sol-img_icon" alt="gIcono generico"/>
+                                        </div>
+                                    </div>
+                                 </div>
                                  <div class="row">
+
                                     <div class="col-lg-5 sol_icon">
                                         <center>
                                             <img src="/gabosoft_home_portal/static/src/images/motion/icon_base.png" class="img_icon pt20" alt="gIcono generico"/>
                                         </center>
                                     </div>
-                                    <div class="col-lg-7 sol_info  pt20">
+                                    <div class="col-lg-7 sol_info  ">
                                         <h6>Nombre de la solucion</h6>
                                         <p>Lorepipsum isnnssf ifnnf iinfffin  ininifn insslla js por la presetne quij jsjjdn nal</p>
                                     </div>
