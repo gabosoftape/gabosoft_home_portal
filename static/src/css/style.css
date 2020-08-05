@@ -944,7 +944,7 @@ p {
 .b0{
     bottom:0!important;
 }
-#productos{
+.gradientMotion{
     background: linear-gradient(180deg, rgba(1,71,187,1) 0%, rgba(197,0,126,1) 100%);
 }
 .hm_card{
