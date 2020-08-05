@@ -559,7 +559,7 @@
                     </div>
             </section>
             <!-- Final solutions ************************************************************************************-->
-             <section id="finalsol" class="ts-block text-center trigger2">
+             <section id="finalsol" class="text-left trigger2">
                 <div class="container">
                     <div class="sol_container">
                         <div class="row sol_r1">
