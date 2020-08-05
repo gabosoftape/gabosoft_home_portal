@@ -560,26 +560,108 @@
             </section>
             <!-- Final solutions ************************************************************************************-->
              <section id="finalsol" class="ts-block text-center trigger2">
-                <div class="container solutions-div">
-                    <div class="title_serv">
-                       <h2>Soluciones</h2>
-                    </div>
-                    <!--end ts-title-->
-                    <div class="row align-items-center">
-                        <div class="col-lg-6 pt16 pb16">
-                            <p class="o_default_snippet_text">Pensando en todas las necesidades de su empresa, ofrecemos un amplio portafolio de soluciones de nicho, todo esto bajo un modelo SaaS. Tenemos soluciones para organizaciones de todos los tamaños y de todos los sectores.
-                                <br/>
-                            Todas nuestras soluciones son creadas especificamente para estar activas funcionando al 100% siempre, sin necesidad de contar con un especialista en TI para ejecutar configuraciones complejas. Esto se traduce en funcionamiento óptimo.</p>
-                            <div class="s_btn text-left pt16 pb16" data-name="Buttons">
-                                <a href="#" class="btn btn-primary o_default_snippet_text">Buscar solucion </a>
+                <div class="container">
+                    <div class="sol_container">
+                        <div class="row sol_r1">
+                            <div class="col-lg-6">
+                                <div class="row">
+                                    <div class="col-lg-5 sol_icon">
+                                        <img src="/gabosoft_home_portal/static/src/images/motion/icon_base.png" class="img_icon" alt="gIcono generico"/>
+                                    </div>
+                                    <div class="col-lg-7 sol_info">
+                                        <h5>Nombre de la solucion</h5>
+                                        <p>Lorepipsum isnnssf ifnnf iinfffin  ininifn insslla js por la presetne quij jsjjdn nal</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="row">
+                                    <div class="col-lg-5 sol_icon">
+                                        <img src="/gabosoft_home_portal/static/src/images/motion/icon_base.png" class="img_icon" alt="gIcono generico"/>
+                                    </div>
+                                    <div class="col-lg-7 sol_info">
+                                        <h5>Nombre de la solucion</h5>
+                                        <p>Lorepipsum isnnssf ifnnf iinfffin  ininifn insslla js por la presetne quij jsjjdn nal</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div class="col-lg-6 pt16 pb16">
-                            <img src="/web/image/website.s_text_image_default_image" class="img img-fluid mx-auto" alt="Odoo • Texto e imagen"/>
+                        <div class="row sol_r2">
+                            <div class="col-lg-6">
+                                <div class="row">
+                                    <div class="col-lg-5 sol_icon">
+                                        <img src="/gabosoft_home_portal/static/src/images/motion/icon_base.png" class="img_icon" alt="gIcono generico"/>
+                                    </div>
+                                    <div class="col-lg-7 sol_info">
+                                        <h5>Nombre de la solucion</h5>
+                                        <p>Lorepipsum isnnssf ifnnf iinfffin  ininifn insslla js por la presetne quij jsjjdn nal</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="row">
+                                    <div class="col-lg-5 sol_icon">
+                                        <img src="/gabosoft_home_portal/static/src/images/motion/icon_base.png" class="img_icon" alt="gIcono generico"/>
+                                    </div>
+                                    <div class="col-lg-7 sol_info">
+                                        <h5>Nombre de la solucion</h5>
+                                        <p>Lorepipsum isnnssf ifnnf iinfffin  ininifn insslla js por la presetne quij jsjjdn nal</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
+                        <div class="row sol_r3">
+                            <div class="col-lg-6">
+                                <div class="row">
+                                    <div class="col-lg-5 sol_icon">
+                                        <img src="/gabosoft_home_portal/static/src/images/motion/icon_base.png" class="img_icon" alt="gIcono generico"/>
+                                    </div>
+                                    <div class="col-lg-7 sol_info">
+                                        <h5>Nombre de la solucion</h5>
+                                        <p>Lorepipsum isnnssf ifnnf iinfffin  ininifn insslla js por la presetne quij jsjjdn nal</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="row">
+                                    <div class="col-lg-5 sol_icon">
+                                        <img src="/gabosoft_home_portal/static/src/images/motion/icon_base.png" class="img_icon" alt="gIcono generico"/>
+                                    </div>
+                                    <div class="col-lg-7 sol_info">
+                                        <h5>Nombre de la solucion</h5>
+                                        <p>Lorepipsum isnnssf ifnnf iinfffin  ininifn insslla js por la presetne quij jsjjdn nal</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row sol_r4">
+                            <div class="col-lg-6">
+                                <div class="row">
+                                    <div class="col-lg-5 sol_icon">
+                                        <img src="/gabosoft_home_portal/static/src/images/motion/icon_base.png" class="img_icon" alt="gIcono generico"/>
+                                    </div>
+                                    <div class="col-lg-7 sol_info">
+                                        <h5>Nombre de la solucion</h5>
+                                        <p>Lorepipsum isnnssf ifnnf iinfffin  ininifn insslla js por la presetne quij jsjjdn nal</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="row">
+                                    <div class="col-lg-5 sol_icon">
+                                        <img src="/gabosoft_home_portal/static/src/images/motion/icon_base.png" class="img_icon" alt="gIcono generico"/>
+                                    </div>
+                                    <div class="col-lg-7 sol_info">
+                                        <h5>Nombre de la solucion</h5>
+                                        <p>Lorepipsum isnnssf ifnnf iinfffin  ininifn insslla js por la presetne quij jsjjdn nal</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
-                    <!--end row-->
                 </div>
+
                 <!--end container-->
             </section>
 
