@@ -570,7 +570,7 @@
                                             <img src="/gabosoft_home_portal/static/src/images/motion/icon_base.png" class="img_icon pt20" alt="gIcono generico"/>
                                         </center>
                                     </div>
-                                    <div class="col-lg-7 sol_info">
+                                    <div class="col-lg-7 sol_info  pt20">
                                         <h6>Nombre de la solucion</h6>
                                         <p>Lorepipsum isnnssf ifnnf iinfffin  ininifn insslla js por la presetne quij jsjjdn nal</p>
                                     </div>
@@ -581,7 +581,7 @@
                                     <div class="col-lg-5 sol_icon">
                                         <img src="/gabosoft_home_portal/static/src/images/motion/icon_base.png" class="img_icon" alt="gIcono generico"/>
                                     </div>
-                                    <div class="col-lg-7 sol_info pt20">
+                                    <div class="col-lg-7 sol_info">
                                         <h6 class="sol_name">Nombre de la solucion</h6>
                                         <p>Lorepipsum isnnssf ifnnf iinfffin  ininifn insslla js por la presetne quij jsjjdn nal</p>
                                     </div>
