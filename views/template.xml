@@ -663,17 +663,13 @@
                             <div class="col-lg-6">
                                 <div class="sol_tarjeta-final">
                                     <div class="row">
-                                        Necesita una solucion especifica para su empresa?
+                                        <h6>Necesita una solucion especifica para su empresa?</h6>
                                     </div>
                                     <div class="row">
-                                        <div class="col-lg-8">
-                                            <a class="sol-final-link">Contactenos ahora</a>
-                                        </div>
-                                        <div class="col-lg-4">
-                                            <img src="/gabosoft_home_portal/static/src/images/motion/icon_base.png" class="sol-img_icon" alt="gIcono generico"/>
-                                            <img src="/gabosoft_home_portal/static/src/images/motion/icon_base.png" class="sol-img_icon" alt="gIcono generico"/>
-                                            <img src="/gabosoft_home_portal/static/src/images/motion/icon_base.png" class="sol-img_icon" alt="gIcono generico"/>
-                                        </div>
+                                        <a class="sol-final-link">Contactenos ahora</a>
+                                        <img src="/gabosoft_home_portal/static/src/images/motion/icon_base.png" class="sol-img_icon" alt="gIcono generico"/>
+                                        <img src="/gabosoft_home_portal/static/src/images/motion/icon_base.png" class="sol-img_icon" alt="gIcono generico"/>
+                                        <img src="/gabosoft_home_portal/static/src/images/motion/icon_base.png" class="sol-img_icon" alt="gIcono generico"/>
                                     </div>
                                  </div>
                             </div>
