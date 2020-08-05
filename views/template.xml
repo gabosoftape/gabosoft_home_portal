@@ -292,10 +292,10 @@
                         <div class="col-lg-6">
                             <div class="solutions-info">
                                 <div class="row s1_r1">
-                                   <div class="col-lg-4">
+                                   <div class="col-lg-2">
                                        <img src="/gabosoft_home_portal/static/src/images/motion/icon_base.png" class="" alt="gIcono generico"/>
                                    </div>
-                                    <div class="col-lg-8 text-left">
+                                    <div class="col-lg-10 text-left">
                                        <h3 class="title_serv">Seguimiento<br/> GPS y IOT</h3>
                                     </div>
                                 </div>
@@ -331,10 +331,10 @@
                         <div class="col-lg-6">
                             <div class="solutions-info">
                                 <div class="row s1_r1">
-                                   <div class="col-lg-4">
+                                   <div class="col-lg-2">
                                        <img src="/gabosoft_home_portal/static/src/images/motion/icon_base.png" class="" alt="gIcono generico"/>
                                    </div>
-                                    <div class="col-lg-8 text-left">
+                                    <div class="col-lg-10 text-left">
                                        <h3 class="title_serv">Consumo de<br/>Combustible</h3>
                                     </div>
                                 </div>
@@ -378,10 +378,10 @@
                         <div class="col-lg-6">
                             <div class="solutions-info">
                                 <div class="row s1_r1">
-                                   <div class="col-lg-4">
+                                   <div class="col-lg-2">
                                        <img src="/gabosoft_home_portal/static/src/images/motion/icon_base.png" class="" alt="gIcono generico"/>
                                    </div>
-                                    <div class="col-lg-8 text-left">
+                                    <div class="col-lg-10 text-left">
                                        <h3 class="title_serv">Conducción<br/>Responsable</h3>
                                     </div>
                                 </div>
