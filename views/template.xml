@@ -663,7 +663,7 @@
                             <div class="col-lg-6">
                                 <div class="sol_tarjeta-final">
                                     <div class="row">
-                                        <h6>Necesita una solucion especifica para su empresa?</h6>
+                                        <h5 class="sol-final-title">Necesita una solucion especifica para su empresa?</h5>
                                     </div>
                                     <div class="row">
                                         <a class="sol-final-link">Contactenos ahora</a>
