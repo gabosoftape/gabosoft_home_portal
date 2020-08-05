@@ -567,7 +567,7 @@
                                 <div class="row">
                                     <div class="col-lg-5 sol_icon">
                                         <center>
-                                            <img src="/gabosoft_home_portal/static/src/images/motion/icon_base.png" class="img_icon" alt="gIcono generico"/>
+                                            <img src="/gabosoft_home_portal/static/src/images/motion/icon_base.png" class="img_icon pt20" alt="gIcono generico"/>
                                         </center>
                                     </div>
                                     <div class="col-lg-7 sol_info">
