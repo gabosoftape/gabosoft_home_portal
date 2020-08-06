@@ -662,10 +662,10 @@
                             </div>
                             <div class="col-lg-6">
                                 <div class="sol_tarjeta-final">
-                                    <div class="row">
+                                    <div class="row pl2rem">
                                         <h5 class="sol-final-title">Necesita una solucion<br/>especifica para su empresa?</h5>
                                     </div>
-                                    <div class="row">
+                                    <div class="row pl2rem">
                                         <a class="sol-final-link">Contactenos ahora</a>
                                         <img src="/gabosoft_home_portal/static/src/images/motion/icon_base.png" class="sol-img_icon1" alt="gIcono generico"/>
                                         <img src="/gabosoft_home_portal/static/src/images/motion/icon_base.png" class="sol-img_icon2" alt="gIcono generico"/>
