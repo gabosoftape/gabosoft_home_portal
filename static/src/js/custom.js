@@ -200,7 +200,7 @@ $(document).ready(function($) {
         });
     });
     //segunda onda dinamica aqui (3)
-     $(".ts-dynamic-wave2_1").each(function(){
+     $(".ts-dynamic-wave2_2").each(function(){
         $(this).wavify({
             //height: (1- $(this).attr("data-wave-height")) * $(window).height(),
             height: $(this).attr("data-wave-height"),
