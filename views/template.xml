@@ -666,7 +666,7 @@
                                         <h5 class="sol-final-title primario_2_dark">Necesita una solucion<br/>especifica para su empresa?</h5>
                                     </div>
                                     <div class="row pl2rem">
-                                        <a class="sol-final-link destacado_dark">Contactenos ahora</a>
+                                        <a class="sol-final-link destacado_dark" href="#">Contactenos ahora</a>
                                         <img src="/gabosoft_home_portal/static/src/images/motion/icon_base.png" class="sol-img_icon1" alt="gIcono generico"/>
                                         <img src="/gabosoft_home_portal/static/src/images/motion/icon_base.png" class="sol-img_icon2" alt="gIcono generico"/>
                                         <img src="/gabosoft_home_portal/static/src/images/motion/icon_base.png" class="sol-img_icon3" alt="gIcono generico"/>
