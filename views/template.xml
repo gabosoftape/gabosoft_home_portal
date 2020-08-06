@@ -990,7 +990,7 @@
                 <!--end container-->
             </section>
                 <!-- Mapa pre footer ****************************************************************************************-->
-            <section id="mapMotion" class="bg_prod text-center trigger13 gradientMotion">
+            <section id="mapMotion" class="bg_prod text-center trigger13 bgMapMotion">
                 <div id="ts-dynamic-waves-inverted4" class="ts-background2 t0">
                     <svg class="ts-svg ts-z-index__1 transform180 customHeight" width="100%" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg">
                         <defs></defs>
@@ -1022,7 +1022,6 @@
                         <path class="ts-dynamic-wave2_4" id="wave-2_4" d="" data-wave-color="#0047bb" data-wave-height=".25" data-wave-bones="4" data-wave-speed=".20"/>
                     </svg>
                 </div>
-                <div class="ts-background-image ts-parallax-element" data-bg-image="/gabosoft_home_portal/static/src/images/map.jpg" ></div>
 
             </section>
         </t>
