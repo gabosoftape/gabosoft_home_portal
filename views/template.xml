@@ -927,6 +927,68 @@
                 </div>
                 <!--end container-->
             </section>
+            <!-- Final counters ************************************************************************************-->
+             <section id="counters" class="text-left trigger2">
+                <div class="container">
+                    <div class="sol_container">
+                        <div class="row sol_r1">
+                            <div class="col-lg-6">
+                                <div class="row ">
+                                    <div class="col-lg-12 pt20">
+                                        <h1 class="counter_number">1.500</h1>
+                                        <p class="counter_subtitle">UNIDADES</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                 <div class="row">
+                                    <div class="col-lg-12 pt20">
+                                        <p class="counter_desc">Lorepipsum isnnssf ifnnf iinfffin  ininifn insslla js por la presetne quij jsjjdn nal</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row sol_r2">
+                            <div class="col-lg-6">
+                                <div class="row ">
+                                    <div class="col-lg-12 pt20">
+                                        <h1 class="counter_number">+50</h1>
+                                        <p class="counter_subtitle">EMPRESAS</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                 <div class="row">
+                                    <div class="col-lg-12 pt20">
+                                        <p class="counter_desc">Lorepipsum isnnssf ifnnf iinfffin  ininifn insslla js por la presetne quij jsjjdn nal</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row sol_r3">
+                            <div class="col-lg-6">
+                                <div class="row ">
+                                    <div class="col-lg-12 pt20">
+                                        <h1 class="counter_number">
+                                            +30
+                                        </h1>
+                                        <p class="counter_subtitle">PAISES</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                 <div class="row">
+                                    <div class="col-lg-12 pt20">
+                                        <p class="counter_desc">Lorepipsum isnnssf ifnnf iinfffin  ininifn insslla js por la presetne quij jsjjdn nal</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--end container-->
+            </section>
 
         </t>
     </template>
