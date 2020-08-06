@@ -694,9 +694,9 @@
 
                         <!--end col-xl-4-->
                         <div class="col-sm-12 col-md-12 col-xl-12 hm_card">
-                            <figure data-animate="ts-fadeInUp" data-delay="1s">
+                            <figure data-animate="ts-fadeInUp" data-delay="5s">
                                 <div class="title_prod">
-                                    <h1>Soluciones Adaptables</h1>
+                                    <h1>Hardware</h1>
                                 </div>
                                 <p class="hmc_subtitle">
                                     Desarrollamos herramientas tecnologicas altamente innovadoras, nuestro productos le pueden ayudar a solucionar tareas complejas y procesos extensos de ua manera efectiva y fluida.
