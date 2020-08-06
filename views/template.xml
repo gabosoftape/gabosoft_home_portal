@@ -1006,7 +1006,7 @@
                         <div class="col-sm-12 col-md-12 col-xl-12 hm_card">
                             <figure data-animate="ts-fadeInUp" data-delay="5s">
                                 <div class="title_prod">
-                                    <h1>Mapa</h1>
+                                    <h1 class="destacado_dark">Mapa</h1>
                                 </div>
                             </figure>
                         </div>
