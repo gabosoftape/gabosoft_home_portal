@@ -1094,7 +1094,7 @@ p {
     padding-left:4rem;
 }
 .ts-z-index_custom{
-    z-index:2!important;
+    z-index:0!important;
 }
 .bgMapMotion{
     background-image: url('/gabosoft_home_portal/static/src/images/map.jpg');
