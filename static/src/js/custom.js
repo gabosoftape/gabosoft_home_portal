@@ -177,6 +177,17 @@ $(document).ready(function($) {
             speed: .15
         });
     });
+     // Onda invertida (180) dinamica aqui (3)
+     $(".ts-dynamic-wave-inverted3").each(function(){
+        $(this).wavify({
+            //height: (1- $(this).attr("data-wave-height")) * $(window).height(),
+            height: $(this).attr("data-wave-height"),
+            bones: $(this).attr("data-wave-bones"),
+            amplitude: .07 * $(window).height(),
+            color: $(this).attr("data-wave-color"),
+            speed: .15
+        });
+    });
     //segunda onda dinamica aqui (1)
      $(".ts-dynamic-wave2").each(function(){
         $(this).wavify({
@@ -201,6 +212,17 @@ $(document).ready(function($) {
     });
     //segunda onda dinamica aqui (3)
      $(".ts-dynamic-wave2_2").each(function(){
+        $(this).wavify({
+            //height: (1- $(this).attr("data-wave-height")) * $(window).height(),
+            height: $(this).attr("data-wave-height"),
+            bones: $(this).attr("data-wave-bones"),
+            amplitude: .06 * $(window).height(),
+            color: $(this).attr("data-wave-color"),
+            speed: .15
+        });
+    });
+    //segunda onda dinamica aqui (4)
+     $(".ts-dynamic-wave2_3").each(function(){
         $(this).wavify({
             //height: (1- $(this).attr("data-wave-height")) * $(window).height(),
             height: $(this).attr("data-wave-height"),
