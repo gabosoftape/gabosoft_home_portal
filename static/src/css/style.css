@@ -1062,6 +1062,9 @@ p {
 }
 .sol_tarjeta-final{
     background-color: rgba(155,155,155,0.9);
+    -webkit-box-shadow: 24px 24px 5px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 24px 24px 5px -10px rgba(0,0,0,0.75);
+    box-shadow: 24px 24px 5px -10px rgba(0,0,0,0.75);
 }
 .sol-img_icon1{
     position:absolute;
