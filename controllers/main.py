@@ -40,4 +40,4 @@ class HomePortal(CustomerPortal):
             'inicio': 'yes',
             'page_name': 'MOTION | Inicio',
         }
-        return request.render("gabosoft_home_portal_bkp.portal_my_home", values)
+        return request.render("gabosoft_home_portal.portal_my_home", values)
