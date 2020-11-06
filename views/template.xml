@@ -65,11 +65,12 @@
                                 <!--end navbar-toggler-->
                                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                                     <div class="navbar-nav ml-auto">
+                                        <!-- Ocultamos menu nav
                                         <a class="nav-item nav-link active ts-scroll" href="#slider">Inicio</a>
                                         <a class="nav-item nav-link ts-scroll" href="#productos">Productos</a>
                                         <a class="nav-item nav-link ts-scroll" href="#solucionesMotion">Soluciones </a>
                                         <a class="nav-item nav-link ts-scroll" href="#hardwareMotion">Equipos</a>
-                                        <a class="nav-item nav-link ts-scroll" href="#coberturaMotion">Cobertura</a>
+                                        <a class="nav-item nav-link ts-scroll" href="#coberturaMotion">Cobertura</a>-->
                                         <a class="nav-item nav-link ts-scroll btn btn-sm ml-3 px-3 ts-width__auto btn_activo_1_dark" href="/web/login">Ingresar</a>
                                     </div>
                                     <!--end navbar-nav-->
@@ -93,9 +94,8 @@
                     <!--*********************************************************************************************************-->
                     <!--************ FOOTER *************************************************************************************-->
                     <!--*********************************************************************************************************-->
-                    <footer id="ts-footer" style="position: relative;">
+                    <!--<footer id="ts-footer" style="position: relative;">
                         <section id="contact" class="ts-separate-bg-element footer_motion"  >
-                            <!--<div id="whitespace"></div>-->
                             <div class="container f_container">
                                 <div id="contact_box" class="ts-box center">
                                     <div class="row">
@@ -118,67 +118,49 @@
                                                 <div class="font-weight-bold">Skype:</div>
                                                 crypto.agency
                                             </address>
-                                            <!--end address-->
+
                                         </div>
-                                        <!--end col-md-4-->
+
                                         <div class="col-md-8">
                                             <h3>Formulario de Contacto</h3>
-                                            <form id="form-contact" method="post" class="clearfix ts-form ts-form-email ts-inputs__transparent" data-php-path="/gabosoft_home_portal/static/src/php/email.php">
+                                            <form id="form-contact" method="post" class="clearfix ts-form ts-form-email ts-inputs__transparent" data-php-path="/gabosoft_home_portal_bkp/static/src/php/email.php">
                                                 <div class="row">
                                                     <div class="col-md-6 col-sm-6">
                                                         <div class="form-group">
                                                             <label for="form-contact-name">Su nombre *</label>
                                                             <input type="text" class="form-control" id="form-contact-name" name="name" placeholder="Nombres" required=""/>
                                                         </div>
-                                                        <!--end form-group -->
                                                     </div>
-                                                    <!--end col-md-6 col-sm-6 -->
                                                     <div class="col-md-6 col-sm-6">
                                                         <div class="form-group">
                                                             <label for="form-contact-email">Correo electrionico *</label>
                                                             <input type="email" class="form-control" id="form-contact-email" name="email" placeholder="usuario@servidor.es" required=""/>
                                                         </div>
-                                                        <!--end form-group -->
                                                     </div>
-                                                    <!--end col-md-6 col-sm-6 -->
                                                 </div>
-                                                <!--end row -->
                                                 <div class="row">
                                                     <div class="col-md-12">
                                                         <div class="form-group">
                                                             <label for="form-contact-message">Su mensaje*</label>
                                                             <textarea class="form-control" id="form-contact-message" rows="5" name="message" placeholder="Mensaje" required=""/>
                                                         </div>
-                                                        <!--end form-group -->
                                                     </div>
-                                                    <!--end col-md-12 -->
                                                 </div>
-                                                <!--end row -->
                                                 <div class="form-group clearfix">
                                                     <button type="submit" class="btn btn-primary float-right" id="form-contact-submit">Send a Message</button>
                                                 </div>
-                                                <!--end form-group -->
                                                 <div class="form-contact-status"></div>
                                             </form>
-                                            <!--end form-contact -->
                                         </div>
                                     </div>
-                                    <!--end row-->
                                 </div>
-                                <!--end ts-box-->
                                 <div class="text-center text-white py-4">
                                     <small>© 2020 monitoringinnovation.com , All Rights Reserved</small>
                                 </div>
                             </div>
-                            <!--end container-->
                         </section>
-
-                    </footer>
-                    <!--end #footer-->
+                    </footer>-->
                 </div>
-                <!--end page-->
-
-
             </body>
         </xpath>
     </template>
