@@ -178,7 +178,7 @@
     <!-- template alistamientos -->
     <template id="portal_my_home" name="Inicio">
         <t t-call="gabosoft_home_portal.portal_layout">
-            <section id="slider">
+            <section id="slider" class="full-height">
                 <div class="container align-self-center">
                     <div class="row align-items-center">
                         <div class="col-sm-7">
@@ -218,7 +218,7 @@
                 <!--end container-->
 
                 <div id="ts-dynamic-waves" class="ts-background">
-                    <svg class="ts-svg ts-z-index__1" width="100%" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                    <svg class="ts-svg ts-z-index__1" width="100%" height="50%" version="1.1" xmlns="http://www.w3.org/2000/svg">
                         <defs></defs>
                         <path class="ts-dynamic-wave" id="wave-1" d="" data-wave-color="#ffffff" data-wave-height=".25" data-wave-bones="4" data-wave-speed=".20"/>
                     </svg>
@@ -227,40 +227,6 @@
             </section>
             <!-- PRODUCTOS ****************************************************************************************-->
             <section id="productos" class="bg_prod text-center trigger1 gradientMotion">
-                <div id="ts-dynamic-waves-inverted" class="ts-background2 t0">
-                    <svg class="ts-svg ts-z-index__1 transform180 customHeight" width="100%" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg">
-                        <defs></defs>
-                        <path class="ts-dynamic-wave-inverted" id="wave-1-inverted" d="" data-wave-color="#ffffff" data-wave-height=".15" data-wave-bones="3" data-wave-speed=".20"/>
-                    </svg>
-                </div>
-                <div class="container pb10rem pt10rem">
-
-                    <!--end ts-title-->
-                    <div class="row">
-
-                        <!--end col-xl-4-->
-                        <div class="col-sm-12 col-md-12 col-xl-12 hm_card">
-                            <figure data-animate="ts-fadeInUp" data-delay="1s">
-                                <div class="title_prod">
-                                    <h1>Productos</h1>
-                                </div>
-                                <p class="hmc_subtitle">
-                                    Desarrollamos herramientas tecnologicas altamente innovadoras, nuestro productos le pueden ayudar a solucionar tareas complejas y procesos extensos de ua manera efectiva y fluida.
-                                </p>
-                            </figure>
-                        </div>
-
-                        <!--end col-xl-4-->
-                    </div>
-                    <!--end row-->
-                </div>
-                <!--end container-->
-                <div id="ts-dynamic-waves2" class="ts-background2 ">
-                        <svg class="ts-svg ts-z-index__1" width="100%" height="90%" version="1.1" xmlns="http://www.w3.org/2000/svg">
-                            <defs></defs>
-                            <path class="ts-dynamic-wave2" id="wave-2" d="" data-wave-color="#ffffff" data-wave-height=".05" data-wave-bones="4" data-wave-speed=".20"/>
-                        </svg>
-                    </div>
             </section>
 
         </t>
