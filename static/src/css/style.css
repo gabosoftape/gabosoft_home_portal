@@ -38,7 +38,6 @@ B. Helpers
   -- Utilities
   -- Width
   -- Z-Index
-
 C. Components
   -- Block
   -- Blockquote
@@ -1366,21 +1365,36 @@ blockquote h6 {
     box-shadow: 0 0 0 .2rem rgba(242, 109, 125, .5);
 }
 
-.btn-lg {
+.btn-lg /*Modificada por Johnny*/ {
     padding: .75rem 1.5rem;
     font-size: 1.125rem;
+    transition: .2s ease;
 }
 
-.btn-sm {
+.btn-lg:hover /*Agregada por Johnny*/ {
+    padding: 1rem 1.75rem !important;
+}
+
+.btn-sm /*Modificada por Johnny*/ {
     font-size: .8125rem;
     padding: .375rem 1rem;
+    transition: .2s ease;
 }
 
-.btn-xs {
+.btn-sm:hover /*Agregada por Johnny*/ {
+    padding: .4rem 1.25rem !important;
+}
+
+.btn-xs /*Modificada por Johnny*/ {
     font-size: .75rem;
     font-weight: 600;
     padding: .125rem .6875rem;
     text-transform: uppercase;
+    transition: .2s ease;
+}
+
+.btn-xs:hover /*Agregada por Johnny*/ {
+    padding: 1.5rem .8rem !important;
 }
 
 [class*="btn-outline-"] {
@@ -2421,7 +2435,11 @@ figure.icon {
     height: 100% !important;
 }
 
-@media (min-width: 36rem) and (max-width: 47.9375rem) {
+/*-------------------------------------------
+  -- Responsive styles
+-------------------------------------------*/
+
+@media (min-width: 36rem) and (max-width: 47.9375rem) /*De 576px a 768px*/ {
 
 
     .ts-column-count-sm-1 {
@@ -2445,7 +2463,7 @@ figure.icon {
     }
 }
 
-@media (min-width: 48rem) and (max-width: 61.9375rem) {
+@media (min-width: 48rem) and (max-width: 61.9375rem) /*De 768px a 992px*/ {
 
 
     .ts-column-count-md-1 {
@@ -2469,7 +2487,7 @@ figure.icon {
     }
 }
 
-@media (min-width: 62rem) and (max-width: 74.9375rem) {
+@media (min-width: 62rem) and (max-width: 74.9375rem) /*De 992px a 1200px*/ {
 
     .ts-column-count-lg-1 {
         column-count: 1;
@@ -2499,9 +2517,27 @@ figure.icon {
     .ts-promo-numbers h2 {
         font-size: 2.75rem;
     }
+
+    .navbar /*Agregada por Johnny*/ {
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+    }
+
+    h3 /*Agregada por Johnny*/ {
+        margin-bottom: 1rem;
+        font-size: 25px;
+    }
+
+    h1 /*Agregada por Johnny*/ {
+        font-size: 45px;
+    }
+
+    .p-lg-0 /*Agregada por Johnny*/ {
+        padding: 2rem !important;
+    }
 }
 
-@media (min-width: 75rem) {
+@media (min-width: 75rem) /*Mínimo 1200px*/ {
     .ts-column-count-xl-1 {
         column-count: 1;
     }
@@ -2548,7 +2584,7 @@ figure.icon {
     }
 }
 
-@media (max-width: 35.9375rem) {
+@media (max-width: 35.9375rem) /*Máximo 576px*/ {
     [class*="ts-column-count-"] {
         column-count: 1;
     }
@@ -2570,7 +2606,7 @@ figure.icon {
     }
 }
 
-@media (min-width: 36rem) and (max-width: 61.9375rem) {
+@media (min-width: 36rem) and (max-width: 61.9375rem) /*De 576px a 992px*/ {
 
     .ts-title {
         margin-bottom: 5rem;
@@ -2581,7 +2617,7 @@ figure.icon {
     }
 }
 
-@media (min-width: 62rem) {
+@media (min-width: 62rem) /*Mínimo 992px*/ {
 
 
 
@@ -2598,13 +2634,13 @@ figure.icon {
     }
 }
 
-@media (max-width: 47.9375rem) {
+@media (max-width: 47.9375rem) /*Máximo 768px*/ {
     h4 {
         font-size: 1.125rem;
     }
 }
 
-@media (min-width: 48rem) {
+@media (min-width: 48rem) /*Mínimo 768px*/ {
     h4 {
         font-size: 1.25rem;
     }
@@ -2614,14 +2650,14 @@ figure.icon {
     }
 }
 
-@media (max-width: 61.9375rem) {
+@media (max-width: 61.9375rem) /*Máximo 992px*/ {
     .ts-card__image {
         height: 15.625rem;
     }
 }
 
-@media (min-width: 36rem) {
-    .navbar.navbar-expand-sm .ts-background {
+@media (min-width: 36rem) /*Mínimo 576px*/ {
+    .navbar.navbar-expand-sm .ts-background /*De 576px a 768px*/ {
         opacity: 0;
     }
 
