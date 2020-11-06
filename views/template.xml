@@ -217,18 +217,14 @@
                 </div>
                 <!--end container-->
 
-                <div id="ts-dynamic-waves-inverted" class="ts-background">
+                <div id="ts-dynamic-waves" class="ts-background">
                     <svg class="ts-svg ts-z-index__1" width="100%" height="50%" version="1.1" xmlns="http://www.w3.org/2000/svg">
                         <defs></defs>
-                        <path class="ts-dynamic-wave-inverted" id="wave-1-inverted" d="" data-wave-color="#ffffff" data-wave-height=".25" data-wave-bones="4" data-wave-speed=".20"/>
+                        <path class="ts-dynamic-wave" id="wave-1" d="" data-wave-color="#ffffff" data-wave-height=".25" data-wave-bones="4" data-wave-speed=".20"/>
                     </svg>
                     <div class="ts-background-image ts-parallax-element" data-bg-image="/gabosoft_home_portal/static/src/images/home-video-bg.jpg" ></div>
                 </div>
             </section>
-            <!-- PRODUCTOS ****************************************************************************************-->
-            <section id="productos" class="bg_prod text-center trigger1 gradientMotion">
-            </section>
-
         </t>
     </template>
     <!-- Motion Error view-->
