@@ -11,7 +11,6 @@
     'license': 'OPL-1',
     'depends': ['portal'],
     'data': [
-        'views/product_template.xml',
         'views/template.xml',
         'security/ir.model.access.csv',
     ],
