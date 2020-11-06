@@ -1099,6 +1099,10 @@ p {
 .bgMapMotion{
     background-image: url('/gabosoft_home_portal/static/src/images/map.jpg');
 }
+
+.full-height{
+    height: 100vh!important;
+}
 /* NEW */
 
 /***********************************************************************************************************************
