@@ -2539,30 +2539,36 @@ figure.icon {
 
 @media (min-width: 74.9375rem) and (max-width: 87.5rem) /*De 1200px a 1400px*/ {
 
+    
+    .navbar /*Agregada por Johnny*/ {
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+    }
+
     h3 /*Agregada por Johnny*/ {
         margin-bottom: 1rem;
-        font-size: 25px;
+        font-size: 30px;
     }
 
     h1 /*Agregada por Johnny*/ {
-        font-size: 45px;
+        font-size: 50px;
     }
 
     .p-ml-02 /*Agregada por Johnny*/ {
-        padding: 0 !important;
-        margin-top: -3rem !important;
+        padding: 0 1rem !important;
+        margin-top: -6rem !important;
     }
 
     .col-sm-7 /*Agregada por Johnny*/ {
-        margin-top: -5rem;
+        margin-top: -6rem;
     }
 
     .owl-nav .owl-next /*Agregada por Johnny*/ {
-        margin-top: -4rem;
+        margin-top: -2rem;
     }
 
     .owl-nav .owl-prev /*Agregada por Johnny*/ {
-        margin-top: -4rem;
+        margin-top: -2rem;
     }
 }
 
