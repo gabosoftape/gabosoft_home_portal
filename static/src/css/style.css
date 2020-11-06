@@ -1968,7 +1968,6 @@ D. Plugins Styles
 }
 
 .owl-carousel .owl-dots .owl-dot span {
-    background-color: #191919;
     border-radius: 50%;
     display: inline-block;
     height: .625rem;
@@ -1987,7 +1986,6 @@ D. Plugins Styles
 }
 
 .owl-carousel .owl-nav .owl-prev, .owl-carousel .owl-nav .owl-next {
-    background-color: rgba(25, 25, 25, .6);
     border-radius: 50%;
     box-shadow: 0 .125rem .3125rem rgba(0, 0, 0, .1);
     color: #fff;
@@ -2008,11 +2006,11 @@ D. Plugins Styles
 }
 
 .owl-carousel .owl-nav .owl-prev:hover, .owl-carousel .owl-nav .owl-next:hover {
-    background-color: rgba(25, 25, 25, .8);
+    background-color: rgba(25, 25, 25, 10%);
 }
 
 .owl-carousel .owl-nav .owl-next {
-    right: .3125rem;
+    right: 0;
 }
 
 .owl-carousel .owl-nav .owl-next:after {
@@ -2021,7 +2019,7 @@ D. Plugins Styles
 }
 
 .owl-carousel .owl-nav .owl-prev {
-    left: .3125rem;
+    left: .0;
 }
 
 .owl-carousel .owl-nav .owl-prev:after {
@@ -2551,7 +2549,7 @@ figure.icon {
     }
 
     h1 /*Agregada por Johnny*/ {
-        font-size: 50px;
+        font-size: 60px;
     }
 
     .p-ml-02 /*Agregada por Johnny*/ {
@@ -2570,6 +2568,20 @@ figure.icon {
     .owl-nav .owl-prev /*Agregada por Johnny*/ {
         margin-top: -1rem;
     }
+}
+
+@media (min-width: 87.5rem) /*Mínimo 1400px*/ {
+
+    .owl-nav .owl-next /*Agregada por Johnny*/ {
+        margin-top: 2rem;
+        margin-right: -2rem;
+    }
+
+    .owl-nav .owl-prev /*Agregada por Johnny*/ {
+        margin-top: 2rem;
+        margin-left: -2rem;
+    }
+
 }
 
 @media (min-width: 75rem) /*Mínimo 1200px*/ {
