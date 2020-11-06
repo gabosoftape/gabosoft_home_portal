@@ -2435,9 +2435,9 @@ figure.icon {
     height: 100% !important;
 }
 
-/*-------------------------------------------
+/*---------------------------------------------------------------------------------------------------------
   -- Responsive styles
--------------------------------------------*/
+-----------------------------------------------------------------------------------------------------------*/
 
 @media (min-width: 36rem) and (max-width: 47.9375rem) /*De 576px a 768px*/ {
 
@@ -2533,7 +2533,36 @@ figure.icon {
     }
 
     .p-lg-0 /*Agregada por Johnny*/ {
-        padding: 2rem !important;
+        padding: 0 2rem !important;
+    }
+}
+
+@media (min-width: 74.9375rem) and (max-width: 87.5rem) /*De 1200px a 1400px*/ {
+
+    h3 /*Agregada por Johnny*/ {
+        margin-bottom: 1rem;
+        font-size: 25px;
+    }
+
+    h1 /*Agregada por Johnny*/ {
+        font-size: 45px;
+    }
+
+    .p-ml-02 /*Agregada por Johnny*/ {
+        padding: 0 !important;
+        margin-top: -3rem !important;
+    }
+
+    .col-sm-7 /*Agregada por Johnny*/ {
+        margin-top: -5rem;
+    }
+
+    .owl-nav .owl-next /*Agregada por Johnny*/ {
+        margin-top: -4rem;
+    }
+
+    .owl-nav .owl-prev /*Agregada por Johnny*/ {
+        margin-top: -4rem;
     }
 }
 
