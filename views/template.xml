@@ -45,7 +45,7 @@
         </xpath>
         <xpath expr="//t[@t-raw='0']" position="replace">
             <!-- aqui va el header-->
-            <body data-spy="scroll" data-target=".navbar" class="has-loading-screen" data-bg-parallax="scroll" data-bg-parallax-speed="3">
+            <body data-target=".navbar" class="has-loading-screen">
                 <div class="ts-page-wrapper" id="page-top">
                     <!--*********************************************************************************************************-->
                     <!--************ HERO ***************************************************************************************-->
