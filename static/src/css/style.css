@@ -2709,7 +2709,13 @@ figure.icon {
     }
 
     .navbar-icon-svg{
-        
+        background: url(motion_icon-desplazar-abajo.svg);
+        width: 15vw;
+        height: 15vw;
+    }
+
+    .new-row-sm{
+        margin: 0;
     }
         
 }
