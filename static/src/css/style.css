@@ -2652,6 +2652,11 @@ figure.icon {
         margin-bottom: 1.875rem;
     }
 
+    body{
+        width: 100%;
+        height: 50%;
+    }
+
     h3 /*Agregada por Johnny*/ {
         margin-bottom: 1rem;
         font-size: 15px;
@@ -2666,12 +2671,30 @@ figure.icon {
     }
 
     .col-sm-7 /*Agregada por Johnny*/ {
-        margin-top: 7rem;
+        position: fixed;
+        padding: 0;
+        margin: auto;
+        top: 10rem;
     }
 
     .navbar .ts-background /*Agregada por Johnny*/ {
         background-color:rgba(255,255,255,0%) !important;
         }
+    
+    .navbar{
+        padding: 10%;
+    }
+
+    .minicontainer{
+        text-align: center;
+        padding: 0 8%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .svg_l{
+        max-width: 50%;
+    }
         
 }
 
