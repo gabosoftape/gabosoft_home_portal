@@ -2557,7 +2557,7 @@ figure.icon {
         margin-top: -5rem !important;
     }
 
-    .col-sm-7 /*Agregada por Johnny*/ {
+    .text-slider /*Agregada por Johnny*/ {
         margin-top: -5rem;
     }
 
@@ -2670,7 +2670,7 @@ figure.icon {
         margin-top: 7rem !important;
     }
 
-    .col-sm-7 /*Agregada por Johnny*/ {
+    .text-slider /*Agregada por Johnny*/ {
         position: fixed;
         padding: 0;
         margin: auto;
@@ -2681,19 +2681,28 @@ figure.icon {
         background-color:rgba(255,255,255,0%) !important;
         }
     
-    .navbar{
+    .navbar /*Agregada por Johnny*/ {
         padding: 10%;
     }
 
-    .minicontainer{
+    .navbar-brand /*Agregada por Johnny*/ {
+        padding: 0;
+        margin: 0;
+    }
+
+    .container /*Agregada por Johnny*/ {
+        margin:0;
+    }
+
+    .minicontainer /*Agregada por Johnny*/ {
         text-align: center;
         padding: 0 8%;
         margin-left: 0;
         margin-right: 0;
     }
 
-    .svg_l{
-        max-width: 50%;
+    .svg_l /*Agregada por Johnny*/ {
+        width: 100%;
     }
         
 }
