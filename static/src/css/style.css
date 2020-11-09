@@ -2703,19 +2703,23 @@ figure.icon {
         width: 100% !important;
     }
 
-    .menu-icon{
+    .menu-icon /*Agregada por Johnny*/ {
         padding: 10%;
         margin: auto;
     }
 
-    .navbar-icon-svg{
-        background: url("/gabosoft_home_portal/static/src/svg/motion_icon-desplazar-abajo.svg");
-        width: 15vw;
-        height: 15vw;
+    .navbar-icon-svg /*Agregada por Johnny*/ {
+        background: url("/gabosoft_home_portal/static/src/svg/motion_icon-desplazar-abajo.svg") no-repeat;
+        width: 5vw;
+        height: 5vw;
     }
 
-    .new-row-sm{
+    .new-row-sm /*Agregada por Johnny*/ {
         margin: 0;
+    }
+
+    .bd-ss{
+        margin: 0 !important;
     }
         
 }
