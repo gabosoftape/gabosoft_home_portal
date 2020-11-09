@@ -2651,6 +2651,28 @@ figure.icon {
     .ts-promo-number {
         margin-bottom: 1.875rem;
     }
+
+    h3 /*Agregada por Johnny*/ {
+        margin-bottom: 1rem;
+        font-size: 15px;
+    }
+
+    h1 /*Agregada por Johnny*/ {
+        font-size: 30px;
+    }
+
+    .p-ml-02 /*Agregada por Johnny*/ {
+        margin-top: 7rem !important;
+    }
+
+    .col-sm-7 /*Agregada por Johnny*/ {
+        margin-top: 7rem;
+    }
+
+    .navbar .ts-background /*Agregada por Johnny*/ {
+        background-color:rgba(255,255,255,0%) !important;
+        }
+        
 }
 
 @media (min-width: 36rem) and (max-width: 61.9375rem) /*De 576px a 992px*/ {
