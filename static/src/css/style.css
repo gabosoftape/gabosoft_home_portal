@@ -2686,7 +2686,7 @@ figure.icon {
         }
     
     .navbar /*Agregada por Johnny*/ {
-        padding: 10%;
+        padding: 20%;
     }
 
     .navbar-brand /*Agregada por Johnny*/ {
@@ -2700,7 +2700,16 @@ figure.icon {
     }
 
     .svg_l /*Agregada por Johnny*/ {
-        width: 100%;
+        width: 100% !important;
+    }
+
+    .menu-icon{
+        padding: 10%;
+        margin: auto;
+    }
+
+    .navbar-icon-svg{
+        
     }
         
 }
