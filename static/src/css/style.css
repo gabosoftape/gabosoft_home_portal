@@ -2671,10 +2671,14 @@ figure.icon {
     }
 
     .text-slider /*Agregada por Johnny*/ {
+        text-align: center;
         position: fixed;
-        padding: 0;
-        margin: auto;
-        top: 10rem;
+        padding: 0 5%;
+        top: 40vh;
+    }
+
+    .row-sm{
+        margin: 0;
     }
 
     .navbar .ts-background /*Agregada por Johnny*/ {
@@ -2692,13 +2696,7 @@ figure.icon {
 
     .container /*Agregada por Johnny*/ {
         margin:0;
-    }
-
-    .minicontainer /*Agregada por Johnny*/ {
-        text-align: center;
-        padding: 0 8%;
-        margin-left: 0;
-        margin-right: 0;
+        padding: 0;
     }
 
     .svg_l /*Agregada por Johnny*/ {
