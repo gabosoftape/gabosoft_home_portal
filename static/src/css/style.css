@@ -2709,7 +2709,7 @@ figure.icon {
     }
 
     .navbar-icon-svg{
-        background: url(front-end/gabosot_home_portal/static/src/svg/motion_icon-desplazar-abajo.svg);
+        background: url("gabosot_home_portal/static/src/svg/motion_icon-desplazar-abajo.svg");
         width: 15vw;
         height: 15vw;
     }
