@@ -2721,6 +2721,9 @@ figure.icon {
     .bd-ss{
         margin: 0 !important;
     }
+    .motion-header{
+        height: 0!important;
+    }
         
 }
 
