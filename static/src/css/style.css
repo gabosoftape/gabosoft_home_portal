@@ -1636,6 +1636,7 @@ body.has-loading-screen:before {
     top: 0;
     transform: scale(1);
     opacity: 1;
+    transition-delay: 1s;
     transition: 3s ease-out;
     z-index: 9999;
 }
@@ -1652,6 +1653,7 @@ body.has-loading-screen:after {
     right: 0;
     transform: scale(1);
     opacity: 1;
+    transition-delay: 1s;
     transition: 2s ease-out;
     z-index: 10000;
 }
@@ -2676,7 +2678,7 @@ figure.icon {
         text-align: center;
         position: fixed;
         padding: 0 5%;
-        top: 40vh;
+        top: 35vh;
     }
 
     .row-sm /*Agregada por Johnny*/ {
@@ -2725,6 +2727,10 @@ figure.icon {
     }
     .motion-header /*Agregada por Johnny*/ {
         height: 0!important;
+    }
+
+    .navbar.navbar-expand-sm .ts-background /*Agregada por Johnny*/ {
+        opacity: 0;
     }
         
 }
@@ -2780,7 +2786,7 @@ figure.icon {
 }
 
 @media (min-width: 36rem) /*Mínimo 576px*/ {
-    .navbar.navbar-expand-sm .ts-background /*De 576px a 768px*/ {
+    .navbar.navbar-expand-sm .ts-background{
         opacity: 0;
     }
 
