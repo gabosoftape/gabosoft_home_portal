@@ -17,12 +17,12 @@ $(document).ready(function($) {
 		$('.navbar-collapse').collapse('hide');
 	});
 // Trigger logo onload
-    $('.navbar .navbar-brand img').attr('src','/gabosoft_home_portal/static/src/svg/motion-logo-negativo-tagline.svg');
-    $('.navbar .navbar-brand img').addClass('svg_l');
+    //$('.navbar .navbar-brand img').attr('src','/gabosoft_home_portal/static/src/svg/motion-logo-negativo-tagline.svg');
+    //$('.navbar .navbar-brand img').addClass('svg_l');
 
-    $(".ts-img-into-bg").each(function() {
-        $(this).css("background-image", "url("+ $(this).find("img").attr("src") +")" );
-    });
+    //$(".ts-img-into-bg").each(function() {
+        //$(this).css("background-image", "url("+ $(this).find("img").attr("src") +")" );
+    //});
 
 //  Background
 
