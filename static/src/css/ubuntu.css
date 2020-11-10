@@ -58,12 +58,12 @@ src: local('Ubuntu Bold'), url('/gabosoft_home_portal/static/src/font/Ubuntu-B.w
 font-family: 'Mont Extra Light';
 font-style: normal;
 font-weight: normal;
-src: local('Mont Extra Light'), url('/gabosoft_home_portal/static/src/font/Mont-ExtraLight.woff') format('woff');
+src: local('Mont Extra Light'), url('/gabosoft_home_portal/static/src/font/Montserrat-Light.woff2') format('woff');
 }
 
 @font-face {
 font-family: 'Mont Heavy';
 font-style: normal;
 font-weight: normal;
-src: local('Mont heavy'), url('/gabosoft_home_portal/static/src/font/Mont-Heavy.woff') format('woff');
+src: local('Mont heavy'), url('/gabosoft_home_portal/static/src/font/Montserrat-ExtraBold.woff2') format('woff');
 }
