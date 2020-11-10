@@ -2654,7 +2654,7 @@ figure.icon {
 
     body{
         width: 100%;
-        height: 50%;
+        height: 100%;
     }
 
     h3 /*Agregada por Johnny*/ {
@@ -2677,7 +2677,7 @@ figure.icon {
         top: 40vh;
     }
 
-    .row-sm{
+    .row-sm /*Agregada por Johnny*/ {
         margin: 0;
     }
 
@@ -2718,10 +2718,10 @@ figure.icon {
         margin: 0;
     }
 
-    .bd-ss{
+    .bd-ss /*Agregada por Johnny*/ {
         margin: 0 !important;
     }
-    .motion-header{
+    .motion-header /*Agregada por Johnny*/ {
         height: 0!important;
     }
         
