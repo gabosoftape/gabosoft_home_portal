@@ -600,7 +600,7 @@ function simpleMap(latitude, longitude, markerImage, mapStyle, mapElement, marke
 
 
 
-/*$(function () {
+$(function () {
     $(window).scroll(function () {
         if(document.title == 'MOTION | Inicio'){
             if ($(this).scrollTop() > 500) {
@@ -622,7 +622,7 @@ function simpleMap(latitude, longitude, markerImage, mapStyle, mapElement, marke
 
 
     })
-});*/
+});
 
 
 
