@@ -1663,7 +1663,7 @@ body.has-loading-screen.loading-done:before {
 }
 
 body.has-loading-screen.loading-done:after {
-    transform: scale(0);
+    transform: scale(10);
     opacity: 0;
 }
 
@@ -2729,7 +2729,7 @@ figure.icon {
         height: 0!important;
     }
 
-    .navbar.navbar-expand-sm .ts-background /*Agregada por Johnny*/ {
+    .navbar.navbar-expand-sm .navbar.navbar-expand-md .navbar.navbar-expand-lg .navbar.navbar-expand-xl .ts-background /*Agregada por Johnny*/ {
         opacity: 0;
     }
         
