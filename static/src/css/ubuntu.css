@@ -65,5 +65,5 @@ src: local('Mont Extra Light'), url('/gabosoft_home_portal/static/src/font/Monts
 font-family: 'Mont Heavy';
 font-style: normal;
 font-weight: normal;
-src: local('Mont heavy'), url('/gabosoft_home_portal/static/src/font/Montserrat-ExtraBold.woff2') format('woff');
+src: local('Mont heavy'), url('/gabosoft_home_portal/static/src/font/Montserrat-Black.woff2') format('woff');
 }

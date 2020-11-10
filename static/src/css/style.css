@@ -114,7 +114,7 @@ h3 {
     font-weight: 500;
     margin-bottom: 1.5625rem;
     font-size: 30px;
-    font-family: 'Ubuntu Medium';
+    font-family: 'Ubuntu Bold';
 }
 
 h4 {
@@ -1634,14 +1634,14 @@ body.has-loading-screen:before {
     width: 100%;
     top: 0;
     z-index: 9999;
-    transition: 1.5s ease;
+    transition: 2s ease;
     opacity: 1;
 }
 
 body.has-loading-screen:after {
-    content: url("/gabosoft_home_portal/static/src/img/loading.svg");
-    height: 2.5rem;
-    width: 2.5rem;
+    content: url("/gabosoft_home_portal/static/src/svg/motion-favicon-web.svg");
+    height: 5rem;
+    width: 5rem;
     position: fixed;
     margin: auto;
     bottom: 0;
@@ -1649,7 +1649,7 @@ body.has-loading-screen:after {
     right: 0;
     opacity: 1;
     transform: scale(1);
-    transition: 1.5s ease;
+    transition: 1s ease;
     top: 0;
     z-index: 10000;
 }
