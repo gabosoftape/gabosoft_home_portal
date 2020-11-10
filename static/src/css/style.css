@@ -1657,8 +1657,7 @@ body.has-loading-screen:after {
 }
 
 body.has-loading-screen.loading-done:before {
-    transform: scale(0);
-    opacity: 0;
+    top: 100%;
 }
 
 body.has-loading-screen.loading-done:after {
