@@ -1626,36 +1626,37 @@ ul.ts-list-divided li:last-child {
 -------------------------------------------*/
 
 body.has-loading-screen:before {
-    background-color: #fff;
-    content: "";
-    height: 100%;
-    right: 0;
     position: fixed;
+    content: "";
+    background-color: #fff;
+    height: 100%;
     width: 100%;
+    right: 0;
     top: 0;
     z-index: 9999;
-    transition: 2s ease;
+    transition: 1s ease-in-out;
     opacity: 1;
 }
 
 body.has-loading-screen:after {
-    content: url("/gabosoft_home_portal/static/src/svg/motion-favicon-web.svg");
-    height: 5rem;
-    width: 5rem;
     position: fixed;
+    content: url("/gabosoft_home_portal/static/src/svg/motion-favicon-web.svg");
+    height: 10rem;
+    width: 10rem;
     margin: auto;
     bottom: 0;
+    top: 0;
     left: 0;
     right: 0;
     opacity: 1;
     transform: scale(1);
-    transition: 1s ease;
-    top: 0;
+    transition: 1s ease-in-out;
     z-index: 10000;
 }
 
 body.has-loading-screen.loading-done:before {
     height: 0;
+    width: 0;
 }
 
 body.has-loading-screen.loading-done:after {
