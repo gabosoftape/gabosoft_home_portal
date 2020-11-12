@@ -1626,7 +1626,7 @@ ul.ts-list-divided li:last-child {
   -- Loading Screen
 -------------------------------------------*/
 
-body.has-loading-screen:before {
+body.has-loading-screen:before /* Modificada por Johnny */ {
     position: fixed;
     content: "";
     background-color: #fff;
@@ -1641,7 +1641,7 @@ body.has-loading-screen:before {
     z-index: 9999;
 }
 
-body.has-loading-screen:after {
+body.has-loading-screen:after /* Modificada por Johnny */ {
     position: fixed;
     content: url("/gabosoft_home_portal/static/src/svg/motion-favicon-web.svg");
     height: 10rem;
@@ -1658,13 +1658,13 @@ body.has-loading-screen:after {
     z-index: 10000;
 }
 
-body.has-loading-screen.loading-done:before {
-    opacity: 0;
+body.has-loading-screen.loading-done:before /* Modificada por Johnny */ {
+    visibility: hidden;
 }
 
-body.has-loading-screen.loading-done:after {
+body.has-loading-screen.loading-done:after /* Modificada por Johnny */ {
     transform: scale(10);
-    opacity: 0;
+    visibility: hidden;
 }
 
 /*-------------------------------------------
