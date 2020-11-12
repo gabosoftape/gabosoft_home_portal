@@ -1660,7 +1660,9 @@ body.has-loading-screen:after /* Modificada por Johnny */ {
 
 body.has-loading-screen.loading-done:before /* Modificada por Johnny */ {
     height: 0%;
-    opacity: 0;
+    top: 50%;
+    bottom: 50%;
+    opacity: 1;
     visibility: hidden;
 }
 
