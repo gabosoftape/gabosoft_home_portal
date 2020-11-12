@@ -1637,7 +1637,7 @@ body.has-loading-screen:before /* Modificada por Johnny */ {
     bottom: 0;
     opacity: 1;
     transition: 1s ease-out;
-    transition-delay: 2s ease-out;
+    transition-delay: 2s;
     z-index: 9999;
 }
 
