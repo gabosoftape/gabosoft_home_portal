@@ -1641,7 +1641,7 @@ body.has-loading-screen:before /* Modificada por Johnny */ {
     z-index: 9999;
 }
 
-body.has-loading-screen:after /* Modificada por Johnny */ {
+body.has-loading-screen::before /* Modificada por Johnny */ {
     position: fixed;
     content: url("/gabosoft_home_portal/static/src/svg/motion-favicon-web.svg");
     height: 10rem;
@@ -1663,7 +1663,7 @@ body.has-loading-screen.loading-done:before /* Modificada por Johnny */ {
     visibility: hidden;
 }
 
-body.has-loading-screen.loading-done:after /* Modificada por Johnny */ {
+body.has-loading-screen.loading-done::before /* Modificada por Johnny */ {
     transform: scale(40);
     opacity: 0;
     visibility: hidden;
