@@ -1635,7 +1635,6 @@ body.has-loading-screen:before /* Modificada por Johnny */ {
     right: 0;
     top: 0;
     bottom: 0;
-    transform: scale(1);
     opacity: 1;
     transition: 1s ease-out;
     transition-delay: 2s ease-out;
@@ -1660,7 +1659,7 @@ body.has-loading-screen:after /* Modificada por Johnny */ {
 }
 
 body.has-loading-screen.loading-done:before /* Modificada por Johnny */ {
-    height: 0;
+    height: 0%;
     top:0;
     bottom: 0;
     opacity: 0;
