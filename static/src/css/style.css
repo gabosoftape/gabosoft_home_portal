@@ -1638,7 +1638,7 @@ body.has-loading-screen:before /* Modificada por Johnny */ {
     transform: scale(1);
     opacity: 1;
     transition: 1s ease-out;
-    transition: 2s ease-out;
+    transition-delay: 2s ease-out;
     z-index: 9999;
 }
 
@@ -1654,8 +1654,8 @@ body.has-loading-screen:after /* Modificada por Johnny */ {
     right: 0;
     transform: scale(1);
     opacity: 1;
-    transition: 2s ease-out;
-    transition-delay: .5s;
+    transition: .5s ease-out;
+    transition-delay: 2s;
     z-index: 10000;
 }
 
