@@ -1633,10 +1633,11 @@ body.has-loading-screen:before /* Modificada por Johnny */ {
     height: 100%;
     width: 100%;
     right: 0;
+    top: 0;
     bottom: 0;
     transform: scale(1);
     opacity: 1;
-    transition: 1s ease-out;
+    transition: .5s ease-out;
     z-index: 9999;
 }
 
@@ -1653,13 +1654,15 @@ body.has-loading-screen:after /* Modificada por Johnny */ {
     transform: scale(1);
     opacity: 1;
     transition: 1s ease-out;
-    transition-delay: 1s;
+    transition-delay: .5s;
     z-index: 10000;
 }
 
 body.has-loading-screen.loading-done:before /* Modificada por Johnny */ {
     height: 0;
-    bottom: 0;
+    top:50%;
+    bottom: 50%;
+    opacity: 0;
     visibility: hidden;
 }
 
