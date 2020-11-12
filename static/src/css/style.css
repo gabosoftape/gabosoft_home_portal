@@ -1659,12 +1659,13 @@ body.has-loading-screen:after /* Modificada por Johnny */ {
 }
 
 body.has-loading-screen.loading-done:before /* Modificada por Johnny */ {
-    opacity: 0;
+    height: 0;
+    bottom: 0;
     visibility: hidden;
 }
 
 body.has-loading-screen.loading-done:after /* Modificada por Johnny */ {
-    transform: scale(10);
+    transform: scale(40);
     opacity: 0;
     visibility: hidden;
 }
