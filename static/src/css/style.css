@@ -101,6 +101,7 @@ html {
 h1 {
     font-weight: 600;
     margin-bottom: 1rem;
+    margin-left: .5rem;
     font-size: 60px;
     font-family: 'Mont Heavy';
 }
@@ -1632,7 +1633,7 @@ body.has-loading-screen:before /* Modificada por Johnny */ {
     background-color: #fff;
     height: 100%;
     width: 100%;
-    right: 0;
+    left: 0;
     top: 0;
     bottom: 0;
     opacity: 1;
@@ -1659,7 +1660,6 @@ body.has-loading-screen:after /* Modificada por Johnny */ {
 }
 
 body.has-loading-screen.loading-done:before /* Modificada por Johnny */ {
-    height: 0%;
     top: 50%;
     bottom: 50%;
     opacity: 1;
