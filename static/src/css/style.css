@@ -1697,7 +1697,7 @@ body.has-loading-screen.loading-done:after /* Modificada por Johnny */ {
   -- Hero
 -------------------------------------------*/
 
-#ts-hero /*Agregada por Johnny*/ {
+.lock-tshero /*Agregada por Johnny*/ {
     height: 0 !important;
 }
 
