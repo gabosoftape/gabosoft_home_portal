@@ -717,12 +717,14 @@ B. Helpers
 -------------------------------------------*/
 
 a {
-    color: #ffffff;
-    transition: .3s ease;
+    font-family: "Ubuntu Regular";
+    color: #01bedb;
+    transition: .5s ease;
 }
 
 a:hover {
-    color: rgb(237, 44, 66);
+    font-family: "Ubuntu Bold";
+    color: white;
     text-decoration: none;
 }
 
@@ -2568,19 +2570,19 @@ figure.icon {
 
     .p-ml-02 /*Agregada por Johnny*/ {
         padding: 0 1rem !important;
-        margin-top: -5rem !important;
+        margin-top: 1rem !important;
     }
 
     .text-slider /*Agregada por Johnny*/ {
-        margin-top: -5rem;
+        margin-top: 2rem;
     }
 
     .owl-nav .owl-next /*Agregada por Johnny*/ {
-        margin-top: -1rem;
+        margin-top: 1rem;
     }
 
     .owl-nav .owl-prev /*Agregada por Johnny*/ {
-        margin-top: -1rem;
+        margin-top: 1rem;
     }
 }
 
