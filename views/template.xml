@@ -223,7 +223,7 @@
                         <defs></defs>
                         <path class="ts-dynamic-wave" id="wave-1" d="" data-wave-color="#ffffff" data-wave-height=".25" data-wave-bones="4" data-wave-speed=".20"/>
                     </svg>
-                    <div class="ts-background-image ts-parallax-element" data-bg-image="/gabosoft_home_portal/static/src/images/home-video-bg.jpg" ></div>
+                    <div class="ts-background-image ts-parallax-element" data-bg-image="/gabosoft_home_portal/static/src/vids/motion-web-video-bg.mp4"></div>
                 </div>
             </section>
         </t>
