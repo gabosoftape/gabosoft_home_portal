@@ -2611,7 +2611,7 @@ figure.icon {
     }
 
     .navbar /*Agregada por Johnny*/ {
-        padding-top: 2rem;
+        padding-top: 1rem;
         padding-bottom: 1rem;
     }
 
@@ -2626,19 +2626,15 @@ figure.icon {
 
     .p-ml-02 /*Agregada por Johnny*/ {
         padding: 0 1rem !important;
-        margin-top: 1rem !important;
+        margin-top: -4rem !important;
     }
 
     .text-slider /*Agregada por Johnny*/ {
-        margin-top: 2rem;
+        margin-top: -2rem;
     }
 
-    .owl-nav .owl-next /*Agregada por Johnny*/ {
-        margin-top: 1rem;
-    }
-
-    .owl-nav .owl-prev /*Agregada por Johnny*/ {
-        margin-top: 1rem;
+    .owl-nav, .owl-next, .owl-prev /*Agregada por Johnny*/ {
+        margin-top: -2rem;
     }
 }
 
