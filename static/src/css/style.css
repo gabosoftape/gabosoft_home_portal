@@ -2531,6 +2531,13 @@ figure.icon {
 
 @media (min-width: 62rem) and (max-width: 74.9375rem) /*De 992px a 1200px*/ {
 
+    iframe /*Agregada por Johnny*/ {
+        width: inherit;
+        min-width: 1200px;
+        height: inherit;
+        min-height: 675px;
+    }
+
     .ts-column-count-lg-1 {
         column-count: 1;
     }
@@ -2580,8 +2587,14 @@ figure.icon {
 }
 
 @media (min-width: 74.9375rem) and (max-width: 87.5rem) /*De 1200px a 1400px*/ {
+	
+    iframe /*Agregada por Johnny*/ {
+        width: inherit;
+        min-width: 1400px;
+        height: inherit;
+        min-height: 787px;
+    }
 
-    
     .navbar /*Agregada por Johnny*/ {
         padding-top: 2rem;
         padding-bottom: 1rem;
