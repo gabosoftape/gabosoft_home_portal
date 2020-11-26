@@ -155,13 +155,13 @@ B. Helpers
   -- Animations
 -------------------------------------------*/
 
-[data-animate] {
-    /*
+/*[data-animate] {
+
   opacity: 0;
   animation-fill-mode: forwards;
   animation-duration: 1s;
-  */
-}
+  
+}*/
 
 /* Fade In Up */
 
@@ -426,10 +426,11 @@ B. Helpers
     position: fixed;
     width: 100%;
     height: 100%;
+    bottom: 0;
     background: linear-gradient(to top left, rgb(1,190,219), rgb(0,71,187) 60%);
 }
 
-iframe /*Agregada por Johnny*/ {
+.videobg iframe /*Agregada por Johnny*/ {
 	pointer-events: none;
 	width: inherit;
 	min-width: 1920px;
@@ -778,8 +779,8 @@ p {
     font-size: .8125rem !important;
 }
 
-.ts-xs-text-center {
-}
+/*.ts-xs-text-center {
+}*/
 
 /*-------------------------------------------
   -- Title
@@ -931,8 +932,8 @@ p {
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: 100%;*/
-}
+	height: 100%;
+}*/
 
 .bg_prod {
     background-color:#0246ba;
@@ -1115,9 +1116,9 @@ p {
     height:20%!important;
     left:276px;
 }
-.sol-final-link{
+/*.sol-final-link{
 
-}
+}*/
 .sol-final-title{
     font-size:20px;
 }
@@ -1475,8 +1476,8 @@ blockquote h6 {
     border: none;
 }
 
-.ts-card__image {
-}
+/*.ts-card__image {
+}*/
 
 /*-------------------------------------------
   -- Circle
@@ -1630,8 +1631,8 @@ hr {
     flex: 1 1 auto;
 }
 
-.ts-item-footer {
-}
+/*.ts-item-footer {
+}*/
 
 /*-------------------------------------------
   -- List
@@ -2208,9 +2209,9 @@ E. Template Specific Elements
     width: .75rem;
 }
 
-.ts-time-line__horizontal .ts-time-line__item .ts-box {
-    /*triangle*/
-}
+/*.ts-time-line__horizontal .ts-time-line__item .ts-box {
+    /triangle/
+}*/
 
 .ts-time-line__horizontal .ts-time-line__item .ts-box:after {
     border-color: #fff transparent transparent transparent;
@@ -2531,10 +2532,8 @@ figure.icon {
 
 @media (min-width: 62rem) and (max-width: 74.9375rem) /*De 992px a 1200px*/ {
 
-    iframe /*Agregada por Johnny*/ {
-        width: inherit;
+    .videobg iframe /*Agregada por Johnny*/ {
         min-width: 1200px;
-        height: inherit;
         min-height: 675px;
     }
 
@@ -2586,12 +2585,19 @@ figure.icon {
     }
 }
 
+@media (max-height: 768px) /*Agregada por Johnny*/ {
+	
+    .videobg iframe /*Agregada por Johnny*/ {
+        min-width: 1366px;
+        min-height: 768px;
+    }
+
+}
+
 @media (min-width: 74.9375rem) and (max-width: 87.5rem) /*De 1200px a 1400px*/ {
 	
-    iframe /*Agregada por Johnny*/ {
-        width: inherit;
+    .videobg iframe /*Agregada por Johnny*/ {
         min-width: 1400px;
-        height: inherit;
         min-height: 787px;
     }
 
@@ -2851,4 +2857,3 @@ figure.icon {
         left: 2.5rem;
     }
 }
-
