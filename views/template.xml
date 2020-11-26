@@ -225,7 +225,7 @@
                     </svg>
                     <div class="ts-background-image ts-parallax-element">
                         <div class="videobg">
-                            <iframe src="https://www.youtube.com/embed/9IMCkhlgd2k?VQ=HD720&amp;autoplay=1&amp;mute=1&amp;hd=1&amp;controls=0&amp;modestbranding=1&amp;loop=1&amp;playlist=9IMCkhlgd2k&amp;fs=0&amp;rel=0&amp;showinfo=0&amp;disablekb=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+                            <iframe src="https://www.youtube.com/embed/9IMCkhlgd2k?vq=hd720&amp;autoplay=1&amp;mute=1&amp;hd=1&amp;controls=0&amp;modestbranding=1&amp;loop=1&amp;playlist=9IMCkhlgd2k&amp;fs=0&amp;rel=0&amp;showinfo=0&amp;disablekb=1" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture" allowfullscreen="true"></iframe>
                         </div>
                     </div>
                 </div>
