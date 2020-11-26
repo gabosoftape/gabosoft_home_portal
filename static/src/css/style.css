@@ -426,6 +426,19 @@ B. Helpers
     position: fixed;
     width: 100%;
 	height: 100%;
+	opacity: 1;
+	animation-name: bg_vid;
+	animation-duration: 20s;
+	animation-timing-function: ease-in;
+}
+
+@keyframes bg_vid /*Agregada por Johnny*/ {
+	from {
+		opacity:0;
+	}
+	to {
+		opacity: 1;
+	}
 }
 
 iframe /*Agregada por Johnny*/ {
