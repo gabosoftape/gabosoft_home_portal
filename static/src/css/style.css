@@ -1280,6 +1280,7 @@ blockquote h6 {
     padding: .5rem 1.25rem;
     position: relative;
     outline: none !important;
+    pointer-events: all !important;
 }
 
 .btn span {
@@ -1998,7 +1999,7 @@ D. Plugins Styles
   -- Owl Carousel
 -------------------------------------------*/
 
-.owl-stage, .owl-stage-outer /*Agregada por Johnny*/ {
+.owl-stage:not(button), .owl-stage-outer:not(button) /*Agregada por Johnny*/ {
     pointer-events: none;
   }
 
@@ -2626,7 +2627,7 @@ figure.icon {
 
     .p-ml-02 /*Agregada por Johnny*/ {
         padding: 0 1rem !important;
-        margin-top: -4rem !important;
+        margin-top: -4.5rem !important;
     }
 
     .text-slider /*Agregada por Johnny*/ {
