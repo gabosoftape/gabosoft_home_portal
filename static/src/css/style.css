@@ -1998,8 +1998,17 @@ D. Plugins Styles
   -- Owl Carousel
 -------------------------------------------*/
 
+.owl-stage, .owl-stage-outer /*Agregada por Johnny*/ {
+    pointer-events: none;
+  }
+
+.owl-nav /*Agregada por Johnny*/ {
+    visibility: hidden;
+}
+
 .owl-carousel .owl-dots {
     text-align: center;
+    pointer-events: none;
 }
 
 .owl-carousel .owl-dots .owl-dot {
